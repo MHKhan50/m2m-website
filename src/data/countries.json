@@ -1,0 +1,614 @@
+[
+  {
+    "slug": "uk", "region": "en", "code": "UK", "label": "ENGLAND · SCOTLAND · WALES",
+    "name": {"en": "United Kingdom", "ur": "برطانیہ"},
+    "tagline": {"en": "One-year master's degrees, world-ranked universities and a post-study work route.", "ur": "ایک سال کا ماسٹرز، دنیا کی بہترین یونیورسٹیاں اور پڑھائی کے بعد کام کا راستہ۔"},
+    "intakes": {"en": "September · January (some May)", "ur": "ستمبر · جنوری (کچھ مئی)"},
+    "tests": ["IELTS UKVI / Academic", "PTE Academic", "Oxford ELLT", "Some waive with Pakistani English-medium education"],
+    "scholarships": ["Chevening", "Commonwealth Scholarships", "University merit awards"],
+    "why": {
+      "en": ["Most master's degrees take only one year", "Graduate route lets you stay and work after your degree", "Strong Pakistani community and direct flights"],
+      "ur": ["زیادہ تر ماسٹرز صرف ایک سال کا ہوتا ہے", "ڈگری کے بعد گریجویٹ روٹ پر رہ کر کام کر سکتے ہیں", "بڑی پاکستانی کمیونٹی اور براہِ راست پروازیں"]
+    },
+    "steps": {
+      "en": ["Shortlist universities and apply with transcripts, CV and personal statement", "Accept your offer and pay the deposit to receive your CAS", "Show the required funds held for 28 days and take a TB test at an approved clinic", "Apply online for the Student visa and give biometrics at the visa centre"],
+      "ur": ["یونیورسٹیاں منتخب کر کے ٹرانسکرپٹ، سی وی اور پرسنل اسٹیٹمنٹ کے ساتھ اپلائی کریں", "آفر قبول کر کے ڈپازٹ جمع کروائیں اور CAS حاصل کریں", "مطلوبہ رقم 28 دن تک اکاؤنٹ میں دکھائیں اور منظور شدہ کلینک سے TB ٹیسٹ کروائیں", "اسٹوڈنٹ ویزا کے لیے آن لائن اپلائی کریں اور ویزا سینٹر میں بائیومیٹرکس دیں"]
+    },
+    "docs": {"en": ["CAS from your university", "TB test certificate"], "ur": ["یونیورسٹی کا CAS", "TB ٹیسٹ سرٹیفکیٹ"]},
+    "note": {"en": "UK rules on dependants and the graduate route have changed in recent years. We confirm the current rules for your course before you apply.", "ur": "برطانیہ میں ڈیپنڈنٹس اور گریجویٹ روٹ کے قوانین حالیہ برسوں میں بدلے ہیں۔ اپلائی سے پہلے ہم آپ کے کورس کے موجودہ قوانین کی تصدیق کرتے ہیں۔"}
+  },
+  {
+    "slug": "canada", "region": "en", "code": "CA", "label": "ADMISSION SUPPORT",
+    "name": {"en": "Canada", "ur": "کینیڈا"},
+    "tagline": {"en": "Colleges and universities with work options during and after study.", "ur": "کالج اور یونیورسٹیاں، پڑھائی کے دوران اور بعد میں کام کے مواقع کے ساتھ۔"},
+    "intakes": {"en": "September · January · May", "ur": "ستمبر · جنوری · مئی"},
+    "tests": ["IELTS Academic", "PTE Academic", "TOEFL iBT", "Duolingo (some institutions)"],
+    "scholarships": ["University entrance awards", "College merit scholarships"],
+    "why": {
+      "en": ["Wide choice of colleges and universities", "Work rights during study for eligible students", "Post-graduation work options for eligible programmes"],
+      "ur": ["کالجوں اور یونیورسٹیوں کا بڑا انتخاب", "اہل طلبہ کے لیے پڑھائی کے دوران کام کی اجازت", "اہل پروگراموں کے بعد کام کے مواقع"]
+    },
+    "steps": {
+      "en": ["Choose a programme at a designated learning institution (DLI)", "Apply and receive your letter of acceptance", "The institution arranges the provincial attestation letter (PAL) where required", "Study permit application is prepared and filed by a licensed Canadian consultant (RCIC)"],
+      "ur": ["کسی منظور شدہ ادارے (DLI) میں پروگرام منتخب کریں", "اپلائی کر کے لیٹر آف ایکسیپٹنس حاصل کریں", "جہاں ضروری ہو ادارہ صوبائی اٹیسٹیشن لیٹر (PAL) کا انتظام کرتا ہے", "اسٹڈی پرمٹ کی درخواست لائسنس یافتہ کینیڈین کنسلٹنٹ (RCIC) تیار اور جمع کرتا ہے"]
+    },
+    "docs": {"en": ["Letter of acceptance", "Provincial attestation letter (PAL)"], "ur": ["لیٹر آف ایکسیپٹنس", "صوبائی اٹیسٹیشن لیٹر (PAL)"]},
+    "note": {"en": "M2M helps with college and university admission. Under Canadian law, paid help with a study permit application must come from a licensed consultant (RCIC), so permit filing is done through an authorised representative.", "ur": "M2M کالج اور یونیورسٹی داخلے میں مدد کرتا ہے۔ کینیڈا کے قانون کے مطابق اسٹڈی پرمٹ میں معاوضے پر مدد صرف لائسنس یافتہ کنسلٹنٹ (RCIC) دے سکتا ہے، اس لیے پرمٹ کی درخواست مجاز نمائندے کے ذریعے جمع ہوتی ہے۔"}
+  },
+  {
+    "slug": "australia", "region": "en", "code": "AU", "label": "SUBCLASS 500",
+    "name": {"en": "Australia", "ur": "آسٹریلیا"},
+    "tagline": {"en": "Highly ranked universities and a clear student visa process.", "ur": "اعلیٰ درجے کی یونیورسٹیاں اور واضح اسٹوڈنٹ ویزا طریقہ کار۔"},
+    "intakes": {"en": "February · July (some November)", "ur": "فروری · جولائی (کچھ نومبر)"},
+    "tests": ["IELTS Academic", "PTE Academic", "TOEFL iBT"],
+    "scholarships": ["Australia Awards", "University international scholarships"],
+    "why": {
+      "en": ["Universities ranked among the world's best", "Part-time work allowed during study", "Post-study work options for eligible graduates"],
+      "ur": ["دنیا کی بہترین یونیورسٹیوں میں شامل ادارے", "پڑھائی کے دوران پارٹ ٹائم کام کی اجازت", "اہل گریجویٹس کے لیے پڑھائی کے بعد کام کے مواقع"]
+    },
+    "steps": {
+      "en": ["Apply to universities and receive an offer", "Accept the offer, pay fees and receive your Confirmation of Enrolment (CoE)", "Buy Overseas Student Health Cover (OSHC)", "Apply for the Student visa (subclass 500) online and answer the Genuine Student questions carefully"],
+      "ur": ["یونیورسٹیوں میں اپلائی کر کے آفر حاصل کریں", "آفر قبول کریں، فیس جمع کروائیں اور CoE حاصل کریں", "اوورسیز اسٹوڈنٹ ہیلتھ کور (OSHC) خریدیں", "اسٹوڈنٹ ویزا (سب کلاس 500) آن لائن اپلائی کریں اور جینوئن اسٹوڈنٹ سوالات احتیاط سے جواب دیں"]
+    },
+    "docs": {"en": ["Confirmation of Enrolment (CoE)", "OSHC health cover"], "ur": ["کنفرمیشن آف انرولمنٹ (CoE)", "OSHC ہیلتھ کور"]},
+    "note": {"en": "Australia looks closely at your study gap, finances and reasons for your course. A clear, honest study plan matters more than anything else.", "ur": "آسٹریلیا آپ کے تعلیمی وقفے، مالی حالات اور کورس کی وجوہات کو غور سے دیکھتا ہے۔ واضح اور سچا اسٹڈی پلان سب سے اہم ہے۔"}
+  },
+  {
+    "slug": "new-zealand", "region": "en", "code": "NZ", "label": "STUDENT VISA",
+    "name": {"en": "New Zealand", "ur": "نیوزی لینڈ"},
+    "tagline": {"en": "Safe, smaller universities and polytechnics with post-study work options.", "ur": "محفوظ ماحول، چھوٹی یونیورسٹیاں اور پولی ٹیکنک، پڑھائی کے بعد کام کے مواقع کے ساتھ۔"},
+    "intakes": {"en": "February · July", "ur": "فروری · جولائی"},
+    "tests": ["IELTS Academic", "PTE Academic", "TOEFL iBT"],
+    "scholarships": ["University international awards"],
+    "why": {
+      "en": ["All eight universities are internationally ranked", "Practical, career-focused polytechnic courses", "Post-study work options for eligible graduates"],
+      "ur": ["تمام آٹھ یونیورسٹیاں عالمی رینکنگ میں شامل", "عملی اور کیریئر پر مبنی پولی ٹیکنک کورسز", "اہل گریجویٹس کے لیے پڑھائی کے بعد کام کے مواقع"]
+    },
+    "steps": {
+      "en": ["Apply and receive an offer of place", "Pay tuition fees as required by the institution", "Prepare proof of funds for living costs", "Apply online for the Student visa with medical and police certificates if requested"],
+      "ur": ["اپلائی کر کے آفر آف پلیس حاصل کریں", "ادارے کی شرائط کے مطابق فیس جمع کروائیں", "رہائشی اخراجات کے لیے فنڈز کا ثبوت تیار کریں", "اسٹوڈنٹ ویزا آن لائن اپلائی کریں، اگر مانگے جائیں تو میڈیکل اور پولیس سرٹیفکیٹ کے ساتھ"]
+    },
+    "docs": {"en": ["Offer of place", "Medical and police certificates (if requested)"], "ur": ["آفر آف پلیس", "میڈیکل اور پولیس سرٹیفکیٹ (اگر مانگے جائیں)"]},
+    "note": null
+  },
+  {
+    "slug": "usa", "region": "en", "code": "US", "label": "F-1 VISA",
+    "name": {"en": "United States", "ur": "امریکہ"},
+    "tagline": {"en": "Thousands of universities, research funding and flexible degrees.", "ur": "ہزاروں یونیورسٹیاں، ریسرچ فنڈنگ اور لچکدار ڈگریاں۔"},
+    "intakes": {"en": "August/September (Fall) · January (Spring)", "ur": "اگست/ستمبر (فال) · جنوری (اسپرنگ)"},
+    "tests": ["IELTS Academic", "TOEFL iBT", "Duolingo (many universities)", "GRE/GMAT for some programmes"],
+    "scholarships": ["Fulbright (USEFP Pakistan)", "University assistantships and merit aid"],
+    "why": {
+      "en": ["The largest choice of universities in the world", "Research and teaching assistantships for graduate students", "Practical training options for eligible graduates"],
+      "ur": ["دنیا میں یونیورسٹیوں کا سب سے بڑا انتخاب", "گریجویٹ طلبہ کے لیے ریسرچ اور ٹیچنگ اسسٹنٹ شپ", "اہل گریجویٹس کے لیے عملی تربیت کے مواقع"]
+    },
+    "steps": {
+      "en": ["Apply to universities and receive your I-20 after admission", "Pay the SEVIS fee", "Complete the DS-160 form and book an interview at the US Embassy or Consulate", "Prepare carefully for the F-1 interview: your study plan, funding and ties to Pakistan"],
+      "ur": ["یونیورسٹیوں میں اپلائی کریں اور داخلے کے بعد I-20 حاصل کریں", "SEVIS فیس جمع کروائیں", "DS-160 فارم مکمل کریں اور امریکی سفارت خانے یا قونصلیٹ میں انٹرویو بک کریں", "F-1 انٹرویو کی اچھی تیاری کریں: اسٹڈی پلان، فنڈنگ اور پاکستان سے تعلق"]
+    },
+    "docs": {"en": ["Form I-20", "SEVIS fee receipt and DS-160 confirmation"], "ur": ["فارم I-20", "SEVIS فیس رسید اور DS-160 کنفرمیشن"]},
+    "note": {"en": "Interview wait times in Pakistan can be long. Start early and plan your intake with the appointment date in mind.", "ur": "پاکستان میں انٹرویو کا انتظار لمبا ہو سکتا ہے۔ جلد شروع کریں اور اپائنٹمنٹ کو دیکھ کر انٹیک کا منصوبہ بنائیں۔"}
+  },
+  {
+    "slug": "ireland", "region": "en", "code": "IE", "label": "EU · ENGLISH",
+    "name": {"en": "Ireland", "ur": "آئرلینڈ"},
+    "tagline": {"en": "An English-speaking EU country with a graduate stay-back route.", "ur": "انگریزی بولنے والا یورپی ملک، ڈگری کے بعد رہنے کے راستے کے ساتھ۔"},
+    "intakes": {"en": "September · January", "ur": "ستمبر · جنوری"},
+    "tests": ["IELTS Academic", "PTE Academic", "TOEFL iBT"],
+    "scholarships": ["Government of Ireland International Education Scholarship", "University awards"],
+    "why": {
+      "en": ["English-taught degrees inside the European Union", "Home to European offices of global tech companies", "Stamp 1G graduate permission for eligible graduates"],
+      "ur": ["یورپی یونین کے اندر انگریزی میں ڈگریاں", "عالمی ٹیک کمپنیوں کے یورپی دفاتر", "اہل گریجویٹس کے لیے Stamp 1G گریجویٹ اجازت"]
+    },
+    "steps": {
+      "en": ["Apply and receive an offer", "Pay tuition fees as required", "Show funds for living costs and arrange medical insurance", "Apply online for the Study visa (D) and submit documents"],
+      "ur": ["اپلائی کر کے آفر حاصل کریں", "ضرورت کے مطابق فیس جمع کروائیں", "رہائشی اخراجات کے فنڈز دکھائیں اور میڈیکل انشورنس لیں", "اسٹڈی ویزا (D) آن لائن اپلائی کر کے دستاویزات جمع کروائیں"]
+    },
+    "docs": {"en": ["Letter of acceptance and fee receipt", "Private medical insurance"], "ur": ["لیٹر آف ایکسیپٹنس اور فیس رسید", "پرائیویٹ میڈیکل انشورنس"]},
+    "note": null
+  },
+  {
+    "slug": "germany", "region": "eu", "code": "DE", "label": "SCHENGEN",
+    "name": {"en": "Germany", "ur": "جرمنی"},
+    "tagline": {"en": "Little or no tuition at public universities and strong engineering programmes.", "ur": "سرکاری یونیورسٹیوں میں نہ ہونے کے برابر فیس اور بہترین انجینئرنگ پروگرام۔"},
+    "intakes": {"en": "October (winter) · April (summer)", "ur": "اکتوبر (ونٹر) · اپریل (سمر)"},
+    "tests": ["IELTS Academic / TOEFL for English-taught courses", "German language (TestDaF, Goethe) for German-taught courses"],
+    "scholarships": ["DAAD", "Deutschlandstipendium"],
+    "why": {
+      "en": ["Public universities charge little or no tuition", "World-class engineering, IT and science", "Job-seeking options for eligible graduates"],
+      "ur": ["سرکاری یونیورسٹیوں میں بہت کم یا کوئی فیس نہیں", "عالمی معیار کی انجینئرنگ، آئی ٹی اور سائنس", "اہل گریجویٹس کے لیے نوکری تلاش کرنے کے مواقع"]
+    },
+    "steps": {
+      "en": ["Check entry requirements and apply directly or through uni-assist", "Receive your admission letter", "Open a blocked account and arrange health insurance", "Book an appointment and apply for the national (D) student visa"],
+      "ur": ["داخلے کی شرائط دیکھیں اور براہِ راست یا uni-assist کے ذریعے اپلائی کریں", "ایڈمیشن لیٹر حاصل کریں", "بلاکڈ اکاؤنٹ کھولیں اور ہیلتھ انشورنس کا انتظام کریں", "اپائنٹمنٹ بک کر کے نیشنل (D) اسٹوڈنٹ ویزا کے لیے اپلائی کریں"]
+    },
+    "docs": {"en": ["Blocked account confirmation", "Health insurance", "Admission letter"], "ur": ["بلاکڈ اکاؤنٹ کنفرمیشن", "ہیلتھ انشورنس", "ایڈمیشن لیٹر"]},
+    "note": {"en": "Embassy appointments for German student visas can take months. Apply for admission early so you have time for the visa.", "ur": "جرمن اسٹوڈنٹ ویزا کی اپائنٹمنٹ میں مہینے لگ سکتے ہیں۔ جلد داخلے کے لیے اپلائی کریں تاکہ ویزا کے لیے وقت ہو۔"}
+  },
+  {
+    "slug": "italy", "region": "eu", "code": "IT", "label": "SCHENGEN",
+    "name": {"en": "Italy", "ur": "اٹلی"},
+    "tagline": {"en": "Low tuition, historic universities and regional DSU scholarships.", "ur": "کم فیس، تاریخی یونیورسٹیاں اور علاقائی DSU اسکالرشپ۔"},
+    "intakes": {"en": "September/October", "ur": "ستمبر/اکتوبر"},
+    "tests": ["IELTS Academic (most English programmes)", "Some universities run their own tests or interviews"],
+    "scholarships": ["DSU regional scholarships", "Invest Your Talent in Italy", "University fee waivers"],
+    "why": {
+      "en": ["Public universities with low, income-based fees", "Regional DSU scholarships can cover living costs", "Many English-taught bachelor's and master's degrees"],
+      "ur": ["آمدنی کے حساب سے کم فیس والی سرکاری یونیورسٹیاں", "علاقائی DSU اسکالرشپ رہائشی اخراجات بھی پورے کر سکتی ہے", "انگریزی میں بہت سے بیچلرز اور ماسٹرز پروگرام"]
+    },
+    "steps": {
+      "en": ["Apply to universities (many open from January to May)", "Complete pre-enrolment on the Universitaly portal", "Get your qualifications evaluated (CIMEA statement or Declaration of Value)", "Apply for the national (D) study visa at the embassy or visa centre"],
+      "ur": ["یونیورسٹیوں میں اپلائی کریں (اکثر جنوری سے مئی تک کھلتی ہیں)", "Universitaly پورٹل پر پری انرولمنٹ مکمل کریں", "اپنی ڈگری کی تصدیق کروائیں (CIMEA یا Declaration of Value)", "سفارت خانے یا ویزا سینٹر میں نیشنل (D) اسٹڈی ویزا کے لیے اپلائی کریں"]
+    },
+    "docs": {"en": ["Universitaly pre-enrolment summary", "CIMEA statement or Declaration of Value"], "ur": ["Universitaly پری انرولمنٹ سمری", "CIMEA اسٹیٹمنٹ یا Declaration of Value"]},
+    "note": {"en": "DSU scholarship deadlines are usually in summer and need family income documents. We help you prepare them in the right format.", "ur": "DSU اسکالرشپ کی آخری تاریخیں عام طور پر گرمیوں میں ہوتی ہیں اور خاندانی آمدنی کے کاغذات چاہیے ہوتے ہیں۔ ہم درست فارمیٹ میں تیاری میں مدد کرتے ہیں۔"}
+  },
+  {
+    "slug": "france", "region": "eu", "code": "FR", "label": "SCHENGEN",
+    "name": {"en": "France", "ur": "فرانس"},
+    "tagline": {"en": "Public and business schools, with many master's degrees taught in English.", "ur": "سرکاری یونیورسٹیاں اور بزنس اسکول، انگریزی میں بہت سے ماسٹرز کے ساتھ۔"},
+    "intakes": {"en": "September · January (some programmes)", "ur": "ستمبر · جنوری (کچھ پروگرام)"},
+    "tests": ["IELTS Academic / TOEFL for English programmes", "DELF/DALF or TCF for French programmes"],
+    "scholarships": ["Eiffel Excellence Scholarship", "University and school awards"],
+    "why": {
+      "en": ["Low fees at public universities", "Highly ranked business and engineering schools", "Post-study residence options for eligible graduates"],
+      "ur": ["سرکاری یونیورسٹیوں میں کم فیس", "اعلیٰ درجے کے بزنس اور انجینئرنگ اسکول", "اہل گریجویٹس کے لیے پڑھائی کے بعد رہائش کے مواقع"]
+    },
+    "steps": {
+      "en": ["Create your file on the Campus France (Études en France) platform", "Apply to programmes and attend the Campus France interview", "Receive your admission", "Apply for the long-stay student visa (VLS-TS)"],
+      "ur": ["Campus France (Études en France) پلیٹ فارم پر فائل بنائیں", "پروگراموں میں اپلائی کریں اور Campus France انٹرویو دیں", "داخلہ حاصل کریں", "لانگ اسٹے اسٹوڈنٹ ویزا (VLS-TS) کے لیے اپلائی کریں"]
+    },
+    "docs": {"en": ["Campus France clearance", "Admission letter"], "ur": ["Campus France کلیئرنس", "ایڈمیشن لیٹر"]},
+    "note": null
+  },
+  {
+    "slug": "spain", "region": "eu", "code": "ES", "label": "SCHENGEN",
+    "name": {"en": "Spain", "ur": "سپین"},
+    "tagline": {"en": "Private and public universities with growing English-taught master's options.", "ur": "پرائیویٹ اور سرکاری یونیورسٹیاں، انگریزی ماسٹرز کے بڑھتے مواقع کے ساتھ۔"},
+    "intakes": {"en": "September · February (some)", "ur": "ستمبر · فروری (کچھ)"},
+    "tests": ["IELTS / TOEFL for English programmes", "DELE Spanish for Spanish programmes"],
+    "scholarships": ["University merit awards"],
+    "why": {
+      "en": ["Lower living costs than much of Western Europe", "Strong business and hospitality schools", "Part-time work allowed for students"],
+      "ur": ["مغربی یورپ کے مقابلے میں کم رہائشی اخراجات", "مضبوط بزنس اور ہاسپیٹیلٹی اسکول", "طلبہ کو پارٹ ٹائم کام کی اجازت"]
+    },
+    "steps": {
+      "en": ["Apply and receive an admission letter", "Arrange health insurance and proof of funds", "Get a medical certificate and police certificate", "Apply for the student visa at the consulate or visa centre"],
+      "ur": ["اپلائی کر کے ایڈمیشن لیٹر حاصل کریں", "ہیلتھ انشورنس اور فنڈز کا ثبوت تیار کریں", "میڈیکل اور پولیس سرٹیفکیٹ حاصل کریں", "قونصلیٹ یا ویزا سینٹر میں اسٹوڈنٹ ویزا کے لیے اپلائی کریں"]
+    },
+    "docs": {"en": ["Medical certificate", "Police certificate"], "ur": ["میڈیکل سرٹیفکیٹ", "پولیس سرٹیفکیٹ"]},
+    "note": null
+  },
+  {
+    "slug": "netherlands", "region": "eu", "code": "NL", "label": "SCHENGEN",
+    "name": {"en": "Netherlands", "ur": "نیدرلینڈز"},
+    "tagline": {"en": "Hundreds of English-taught programmes at research universities.", "ur": "ریسرچ یونیورسٹیوں میں انگریزی کے سینکڑوں پروگرام۔"},
+    "intakes": {"en": "September · February (some)", "ur": "ستمبر · فروری (کچھ)"},
+    "tests": ["IELTS Academic", "TOEFL iBT"],
+    "scholarships": ["NL Scholarship", "University excellence awards"],
+    "why": {
+      "en": ["One of the largest choices of English-taught degrees in Europe", "Research universities and universities of applied sciences", "Orientation year for eligible graduates"],
+      "ur": ["یورپ میں انگریزی ڈگریوں کا سب سے بڑا انتخاب", "ریسرچ یونیورسٹیاں اور اپلائیڈ سائنسز کی یونیورسٹیاں", "اہل گریجویٹس کے لیے اورینٹیشن سال"]
+    },
+    "steps": {
+      "en": ["Apply through Studielink and the university", "Receive admission and pay tuition and the living-cost deposit if asked", "The university applies to the IND for your entry visa and residence permit", "Collect your visa at the embassy when approved"],
+      "ur": ["Studielink اور یونیورسٹی کے ذریعے اپلائی کریں", "داخلہ حاصل کریں اور مانگنے پر فیس اور رہائشی ڈپازٹ جمع کروائیں", "یونیورسٹی IND میں آپ کے ویزا اور رہائشی پرمٹ کے لیے اپلائی کرتی ہے", "منظوری کے بعد سفارت خانے سے ویزا لیں"]
+    },
+    "docs": {"en": ["University-sponsored IND application"], "ur": ["یونیورسٹی کی طرف سے IND درخواست"]},
+    "note": null
+  },
+  {
+    "slug": "sweden", "region": "eu", "code": "SE", "label": "SCHENGEN",
+    "name": {"en": "Sweden", "ur": "سویڈن"},
+    "tagline": {"en": "Innovative, English-taught master's degrees in a safe country.", "ur": "محفوظ ملک میں جدید، انگریزی میں ماسٹرز ڈگریاں۔"},
+    "intakes": {"en": "August/September · January (some)", "ur": "اگست/ستمبر · جنوری (کچھ)"},
+    "tests": ["IELTS Academic", "TOEFL iBT"],
+    "scholarships": ["Swedish Institute scholarships", "University tuition-fee scholarships"],
+    "why": {
+      "en": ["Strong in technology, sustainability and design", "Student-centred, project-based teaching", "Students may work alongside study"],
+      "ur": ["ٹیکنالوجی، ماحولیات اور ڈیزائن میں مضبوط", "طالب علم پر مرکوز، پروجیکٹ پر مبنی تعلیم", "پڑھائی کے ساتھ کام کی اجازت"]
+    },
+    "steps": {
+      "en": ["Apply through University Admissions in Sweden", "Receive admission and pay the first instalment of tuition", "Show funds for living costs and arrange insurance", "Apply online to the Migration Agency for a residence permit for studies"],
+      "ur": ["University Admissions in Sweden کے ذریعے اپلائی کریں", "داخلہ حاصل کر کے فیس کی پہلی قسط جمع کروائیں", "رہائشی اخراجات کے فنڈز دکھائیں اور انشورنس لیں", "مائیگریشن ایجنسی میں اسٹڈی ریزیڈنس پرمٹ کے لیے آن لائن اپلائی کریں"]
+    },
+    "docs": {"en": ["Notification of selection results", "Tuition payment receipt"], "ur": ["سلیکشن رزلٹ کا نوٹیفکیشن", "فیس رسید"]},
+    "note": null
+  },
+  {
+    "slug": "finland", "region": "eu", "code": "FI", "label": "SCHENGEN",
+    "name": {"en": "Finland", "ur": "فن لینڈ"},
+    "tagline": {"en": "English-taught degrees and tuition-fee scholarships at many universities.", "ur": "انگریزی میں ڈگریاں اور کئی یونیورسٹیوں میں فیس اسکالرشپ۔"},
+    "intakes": {"en": "August/September · January (some)", "ur": "اگست/ستمبر · جنوری (کچھ)"},
+    "tests": ["IELTS Academic", "TOEFL iBT", "PTE Academic"],
+    "scholarships": ["University tuition-fee waivers"],
+    "why": {
+      "en": ["Universities of applied sciences with practical courses", "Fee waivers for strong applicants", "Residence options to look for work after graduation"],
+      "ur": ["عملی کورسز والی اپلائیڈ سائنسز یونیورسٹیاں", "اچھے امیدواروں کے لیے فیس معافی", "ڈگری کے بعد نوکری تلاش کرنے کے لیے رہائش کے مواقع"]
+    },
+    "steps": {
+      "en": ["Apply through the Studyinfo joint application", "Accept your study place and pay tuition if required", "Show funds and arrange health insurance", "Apply for a residence permit through Enter Finland"],
+      "ur": ["Studyinfo جوائنٹ ایپلیکیشن کے ذریعے اپلائی کریں", "اسٹڈی پلیس قبول کریں اور ضرورت ہو تو فیس جمع کروائیں", "فنڈز دکھائیں اور ہیلتھ انشورنس لیں", "Enter Finland کے ذریعے ریزیڈنس پرمٹ کے لیے اپلائی کریں"]
+    },
+    "docs": {"en": ["Admission letter", "Health insurance"], "ur": ["ایڈمیشن لیٹر", "ہیلتھ انشورنس"]},
+    "note": null
+  },
+  {
+    "slug": "denmark", "region": "eu", "code": "DK", "label": "SCHENGEN",
+    "name": {"en": "Denmark", "ur": "ڈنمارک"},
+    "tagline": {"en": "Project-based learning and English-taught master's programmes.", "ur": "پروجیکٹ پر مبنی تعلیم اور انگریزی میں ماسٹرز پروگرام۔"},
+    "intakes": {"en": "September · February (some)", "ur": "ستمبر · فروری (کچھ)"},
+    "tests": ["IELTS Academic", "TOEFL iBT"],
+    "scholarships": ["University tuition waivers and scholarships"],
+    "why": {
+      "en": ["Group projects with real companies", "Strong in engineering, life sciences and design", "High quality of life"],
+      "ur": ["حقیقی کمپنیوں کے ساتھ گروپ پروجیکٹس", "انجینئرنگ، لائف سائنسز اور ڈیزائن میں مضبوط", "اعلیٰ معیارِ زندگی"]
+    },
+    "steps": {
+      "en": ["Apply through the university or optagelse.dk", "Accept admission and pay tuition", "Pay the case fee and apply to SIRI for a residence permit", "Give biometrics at the visa centre"],
+      "ur": ["یونیورسٹی یا optagelse.dk کے ذریعے اپلائی کریں", "داخلہ قبول کر کے فیس جمع کروائیں", "کیس فیس ادا کر کے SIRI میں ریزیڈنس پرمٹ کے لیے اپلائی کریں", "ویزا سینٹر میں بائیومیٹرکس دیں"]
+    },
+    "docs": {"en": ["Admission letter and tuition receipt"], "ur": ["ایڈمیشن لیٹر اور فیس رسید"]},
+    "note": null
+  },
+  {
+    "slug": "austria", "region": "eu", "code": "AT", "label": "SCHENGEN",
+    "name": {"en": "Austria", "ur": "آسٹریا"},
+    "tagline": {"en": "Affordable public universities in the heart of Europe.", "ur": "یورپ کے بیچ میں سستی سرکاری یونیورسٹیاں۔"},
+    "intakes": {"en": "October (winter) · March (summer)", "ur": "اکتوبر (ونٹر) · مارچ (سمر)"},
+    "tests": ["IELTS / TOEFL for English programmes", "German for German-taught programmes"],
+    "scholarships": ["OeAD scholarships", "University awards"],
+    "why": {
+      "en": ["Moderate tuition at public universities", "Strong technical universities in Vienna and Graz", "Central location for travel across Europe"],
+      "ur": ["سرکاری یونیورسٹیوں میں مناسب فیس", "ویانا اور گراز میں مضبوط ٹیکنیکل یونیورسٹیاں", "پورے یورپ کے سفر کے لیے مرکزی مقام"]
+    },
+    "steps": {
+      "en": ["Apply to the university and receive admission", "Arrange accommodation, insurance and proof of funds", "Apply for the residence permit for students at the embassy", "Register your address after arrival"],
+      "ur": ["یونیورسٹی میں اپلائی کر کے داخلہ حاصل کریں", "رہائش، انشورنس اور فنڈز کا ثبوت تیار کریں", "سفارت خانے میں اسٹوڈنٹ ریزیڈنس پرمٹ کے لیے اپلائی کریں", "پہنچنے کے بعد اپنا پتہ رجسٹر کروائیں"]
+    },
+    "docs": {"en": ["Admission letter", "Accommodation proof"], "ur": ["ایڈمیشن لیٹر", "رہائش کا ثبوت"]},
+    "note": null
+  },
+  {
+    "slug": "belgium", "region": "eu", "code": "BE", "label": "SCHENGEN",
+    "name": {"en": "Belgium", "ur": "بیلجیم"},
+    "tagline": {"en": "Respected universities and English-taught master's degrees near Brussels.", "ur": "برسلز کے قریب معتبر یونیورسٹیاں اور انگریزی ماسٹرز۔"},
+    "intakes": {"en": "September", "ur": "ستمبر"},
+    "tests": ["IELTS Academic", "TOEFL iBT"],
+    "scholarships": ["University awards"],
+    "why": {
+      "en": ["Home of EU institutions and international organisations", "Reasonable tuition at public universities", "Strong in engineering, economics and law"],
+      "ur": ["یورپی یونین اور بین الاقوامی اداروں کا مرکز", "سرکاری یونیورسٹیوں میں مناسب فیس", "انجینئرنگ، اکنامکس اور قانون میں مضبوط"]
+    },
+    "steps": {
+      "en": ["Apply and receive admission", "Show proof of funds (blocked account or sponsor guarantee)", "Get medical and police certificates", "Apply for the long-stay (D) student visa"],
+      "ur": ["اپلائی کر کے داخلہ حاصل کریں", "فنڈز کا ثبوت دیں (بلاکڈ اکاؤنٹ یا اسپانسر گارنٹی)", "میڈیکل اور پولیس سرٹیفکیٹ حاصل کریں", "لانگ اسٹے (D) اسٹوڈنٹ ویزا کے لیے اپلائی کریں"]
+    },
+    "docs": {"en": ["Proof of funds (blocked account or guarantee)", "Medical and police certificates"], "ur": ["فنڈز کا ثبوت (بلاکڈ اکاؤنٹ یا گارنٹی)", "میڈیکل اور پولیس سرٹیفکیٹ"]},
+    "note": null
+  },
+  {
+    "slug": "poland", "region": "eu", "code": "PL", "label": "SCHENGEN",
+    "name": {"en": "Poland", "ur": "پولینڈ"},
+    "tagline": {"en": "Low living costs and English-taught bachelor's and master's degrees.", "ur": "کم رہائشی اخراجات اور انگریزی میں بیچلرز اور ماسٹرز۔"},
+    "intakes": {"en": "October · February (some)", "ur": "اکتوبر · فروری (کچھ)"},
+    "tests": ["IELTS / TOEFL or university English test"],
+    "scholarships": ["University awards"],
+    "why": {
+      "en": ["Affordable tuition and living costs in the EU", "Popular for engineering, IT and medicine", "Students may work during study"],
+      "ur": ["یورپی یونین میں سستی فیس اور رہائش", "انجینئرنگ، آئی ٹی اور میڈیسن کے لیے مقبول", "پڑھائی کے دوران کام کی اجازت"]
+    },
+    "steps": {
+      "en": ["Apply and receive your acceptance letter", "Pay the first year's tuition if required", "Arrange insurance and proof of funds", "Apply for the national (D) visa for studies"],
+      "ur": ["اپلائی کر کے ایکسیپٹنس لیٹر حاصل کریں", "ضرورت ہو تو پہلے سال کی فیس جمع کروائیں", "انشورنس اور فنڈز کا ثبوت تیار کریں", "اسٹڈی کے لیے نیشنل (D) ویزا اپلائی کریں"]
+    },
+    "docs": {"en": ["Acceptance letter", "Tuition receipt (if paid)"], "ur": ["ایکسیپٹنس لیٹر", "فیس رسید (اگر ادا کی ہو)"]},
+    "note": null
+  },
+  {
+    "slug": "hungary", "region": "eu", "code": "HU", "label": "SCHENGEN",
+    "name": {"en": "Hungary", "ur": "ہنگری"},
+    "tagline": {"en": "Affordable study and the Stipendium Hungaricum scholarship for Pakistani students.", "ur": "سستی تعلیم اور پاکستانی طلبہ کے لیے Stipendium Hungaricum اسکالرشپ۔"},
+    "intakes": {"en": "September · February (some)", "ur": "ستمبر · فروری (کچھ)"},
+    "tests": ["IELTS / TOEFL or university English test"],
+    "scholarships": ["Stipendium Hungaricum (HEC nomination)"],
+    "why": {
+      "en": ["Stipendium Hungaricum covers tuition and gives a monthly stipend", "Well-known medical and engineering universities", "Low living costs"],
+      "ur": ["Stipendium Hungaricum فیس اور ماہانہ وظیفہ دیتا ہے", "مشہور میڈیکل اور انجینئرنگ یونیورسٹیاں", "کم رہائشی اخراجات"]
+    },
+    "steps": {
+      "en": ["For the scholarship, apply online and through HEC nomination before the deadline (usually January)", "Or apply directly to the university as a self-funded student", "Receive your admission or scholarship award", "Apply for the residence permit for study purposes"],
+      "ur": ["اسکالرشپ کے لیے آخری تاریخ (عموماً جنوری) سے پہلے آن لائن اور HEC نامزدگی کے ذریعے اپلائی کریں", "یا اپنے خرچ پر براہِ راست یونیورسٹی میں اپلائی کریں", "داخلہ یا اسکالرشپ ایوارڈ حاصل کریں", "اسٹڈی کے لیے ریزیڈنس پرمٹ اپلائی کریں"]
+    },
+    "docs": {"en": ["HEC nomination (for scholarship)", "Admission or award letter"], "ur": ["HEC نامزدگی (اسکالرشپ کے لیے)", "داخلہ یا ایوارڈ لیٹر"]},
+    "note": null
+  },
+  {
+    "slug": "czech-republic", "region": "eu", "code": "CZ", "label": "SCHENGEN",
+    "name": {"en": "Czech Republic", "ur": "چیک ریپبلک"},
+    "tagline": {"en": "Affordable degrees in English, and free study in Czech at public universities.", "ur": "انگریزی میں سستی ڈگریاں، اور سرکاری یونیورسٹیوں میں چیک زبان میں مفت تعلیم۔"},
+    "intakes": {"en": "September · February (some)", "ur": "ستمبر · فروری (کچھ)"},
+    "tests": ["IELTS / TOEFL for English programmes"],
+    "scholarships": ["University awards"],
+    "why": {
+      "en": ["Historic universities in Prague and Brno", "Reasonable fees for English programmes", "Central location in Europe"],
+      "ur": ["پراگ اور برنو میں تاریخی یونیورسٹیاں", "انگریزی پروگراموں کی مناسب فیس", "یورپ کا مرکزی مقام"]
+    },
+    "steps": {
+      "en": ["Apply and receive admission", "Get your previous qualification recognised (nostrification) if required", "Arrange accommodation, insurance and funds", "Apply for the long-term visa for study"],
+      "ur": ["اپلائی کر کے داخلہ حاصل کریں", "ضرورت ہو تو پچھلی ڈگری کی تصدیق (nostrification) کروائیں", "رہائش، انشورنس اور فنڈز کا انتظام کریں", "اسٹڈی کے لیے لانگ ٹرم ویزا اپلائی کریں"]
+    },
+    "docs": {"en": ["Admission letter", "Accommodation confirmation"], "ur": ["ایڈمیشن لیٹر", "رہائش کی تصدیق"]},
+    "note": null
+  },
+  {
+    "slug": "lithuania", "region": "eu", "code": "LT", "label": "SCHENGEN",
+    "name": {"en": "Lithuania", "ur": "لتھوانیا"},
+    "tagline": {"en": "Affordable EU degrees taught in English in Vilnius and Kaunas.", "ur": "ولنیئس اور کاوناس میں انگریزی میں سستی یورپی ڈگریاں۔"},
+    "intakes": {"en": "September · February (some)", "ur": "ستمبر · فروری (کچھ)"},
+    "tests": ["IELTS / TOEFL or university English test"],
+    "scholarships": ["University fee discounts"],
+    "why": {
+      "en": ["Low tuition and living costs in the EU", "English-taught IT, business and engineering", "Students may work during study"],
+      "ur": ["یورپی یونین میں کم فیس اور رہائشی اخراجات", "انگریزی میں آئی ٹی، بزنس اور انجینئرنگ", "پڑھائی کے دوران کام کی اجازت"]
+    },
+    "steps": {
+      "en": ["Apply and receive your admission letter", "Pay tuition as required by the university", "The university or you submit the residence permit application in MIGRIS", "Apply for the national (D) visa and give biometrics"],
+      "ur": ["اپلائی کر کے ایڈمیشن لیٹر حاصل کریں", "یونیورسٹی کی شرط کے مطابق فیس جمع کروائیں", "یونیورسٹی یا آپ MIGRIS میں ریزیڈنس پرمٹ کی درخواست جمع کرتے ہیں", "نیشنل (D) ویزا اپلائی کریں اور بائیومیٹرکس دیں"]
+    },
+    "docs": {"en": ["Admission letter", "MIGRIS application confirmation"], "ur": ["ایڈمیشن لیٹر", "MIGRIS درخواست کی تصدیق"]},
+    "note": null
+  },
+  {
+    "slug": "latvia", "region": "eu", "code": "LV", "label": "SCHENGEN",
+    "name": {"en": "Latvia", "ur": "لٹویا"},
+    "tagline": {"en": "Low-cost EU study in English at universities in Riga.", "ur": "ریگا کی یونیورسٹیوں میں انگریزی میں کم خرچ یورپی تعلیم۔"},
+    "intakes": {"en": "September · February (some)", "ur": "ستمبر · فروری (کچھ)"},
+    "tests": ["IELTS / TOEFL or university English test"],
+    "scholarships": ["University fee discounts"],
+    "why": {
+      "en": ["Affordable tuition and living costs", "English-taught business, IT and aviation", "EU degree and Schengen residence"],
+      "ur": ["سستی فیس اور رہائش", "انگریزی میں بزنس، آئی ٹی اور ایوی ایشن", "یورپی ڈگری اور شینگن رہائش"]
+    },
+    "steps": {
+      "en": ["Apply and receive admission", "Pay tuition as required", "The university supports your residence permit application", "Apply for the visa or residence permit at the embassy"],
+      "ur": ["اپلائی کر کے داخلہ حاصل کریں", "ضرورت کے مطابق فیس جمع کروائیں", "یونیورسٹی ریزیڈنس پرمٹ کی درخواست میں مدد کرتی ہے", "سفارت خانے میں ویزا یا ریزیڈنس پرمٹ اپلائی کریں"]
+    },
+    "docs": {"en": ["Admission letter"], "ur": ["ایڈمیشن لیٹر"]},
+    "note": null
+  },
+  {
+    "slug": "estonia", "region": "eu", "code": "EE", "label": "SCHENGEN",
+    "name": {"en": "Estonia", "ur": "اسٹونیا"},
+    "tagline": {"en": "A digital-first country with English-taught degrees in IT and business.", "ur": "ڈیجیٹل ملک، انگریزی میں آئی ٹی اور بزنس کی ڈگریوں کے ساتھ۔"},
+    "intakes": {"en": "September", "ur": "ستمبر"},
+    "tests": ["IELTS Academic", "TOEFL iBT"],
+    "scholarships": ["University tuition waivers"],
+    "why": {
+      "en": ["Europe's leading digital society and start-up scene", "Strong IT and cyber-security programmes", "Fee waivers for strong students"],
+      "ur": ["یورپ کا نمایاں ڈیجیٹل معاشرہ اور اسٹارٹ اپ ماحول", "مضبوط آئی ٹی اور سائبر سیکیورٹی پروگرام", "اچھے طلبہ کے لیے فیس معافی"]
+    },
+    "steps": {
+      "en": ["Apply through DreamApply or the university portal", "Receive admission", "Show funds and arrange insurance", "Apply for the D visa and then a residence permit for study"],
+      "ur": ["DreamApply یا یونیورسٹی پورٹل کے ذریعے اپلائی کریں", "داخلہ حاصل کریں", "فنڈز دکھائیں اور انشورنس لیں", "D ویزا اور پھر اسٹڈی ریزیڈنس پرمٹ اپلائی کریں"]
+    },
+    "docs": {"en": ["Admission letter"], "ur": ["ایڈمیشن لیٹر"]},
+    "note": null
+  },
+  {
+    "slug": "portugal", "region": "eu", "code": "PT", "label": "SCHENGEN",
+    "name": {"en": "Portugal", "ur": "پرتگال"},
+    "tagline": {"en": "Affordable living and a growing number of English programmes.", "ur": "سستی رہائش اور انگریزی پروگراموں کی بڑھتی تعداد۔"},
+    "intakes": {"en": "September · February (some)", "ur": "ستمبر · فروری (کچھ)"},
+    "tests": ["IELTS / TOEFL for English programmes"],
+    "scholarships": ["University awards"],
+    "why": {
+      "en": ["Lower costs than most of Western Europe", "Pleasant climate and welcoming cities", "EU degree and Schengen residence"],
+      "ur": ["مغربی یورپ کے مقابلے میں کم اخراجات", "خوشگوار موسم اور مہمان نواز شہر", "یورپی ڈگری اور شینگن رہائش"]
+    },
+    "steps": {
+      "en": ["Apply and receive admission", "Arrange accommodation and proof of funds", "Get a police certificate and insurance", "Apply for the study visa (D4) at the consulate or visa centre"],
+      "ur": ["اپلائی کر کے داخلہ حاصل کریں", "رہائش اور فنڈز کا ثبوت تیار کریں", "پولیس سرٹیفکیٹ اور انشورنس حاصل کریں", "قونصلیٹ یا ویزا سینٹر میں اسٹڈی ویزا (D4) اپلائی کریں"]
+    },
+    "docs": {"en": ["Admission letter", "Police certificate"], "ur": ["ایڈمیشن لیٹر", "پولیس سرٹیفکیٹ"]},
+    "note": null
+  },
+  {
+    "slug": "malta", "region": "eu", "code": "MT", "label": "EU · ENGLISH",
+    "name": {"en": "Malta", "ur": "مالٹا"},
+    "tagline": {"en": "A small EU island where English is an official language.", "ur": "چھوٹا یورپی جزیرہ جہاں انگریزی سرکاری زبان ہے۔"},
+    "intakes": {"en": "October · February", "ur": "اکتوبر · فروری"},
+    "tests": ["IELTS Academic", "TOEFL iBT"],
+    "scholarships": ["Institution awards"],
+    "why": {
+      "en": ["English is spoken everywhere", "EU degree in a Mediterranean setting", "Smaller classes and personal attention"],
+      "ur": ["ہر جگہ انگریزی بولی جاتی ہے", "بحیرہ روم کے ماحول میں یورپی ڈگری", "چھوٹی کلاسیں اور ذاتی توجہ"]
+    },
+    "steps": {
+      "en": ["Apply and receive an acceptance letter", "Pay tuition as required", "Arrange insurance and accommodation", "Apply for the national (D) visa for studies"],
+      "ur": ["اپلائی کر کے ایکسیپٹنس لیٹر حاصل کریں", "ضرورت کے مطابق فیس جمع کروائیں", "انشورنس اور رہائش کا انتظام کریں", "اسٹڈی کے لیے نیشنل (D) ویزا اپلائی کریں"]
+    },
+    "docs": {"en": ["Acceptance letter and fee receipt"], "ur": ["ایکسیپٹنس لیٹر اور فیس رسید"]},
+    "note": null
+  },
+  {
+    "slug": "cyprus", "region": "eu", "code": "CY", "label": "EU",
+    "name": {"en": "Cyprus (Republic)", "ur": "قبرص (ریپبلک)"},
+    "tagline": {"en": "The EU part of Cyprus, with English-taught private universities.", "ur": "قبرص کا یورپی حصہ، انگریزی میں پرائیویٹ یونیورسٹیاں۔"},
+    "intakes": {"en": "September · January/February", "ur": "ستمبر · جنوری/فروری"},
+    "tests": ["IELTS or university English test"],
+    "scholarships": ["University fee discounts"],
+    "why": {
+      "en": ["English-taught degrees in an EU member state", "Mediterranean climate", "Popular for business, hospitality and computing"],
+      "ur": ["یورپی یونین کے رکن ملک میں انگریزی ڈگریاں", "بحیرہ روم کا موسم", "بزنس، ہاسپیٹیلٹی اور کمپیوٹنگ کے لیے مقبول"]
+    },
+    "steps": {
+      "en": ["Apply and receive admission", "Pay the required tuition deposit", "The university submits your entry permit application to the Civil Registry and Migration Department", "Travel and complete residence registration after arrival"],
+      "ur": ["اپلائی کر کے داخلہ حاصل کریں", "مطلوبہ فیس ڈپازٹ جمع کروائیں", "یونیورسٹی سول رجسٹری اینڈ مائیگریشن ڈیپارٹمنٹ میں انٹری پرمٹ کی درخواست جمع کرتی ہے", "سفر کریں اور پہنچ کر رہائش کی رجسٹریشن مکمل کریں"]
+    },
+    "docs": {"en": ["Entry permit", "Tuition deposit receipt"], "ur": ["انٹری پرمٹ", "فیس ڈپازٹ رسید"]},
+    "note": {"en": "This is the Republic of Cyprus (south), which is in the EU. North Cyprus is a different system; see its own page.", "ur": "یہ ریپبلک آف قبرص (جنوبی) ہے جو یورپی یونین میں ہے۔ شمالی قبرص الگ نظام ہے، اس کا الگ صفحہ دیکھیں۔"}
+  },
+  {
+    "slug": "north-cyprus", "region": "eu", "code": "TRNC", "label": "VIA TURKEY · NOT EU",
+    "name": {"en": "North Cyprus", "ur": "شمالی قبرص"},
+    "tagline": {"en": "Low-cost English-taught universities, reached through Turkey.", "ur": "ترکی کے راستے، انگریزی میں کم خرچ یونیورسٹیاں۔"},
+    "intakes": {"en": "September · February", "ur": "ستمبر · فروری"},
+    "tests": ["University English test or IELTS"],
+    "scholarships": ["University tuition discounts"],
+    "why": {
+      "en": ["Low tuition with frequent fee discounts", "English-taught programmes", "Simple admission process"],
+      "ur": ["کم فیس اور اکثر رعایت", "انگریزی میں پروگرام", "آسان داخلہ طریقہ"]
+    },
+    "steps": {
+      "en": ["Apply and receive an acceptance letter", "Pay the deposit as required", "Arrange travel through Turkey", "Complete student residence registration after arrival"],
+      "ur": ["اپلائی کر کے ایکسیپٹنس لیٹر حاصل کریں", "ضرورت کے مطابق ڈپازٹ جمع کروائیں", "ترکی کے راستے سفر کا انتظام کریں", "پہنچنے کے بعد اسٹوڈنٹ رہائش کی رجسٹریشن مکمل کریں"]
+    },
+    "docs": {"en": ["Acceptance letter", "Travel plan via Turkey"], "ur": ["ایکسیپٹنس لیٹر", "ترکی کے راستے سفر کا منصوبہ"]},
+    "note": {"en": "North Cyprus is not part of the EU and is recognised only by Turkey. Degrees are not EU degrees, so check HEC and employer recognition for your field before you apply.", "ur": "شمالی قبرص یورپی یونین کا حصہ نہیں اور صرف ترکی اسے تسلیم کرتا ہے۔ ڈگری یورپی نہیں ہوتی، اس لیے اپلائی سے پہلے اپنے شعبے کے لیے HEC اور نوکری کے لحاظ سے تسلیم شدگی چیک کریں۔"}
+  },
+  {
+    "slug": "turkey", "region": "as", "code": "TR", "label": "STUDENT VISA",
+    "name": {"en": "Turkey", "ur": "ترکی"},
+    "tagline": {"en": "Affordable study close to home, with the Türkiye Bursları scholarship.", "ur": "گھر کے قریب سستی تعلیم، Türkiye Bursları اسکالرشپ کے ساتھ۔"},
+    "intakes": {"en": "September · February", "ur": "ستمبر · فروری"},
+    "tests": ["IELTS / TOEFL or university English test for English programmes", "Turkish preparatory year for Turkish programmes"],
+    "scholarships": ["Türkiye Bursları (government scholarship)", "University fee discounts"],
+    "why": {
+      "en": ["Close to Pakistan with strong cultural ties", "Türkiye Bursları covers tuition, accommodation and a stipend", "Quality public and private universities"],
+      "ur": ["پاکستان کے قریب اور مضبوط ثقافتی تعلقات", "Türkiye Bursları فیس، رہائش اور وظیفہ دیتا ہے", "معیاری سرکاری اور پرائیویٹ یونیورسٹیاں"]
+    },
+    "steps": {
+      "en": ["For the scholarship, apply online to Türkiye Bursları (usually January to February)", "Or apply directly to universities as a self-funded student", "Receive your acceptance letter", "Apply for the student visa, then the residence permit after arrival"],
+      "ur": ["اسکالرشپ کے لیے Türkiye Bursları میں آن لائن اپلائی کریں (عموماً جنوری سے فروری)", "یا اپنے خرچ پر براہِ راست یونیورسٹیوں میں اپلائی کریں", "ایکسیپٹنس لیٹر حاصل کریں", "اسٹوڈنٹ ویزا اپلائی کریں، پھر پہنچ کر ریزیڈنس پرمٹ"]
+    },
+    "docs": {"en": ["Acceptance letter"], "ur": ["ایکسیپٹنس لیٹر"]},
+    "note": null
+  },
+  {
+    "slug": "malaysia", "region": "as", "code": "MY", "label": "EMGS",
+    "name": {"en": "Malaysia", "ur": "ملائیشیا"},
+    "tagline": {"en": "Low living costs and branch campuses of UK and Australian universities.", "ur": "کم رہائشی اخراجات اور برطانوی و آسٹریلین یونیورسٹیوں کے کیمپس۔"},
+    "intakes": {"en": "January · May · September", "ur": "جنوری · مئی · ستمبر"},
+    "tests": ["IELTS / TOEFL / MUET or university test"],
+    "scholarships": ["University merit awards"],
+    "why": {
+      "en": ["UK and Australian degrees at lower cost", "Muslim-friendly environment", "Several intakes each year"],
+      "ur": ["کم خرچ میں برطانوی اور آسٹریلین ڈگریاں", "مسلم دوست ماحول", "ہر سال کئی انٹیک"]
+    },
+    "steps": {
+      "en": ["Apply and receive an offer letter", "The university applies for your visa approval through EMGS", "Complete the medical check and receive the eVAL", "Travel on the single-entry visa and complete registration on arrival"],
+      "ur": ["اپلائی کر کے آفر لیٹر حاصل کریں", "یونیورسٹی EMGS کے ذریعے ویزا منظوری کے لیے اپلائی کرتی ہے", "میڈیکل چیک مکمل کریں اور eVAL حاصل کریں", "سنگل انٹری ویزا پر سفر کریں اور پہنچ کر رجسٹریشن مکمل کریں"]
+    },
+    "docs": {"en": ["Offer letter", "EMGS visa approval letter (eVAL)"], "ur": ["آفر لیٹر", "EMGS ویزا منظوری لیٹر (eVAL)"]},
+    "note": null
+  },
+  {
+    "slug": "china", "region": "as", "code": "CN", "label": "X1 VISA",
+    "name": {"en": "China", "ur": "چین"},
+    "tagline": {"en": "Engineering, business and medicine, with government scholarships.", "ur": "انجینئرنگ، بزنس اور میڈیسن، سرکاری اسکالرشپ کے ساتھ۔"},
+    "intakes": {"en": "September · March (some)", "ur": "ستمبر · مارچ (کچھ)"},
+    "tests": ["IELTS / TOEFL for English programmes", "HSK for Chinese programmes"],
+    "scholarships": ["Chinese Government Scholarship (CSC)", "Provincial and university scholarships"],
+    "why": {
+      "en": ["Generous government scholarships for Pakistani students", "Strong engineering and technology universities", "Close ties between Pakistan and China"],
+      "ur": ["پاکستانی طلبہ کے لیے فراخ دل سرکاری اسکالرشپ", "مضبوط انجینئرنگ اور ٹیکنالوجی یونیورسٹیاں", "پاکستان اور چین کے قریبی تعلقات"]
+    },
+    "steps": {
+      "en": ["Apply to universities and for CSC or university scholarships", "Receive the admission notice and JW201/JW202 form", "Complete the physical examination form", "Apply for the X1 student visa, then the residence permit after arrival"],
+      "ur": ["یونیورسٹیوں اور CSC یا یونیورسٹی اسکالرشپ کے لیے اپلائی کریں", "ایڈمیشن نوٹس اور JW201/JW202 فارم حاصل کریں", "فزیکل ایگزامینیشن فارم مکمل کریں", "X1 اسٹوڈنٹ ویزا اپلائی کریں، پھر پہنچ کر ریزیڈنس پرمٹ"]
+    },
+    "docs": {"en": ["Admission notice", "JW201/JW202 form", "Physical examination record"], "ur": ["ایڈمیشن نوٹس", "JW201/JW202 فارم", "فزیکل ایگزامینیشن ریکارڈ"]},
+    "note": {"en": "For MBBS in China, choose a university recognised by PMDC, and remember that Pakistani graduates of foreign medical schools must pass the licensing exam to practise in Pakistan.", "ur": "چین میں MBBS کے لیے PMDC سے تسلیم شدہ یونیورسٹی منتخب کریں، اور یاد رکھیں کہ غیر ملکی میڈیکل کالج کے پاکستانی گریجویٹس کو پاکستان میں پریکٹس کے لیے لائسنسنگ امتحان پاس کرنا ہوتا ہے۔"}
+  },
+  {
+    "slug": "south-korea", "region": "as", "code": "KR", "label": "D-2 VISA",
+    "name": {"en": "South Korea", "ur": "جنوبی کوریا"},
+    "tagline": {"en": "Technology-focused universities and the Global Korea Scholarship.", "ur": "ٹیکنالوجی پر مرکوز یونیورسٹیاں اور گلوبل کوریا اسکالرشپ۔"},
+    "intakes": {"en": "March · September", "ur": "مارچ · ستمبر"},
+    "tests": ["IELTS / TOEFL for English programmes", "TOPIK for Korean programmes"],
+    "scholarships": ["Global Korea Scholarship (GKS)", "University scholarships"],
+    "why": {
+      "en": ["Home of global technology companies", "GKS covers tuition, living costs and Korean language study", "Strong research labs in engineering and science"],
+      "ur": ["عالمی ٹیکنالوجی کمپنیوں کا گھر", "GKS فیس، رہائشی اخراجات اور کورین زبان کی تعلیم دیتا ہے", "انجینئرنگ اور سائنس میں مضبوط ریسرچ لیبز"]
+    },
+    "steps": {
+      "en": ["Apply for GKS through the embassy or university track, or apply directly to universities", "Receive your admission letter", "Prepare financial proof (not needed for GKS scholars)", "Apply for the D-2 student visa"],
+      "ur": ["GKS کے لیے سفارت خانے یا یونیورسٹی ٹریک سے، یا براہِ راست یونیورسٹیوں میں اپلائی کریں", "ایڈمیشن لیٹر حاصل کریں", "مالی ثبوت تیار کریں (GKS اسکالرز کے لیے ضروری نہیں)", "D-2 اسٹوڈنٹ ویزا اپلائی کریں"]
+    },
+    "docs": {"en": ["Certificate of admission"], "ur": ["سرٹیفکیٹ آف ایڈمیشن"]},
+    "note": null
+  },
+  {
+    "slug": "japan", "region": "as", "code": "JP", "label": "STUDENT VISA",
+    "name": {"en": "Japan", "ur": "جاپان"},
+    "tagline": {"en": "Research-led universities and the MEXT government scholarship.", "ur": "ریسرچ پر مبنی یونیورسٹیاں اور MEXT سرکاری اسکالرشپ۔"},
+    "intakes": {"en": "April · October", "ur": "اپریل · اکتوبر"},
+    "tests": ["IELTS / TOEFL for English programmes", "JLPT for Japanese programmes"],
+    "scholarships": ["MEXT scholarship (embassy or university recommendation)", "University scholarships"],
+    "why": {
+      "en": ["World-leading research in engineering and science", "MEXT covers tuition, a monthly allowance and air fare", "Safe and well-organised society"],
+      "ur": ["انجینئرنگ اور سائنس میں عالمی سطح کی ریسرچ", "MEXT فیس، ماہانہ الاؤنس اور ہوائی کرایہ دیتا ہے", "محفوظ اور منظم معاشرہ"]
+    },
+    "steps": {
+      "en": ["Apply for MEXT through the Embassy of Japan, or apply directly to universities", "Receive admission (and a supervisor's acceptance for research students)", "The university applies for your Certificate of Eligibility (CoE)", "Apply for the student visa at the embassy with the CoE"],
+      "ur": ["جاپانی سفارت خانے کے ذریعے MEXT یا براہِ راست یونیورسٹیوں میں اپلائی کریں", "داخلہ حاصل کریں (ریسرچ طلبہ کے لیے سپروائزر کی منظوری)", "یونیورسٹی سرٹیفکیٹ آف ایلیجیبلٹی (CoE) کے لیے اپلائی کرتی ہے", "CoE کے ساتھ سفارت خانے میں اسٹوڈنٹ ویزا اپلائی کریں"]
+    },
+    "docs": {"en": ["Certificate of Eligibility (CoE)"], "ur": ["سرٹیفکیٹ آف ایلیجیبلٹی (CoE)"]},
+    "note": null
+  },
+  {
+    "slug": "uae", "region": "as", "code": "AE", "label": "STUDENT VISA",
+    "name": {"en": "UAE", "ur": "متحدہ عرب امارات"},
+    "tagline": {"en": "Dubai campuses of UK and Australian universities, close to Pakistan.", "ur": "پاکستان کے قریب، دبئی میں برطانوی اور آسٹریلین یونیورسٹیوں کے کیمپس۔"},
+    "intakes": {"en": "September · January (some May)", "ur": "ستمبر · جنوری (کچھ مئی)"},
+    "tests": ["IELTS / TOEFL or university test"],
+    "scholarships": ["University merit discounts"],
+    "why": {
+      "en": ["International degrees two hours from Pakistan", "Large Pakistani community", "Work and internship opportunities in a global city"],
+      "ur": ["پاکستان سے دو گھنٹے کی دوری پر بین الاقوامی ڈگریاں", "بڑی پاکستانی کمیونٹی", "عالمی شہر میں کام اور انٹرن شپ کے مواقع"]
+    },
+    "steps": {
+      "en": ["Apply and receive an offer", "Pay tuition and the visa deposit to the university", "The university sponsors and applies for your student residence visa", "Complete the medical test and Emirates ID after arrival"],
+      "ur": ["اپلائی کر کے آفر حاصل کریں", "یونیورسٹی کو فیس اور ویزا ڈپازٹ جمع کروائیں", "یونیورسٹی آپ کے اسٹوڈنٹ ریزیڈنس ویزا کی اسپانسر بن کر اپلائی کرتی ہے", "پہنچ کر میڈیکل ٹیسٹ اور ایمریٹس آئی ڈی مکمل کریں"]
+    },
+    "docs": {"en": ["Offer letter and fee receipt"], "ur": ["آفر لیٹر اور فیس رسید"]},
+    "note": null
+  },
+  {
+    "slug": "central-asia", "region": "as", "code": "KG·KZ·UZ", "label": "MBBS",
+    "name": {"en": "Central Asia (MBBS)", "ur": "وسطی ایشیا (MBBS)"},
+    "tagline": {"en": "Kyrgyzstan, Kazakhstan and Uzbekistan, popular for low-cost MBBS.", "ur": "کرغزستان، قازقستان اور ازبکستان، کم خرچ MBBS کے لیے مقبول۔"},
+    "intakes": {"en": "September (some February)", "ur": "ستمبر (کچھ فروری)"},
+    "tests": ["Usually no IELTS; university entrance test or interview"],
+    "scholarships": ["Low tuition (scholarships are limited)"],
+    "why": {
+      "en": ["Lower tuition than private medical colleges in Pakistan", "English-taught MBBS programmes", "Close to Pakistan"],
+      "ur": ["پاکستان کے پرائیویٹ میڈیکل کالجوں سے کم فیس", "انگریزی میں MBBS پروگرام", "پاکستان کے قریب"]
+    },
+    "steps": {
+      "en": ["Check that the university is recognised by PMDC before applying", "Apply and receive your admission and invitation letter", "Apply for the student visa", "Plan for the licensing exam you must pass to practise in Pakistan"],
+      "ur": ["اپلائی سے پہلے چیک کریں کہ یونیورسٹی PMDC سے تسلیم شدہ ہے", "اپلائی کر کے ایڈمیشن اور انویٹیشن لیٹر حاصل کریں", "اسٹوڈنٹ ویزا اپلائی کریں", "پاکستان میں پریکٹس کے لیے ضروری لائسنسنگ امتحان کی منصوبہ بندی کریں"]
+    },
+    "docs": {"en": ["Invitation letter", "PMDC recognition check"], "ur": ["انویٹیشن لیٹر", "PMDC تسلیم شدگی کی جانچ"]},
+    "note": {"en": "Quality varies widely between universities. We only recommend universities recognised by PMDC, and we explain the licensing exam before you decide.", "ur": "یونیورسٹیوں کے معیار میں بہت فرق ہے۔ ہم صرف PMDC سے تسلیم شدہ یونیورسٹیاں تجویز کرتے ہیں اور فیصلے سے پہلے لائسنسنگ امتحان کے بارے میں بتاتے ہیں۔"}
+  },
+  {
+    "slug": "russia", "region": "as", "code": "RU", "label": "STUDENT VISA",
+    "name": {"en": "Russia", "ur": "روس"},
+    "tagline": {"en": "Medical and engineering degrees at state universities.", "ur": "سرکاری یونیورسٹیوں میں میڈیکل اور انجینئرنگ ڈگریاں۔"},
+    "intakes": {"en": "September", "ur": "ستمبر"},
+    "tests": ["University entrance requirements; preparatory Russian year for Russian programmes"],
+    "scholarships": ["Russian government quota scholarships"],
+    "why": {
+      "en": ["Long-established state universities", "Government quota places for international students", "English-taught MBBS at some universities"],
+      "ur": ["پرانی اور معتبر سرکاری یونیورسٹیاں", "بین الاقوامی طلبہ کے لیے سرکاری کوٹہ", "کچھ یونیورسٹیوں میں انگریزی میں MBBS"]
+    },
+    "steps": {
+      "en": ["Apply to universities or the government quota programme", "Receive your official invitation letter", "Complete medical tests including HIV certificate as required", "Apply for the student visa at the embassy"],
+      "ur": ["یونیورسٹیوں یا سرکاری کوٹہ پروگرام میں اپلائی کریں", "سرکاری انویٹیشن لیٹر حاصل کریں", "ضرورت کے مطابق HIV سرٹیفکیٹ سمیت میڈیکل ٹیسٹ مکمل کریں", "سفارت خانے میں اسٹوڈنٹ ویزا اپلائی کریں"]
+    },
+    "docs": {"en": ["Official invitation letter", "Medical certificates"], "ur": ["سرکاری انویٹیشن لیٹر", "میڈیکل سرٹیفکیٹس"]},
+    "note": {"en": "For medicine, check PMDC recognition and plan for the licensing exam needed to practise in Pakistan.", "ur": "میڈیسن کے لیے PMDC تسلیم شدگی چیک کریں اور پاکستان میں پریکٹس کے لیے لائسنسنگ امتحان کی منصوبہ بندی کریں۔"}
+  }
+]
