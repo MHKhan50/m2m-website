@@ -382,7 +382,7 @@ def service_page(it: dict, lang: str) -> str:
     st = t["service"]
     name = it["title"]
     if it["id"] == "ielts-pte":
-        what = "".join(f'<li><b dir="ltr">{e(x)}</b> {e(y)}</li>' for x, y in t["coaching"]["tests"])
+        what = "".join(f'<li><span><b dir="ltr">{e(x)}</b> {e(y)}</span></li>' for x, y in t["coaching"]["tests"])
         lede = t["coaching"]["lede"]
     else:
         what = "".join(f"<li>{e(x)}</li>" for x in it["points"])
@@ -393,7 +393,7 @@ def service_page(it: dict, lang: str) -> str:
     faq_block = f'<h2>{e(st["faq"])}</h2><div class="faq">{faq}</div>' if faq else ""
     others = "".join(f'<a class="mini" href="{rel(here, service_path(lang, o["id"]))}"><span dir="ltr">{o["code"]}</span>{e(o["title"])}</a>'
                      for o in services_all(lang) if o["id"] != it["id"])
-    extra = "".join(f'<li><b>{e(x)}</b> {e(y)}</li>' for x, y in t["services"]["extra"])
+    extra = "".join(f'<li><span><b>{e(x)}</b> {e(y)}</span></li>' for x, y in t["services"]["extra"])
     student_link = ""
     if it["id"] in ("student-visa", "scholarships"):
         student_link = f'<div class="row-ctas btn-row"><a class="btn btn-blue" href="{rel(here, countries_path(lang))}">{e(t["land"]["all_countries"])}</a><a class="btn btn-ghost-dark" href="{rel(here, checker_path(lang))}">{e(t["land"]["find"])}</a></div>'

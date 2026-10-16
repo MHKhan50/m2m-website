@@ -409,3 +409,4 @@ html[lang="ur"] .pill-group h3{font-family:var(--body);text-transform:none;lette
 }
 :root[data-theme="dark"] .svc .more{color:var(--gold)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .svc .more{color:var(--gold)}}
+.facts{grid-template-columns:1fr!important;gap:8px}
