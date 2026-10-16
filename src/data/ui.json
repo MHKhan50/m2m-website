@@ -74,7 +74,8 @@
       "Financial and document checklist",
       "Visa file review and interview preparation"
      ],
-     "tag": "34 COUNTRIES"
+     "tag": "34 COUNTRIES",
+     "short": "Admission and visa for 34 countries"
     },
     {
      "id": "scholarships",
@@ -86,7 +87,8 @@
       "Personal statement guidance",
       "Deadline tracking"
      ],
-     "tag": "FUNDING"
+     "tag": "FUNDING",
+     "short": "Funding that matches your grades"
     },
     {
      "id": "gulf-work-visa",
@@ -99,7 +101,8 @@
       "GAMCA medical and protector stamp guidance",
       "Pre-departure briefing on your rights and contract"
      ],
-     "tag": "SAUDI · UAE · QATAR"
+     "tag": "SAUDI · UAE · QATAR",
+     "short": "Saudi Arabia, UAE and Qatar"
     },
     {
      "id": "hajj-umrah",
@@ -112,7 +115,8 @@
       "Family and group packages",
       "Hajj scheme guidance and documents"
      ],
-     "tag": "MAKKAH · MADINAH"
+     "tag": "MAKKAH · MADINAH",
+     "short": "Visa, flights and hotels"
     },
     {
      "id": "visit-visa",
@@ -124,7 +128,8 @@
       "Supporting documents checklist",
       "Application form and appointment booking"
      ],
-     "tag": "TOURISM · BUSINESS"
+     "tag": "TOURISM · BUSINESS",
+     "short": "Tourism, family visits and meetings"
     },
     {
      "id": "tours",
@@ -137,7 +142,8 @@
       "Air tickets worldwide",
       "Sightseeing, transfers and travel insurance"
      ],
-     "tag": "ANY DESTINATION"
+     "tag": "ANY DESTINATION",
+     "short": "Tours, hotels and air tickets"
     }
    ],
    "extra": [
@@ -575,7 +581,29 @@
    "reviews_link": "Read our Google reviews",
    "contact_title": "Talk to us today",
    "contact_lede": "Call, WhatsApp or visit our office in Faisalabad. Or send your details and a counsellor will contact you.",
-   "send": "Send your details"
+   "send": "Send your details",
+   "lede_short": "Study visas for 34 countries, Gulf work visas, Hajj & Umrah, and tours with hotels and air tickets, from our office in Faisalabad.",
+   "trust": [
+    [
+     "34",
+     "study countries"
+    ],
+    [
+     "★ 5.0",
+     "29 Google reviews"
+    ],
+    [
+     "Genuine",
+     "documents only"
+    ],
+    [
+     "Mon–Sat",
+     "Mall of Lyallpur office"
+    ]
+   ],
+   "reviews_title": "What our clients say",
+   "reviews_text": "Rated 5.0 out of 5 by 29 clients on Google.",
+   "countries_line": "Study in 34 countries: see every country guide"
   },
   "service": {
    "home": "Home",
@@ -669,7 +697,8 @@
       "مالی اور دستاویزات کی چیک لسٹ",
       "ویزا فائل کا جائزہ اور انٹرویو کی تیاری"
      ],
-     "tag": "34 ممالک"
+     "tag": "34 ممالک",
+     "short": "34 ممالک کے لیے داخلہ اور ویزا"
     },
     {
      "id": "scholarships",
@@ -681,7 +710,8 @@
       "پرسنل اسٹیٹمنٹ کی رہنمائی",
       "آخری تاریخوں کی نگرانی"
      ],
-     "tag": "فنڈنگ"
+     "tag": "فنڈنگ",
+     "short": "آپ کے نمبروں کے مطابق فنڈنگ"
     },
     {
      "id": "gulf-work-visa",
@@ -694,7 +724,8 @@
       "GAMCA میڈیکل اور پروٹیکٹر اسٹیمپ کی رہنمائی",
       "روانگی سے پہلے آپ کے حقوق اور معاہدے پر بریفنگ"
      ],
-     "tag": "سعودیہ · یو اے ای · قطر"
+     "tag": "سعودیہ · یو اے ای · قطر",
+     "short": "سعودی عرب، یو اے ای اور قطر"
     },
     {
      "id": "hajj-umrah",
@@ -707,7 +738,8 @@
       "فیملی اور گروپ پیکجز",
       "حج اسکیم کی رہنمائی اور دستاویزات"
      ],
-     "tag": "مکہ · مدینہ"
+     "tag": "مکہ · مدینہ",
+     "short": "ویزا، پروازیں اور ہوٹل"
     },
     {
      "id": "visit-visa",
@@ -719,7 +751,8 @@
       "معاون دستاویزات کی چیک لسٹ",
       "درخواست فارم اور اپائنٹمنٹ بکنگ"
      ],
-     "tag": "سیاحت · کاروبار"
+     "tag": "سیاحت · کاروبار",
+     "short": "سیاحت، فیملی وزٹ اور میٹنگز"
     },
     {
      "id": "tours",
@@ -732,7 +765,8 @@
       "دنیا بھر کے ہوائی ٹکٹ",
       "سیر، ٹرانسفر اور ٹریول انشورنس"
      ],
-     "tag": "ہر منزل"
+     "tag": "ہر منزل",
+     "short": "ٹور، ہوٹل اور ہوائی ٹکٹ"
     }
    ],
    "extra": [
@@ -1170,7 +1204,29 @@
    "reviews_link": "ہمارے گوگل ریویوز پڑھیں",
    "contact_title": "آج ہی بات کریں",
    "contact_lede": "کال کریں، واٹس ایپ کریں یا فیصل آباد میں ہمارے دفتر آئیں۔ یا اپنی تفصیلات بھیجیں، کونسلر آپ سے رابطہ کرے گا۔",
-   "send": "اپنی تفصیلات بھیجیں"
+   "send": "اپنی تفصیلات بھیجیں",
+   "lede_short": "34 ممالک کے اسٹڈی ویزے، خلیجی ورک ویزے، حج و عمرہ، اور ہوٹل و ہوائی ٹکٹ کے ساتھ ٹورز، فیصل آباد میں ہمارے دفتر سے۔",
+   "trust": [
+    [
+     "34",
+     "تعلیمی ممالک"
+    ],
+    [
+     "★ 5.0",
+     "گوگل پر 29 ریویوز"
+    ],
+    [
+     "اصل",
+     "دستاویزات ہی"
+    ],
+    [
+     "پیر تا ہفتہ",
+     "مال آف لائلپور دفتر"
+    ]
+   ],
+   "reviews_title": "ہمارے کلائنٹس کیا کہتے ہیں",
+   "reviews_text": "گوگل پر 29 کلائنٹس نے 5 میں سے 5.0 ریٹنگ دی۔",
+   "countries_line": "34 ممالک میں تعلیم: ہر ملک کی گائیڈ دیکھیں"
   },
   "service": {
    "home": "ہوم",

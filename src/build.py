@@ -289,55 +289,36 @@ def home(lang: str) -> str:
     t = UI[lang]
     h = t["hero"]
     L = t["land"]
-    rows = "".join(
-        f'<tr><td>{code}</td><td class="city">{e(city[lang])}</td><td>{e(route[lang])}</td>'
-        f'<td><span class="st{" soon" if st == "study_only" else ""}">{e(h[st])}</span></td></tr>'
-        for code, city, route, st in BOARD)
-    trust = "".join(f'<div><b>{e(x)}</b><span>{e(y)}</span></div>' for x, y in t["trust"])
+    arrow = "→" if lang == "en" else "←"
+    trust = "".join(f'<div><b>{e(x)}</b><span>{e(y)}</span></div>' for x, y in L["trust"])
     cards = "".join(
         f'<a class="svc" href="{rel(here, service_path(lang, it["id"]))}"><span class="code" dir="ltr">{it["code"]}</span>'
-        f'<h3>{e(it["title"])}</h3><p>{e(it["text"])}</p><span class="go">{e(L["more"])} <span aria-hidden="true">{"→" if lang == "en" else "←"}</span></span></a>'
+        f'<h3>{e(it["title"])}</h3><p>{e(it["short"])}</p><span class="go" aria-hidden="true">{arrow}</span></a>'
         for it in t["services"]["items"])
-    groups = "".join(
-        f'<div class="pill-group"><h3>{e(label)}</h3><div class="pills">'
-        + "".join(f'<a class="mini" href="{rel(here, page_path(lang, c["slug"]))}"><span dir="ltr">{e(c["code"])}</span>{e(c["name"][lang])}</a>'
-                  for c in COUNTRIES if c["region"] == key)
-        + "</div></div>"
-        for key, label in t["countries"]["regions"].items())
     steps = "".join(f"<li><h3>{e(x)}</h3><p>{e(y)}</p></li>" for x, y in L["steps"])
-    why = "".join(f"<li><b>{e(x)}</b><span>{e(y)}</span></li>" for x, y in L["why"])
     c = t["contact"]
-    body = f"""<section class="hero"><div class="wrap">
+    maps = "https://www.google.com/maps/search/?api=1&amp;query=M2M+Global+Consultants+Faisalabad"
+    body = f"""<section class="hero hero-short"><div class="wrap">
   <div>
     <p class="eyebrow eyebrow-gold">{e(h['eyebrow'])}</p>
     <h1>{e(h['title_a'])} <em>{e(h['title_em'])}</em> {e(h['title_b'])}</h1>
-    <p class="lede">{e(h['lede'])}</p>
+    <p class="lede">{e(L['lede_short'])}</p>
     <div class="hero-ctas"><a class="btn btn-gold" href="https://wa.me/{WA}" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>{e(t['whatsapp'])}</a><a class="btn btn-ghost" href="{rel(here, checker_path(lang))}">{e(L['find'])}</a></div>
   </div>
-  <div class="board" aria-label="{e(h['board_title'])}">
-    <div class="board-top"><span>{e(h['board_title'])}</span><strong dir="ltr">LYP</strong></div>
-    <div class="board-scroll"><table><thead><tr>{''.join(f'<th>{e(x)}</th>' for x in h['board_cols'])}</tr></thead><tbody>{rows}</tbody></table></div>
-    <p class="board-foot">{e(h['board_foot'])}</p>
-  </div>
 </div></section>
-<div class="trust"><div class="wrap">{trust}</div></div>
+<div class="trust trust-strip"><div class="wrap">{trust}</div></div>
 <section id="services" class="sec-tight"><div class="wrap">
-  <div class="sec-head"><h2>{e(L['services_title'])}</h2><p class="lede">{e(L['services_lede'])}</p></div>
+  <div class="sec-head"><h2>{e(L['services_title'])}</h2></div>
   <div class="svc-grid">{cards}</div>
-  <p class="also"><a href="{rel(here, service_path(lang, 'ielts-pte'))}">{e(L['also'])}</a></p>
+  <p class="links-line"><a href="{rel(here, countries_path(lang))}">{e(L['countries_line'])} {arrow}</a><a href="{rel(here, service_path(lang, 'ielts-pte'))}">{e(UI[lang]['coaching']['item']['title'])} {arrow}</a></p>
 </div></section>
-<section id="destinations" class="dest sec-tight"><div class="wrap">
-  <div class="sec-head row-head"><div><h2>{e(L['countries_title'])}</h2><p class="lede">{e(L['countries_lede'])}</p></div>
-    <div class="row-ctas"><a class="btn btn-blue" href="{rel(here, countries_path(lang))}">{e(L['all_countries'])}</a><a class="btn btn-ghost-dark" href="{rel(here, checker_path(lang))}">{e(L['find'])}</a></div></div>
-  <div class="pill-groups">{groups}</div>
-</div></section>
-<section class="sec-tight"><div class="wrap two-col">
+<section class="sec-tight sec-alt"><div class="wrap two-col">
   <div><h2>{e(L['steps_title'])}</h2><ol class="steps steps-4">{steps}</ol></div>
-  <div><h2>{e(L['why_title'])}</h2><ul class="why-list">{why}</ul>
-    <a class="back" href="https://www.google.com/maps/search/?api=1&amp;query=M2M+Global+Consultants+Faisalabad" target="_blank" rel="noopener">{e(L['reviews_link'])}</a></div>
+  <div><h2>{e(L['reviews_title'])}</h2>
+    <a class="review-card" href="{maps}" target="_blank" rel="noopener"><span class="stars" aria-hidden="true">★★★★★</span><b>{e(L['reviews_text'])}</b><span class="go">{e(L['reviews_link'])} {arrow}</span></a></div>
 </div></section>
 <section class="contact-band"><div class="wrap">
-  <div><h2>{e(L['contact_title'])}</h2><p>{e(L['contact_lede'])}</p>
+  <div><h2>{e(L['contact_title'])}</h2>
     <p class="cb-lines"><a href="tel:{PHONE_PK[1]}" dir="ltr">{PHONE_PK[0]}</a><span>{e(c['address'])}</span></p></div>
   <div class="row-ctas"><a class="btn btn-gold" href="https://wa.me/{WA}" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>{e(t['whatsapp'])}</a><a class="btn btn-ghost" href="{rel(here, contact_path(lang))}">{e(L['send'])}</a></div>
 </div></section>"""
