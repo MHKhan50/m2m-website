@@ -1,1277 +1,1277 @@
 {
- "en": {
-  "lang": "en",
-  "dir": "ltr",
-  "switch_label": "اردو",
-  "switch_name": "Urdu",
-  "site_desc": "M2M Global Consultants, Faisalabad: study visas for 34 countries, Gulf work visas (Saudi Arabia, UAE, Qatar), Hajj and Umrah, tours and holiday packages, hotel bookings, air tickets and IELTS/PTE coaching.",
-  "nav": {
-   "services": "Services",
-   "countries": "Countries",
-   "coaching": "IELTS & PTE",
-   "process": "How it works",
-   "faq": "FAQ",
-   "contact": "Contact",
-   "checker": "Find my country"
-  },
-  "menu": "Menu",
-  "whatsapp": "WhatsApp us",
-  "hours": "Mon–Sat, 9am–5pm",
-  "hero": {
-   "eyebrow": "Study abroad, visa & travel consultants · Faisalabad",
-   "title_a": "Your study and visa file, prepared",
-   "title_em": "properly",
-   "title_b": "from day one.",
-   "lede": "M2M Global Consultants helps students, workers and families with study visas for 34 countries, work visas for Saudi Arabia, the UAE and Qatar, Hajj and Umrah, and tours with hotels and air tickets to any country. We build a complete, honest application with you, step by step.",
-   "cta1": "Book a consultation",
-   "cta2": "Explore 34 countries",
-   "fact1": "on Google (29 reviews)",
-   "fact2": "Office 52, Mall of Lyallpur",
-   "board_title": "Departures · Faisalabad",
-   "board_cols": [
-    "TO",
-    "CITY",
-    "ROUTE",
-    "STATUS"
-   ],
-   "board_foot": "Intakes and requirements change every year. Ask us for the current dates for your country and course.",
-   "open": "Open",
-   "study_only": "Study only"
-  },
-  "trust": [
-   [
-    "★ 5.0 Google",
-    "29 reviews on Google Maps"
-   ],
-   [
-    "Walk-in office",
-    "Mall of Lyallpur, Harrian Wala Chowk"
-   ],
-   [
-    "FBR registered",
-    "Registered business in Pakistan"
-   ],
-   [
-    "Mon–Sat",
-    "9am to 5pm, Pakistan time"
-   ]
-  ],
-  "services": {
-   "eyebrow": "What we do",
-   "title": "Study, work and travel services",
-   "lede": "Every case starts with a one-to-one review of your documents and budget. You get a clear plan before you pay any fee.",
-   "ask": "Ask about this",
-   "label": "Service",
-   "items": [
-    {
-     "id": "student-visa",
-     "code": "STU",
-     "title": "Student Visa",
-     "text": "From choosing a course to receiving your visa decision, across 34 destinations in Europe, Asia, Australia and North America.",
-     "points": [
-      "Country, university and course shortlist",
-      "Admission application and offer follow-up",
-      "Financial and document checklist",
-      "Visa file review and interview preparation"
-     ],
-     "tag": "34 COUNTRIES",
-     "short": "Admission and visa for 34 countries"
+  "en": {
+    "lang": "en",
+    "dir": "ltr",
+    "switch_label": "اردو",
+    "switch_name": "Urdu",
+    "site_desc": "M2M Global Consultants, Faisalabad: study visas for 34 countries, Gulf work visas (Saudi Arabia, UAE, Qatar), Hajj and Umrah, tours and holiday packages, hotel bookings, air tickets and IELTS/PTE coaching.",
+    "nav": {
+      "services": "Services",
+      "countries": "Countries",
+      "coaching": "IELTS & PTE",
+      "process": "How it works",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "checker": "Find my country"
     },
-    {
-     "id": "scholarships",
-     "code": "SCH",
-     "title": "Scholarships",
-     "text": "We find scholarships and fee discounts that match your grades and course, and help you apply on time.",
-     "points": [
-      "Government and university scholarships",
-      "Personal statement guidance",
-      "Deadline tracking"
-     ],
-     "tag": "FUNDING",
-     "short": "Funding that matches your grades"
+    "menu": "Menu",
+    "whatsapp": "WhatsApp us",
+    "hours": "Mon–Sat, 9am–5pm",
+    "hero": {
+      "eyebrow": "Study abroad, visa & travel consultants · Faisalabad",
+      "title_a": "Your study and visa file, prepared",
+      "title_em": "properly",
+      "title_b": "from day one.",
+      "lede": "M2M Global Consultants helps students, workers and families with study visas for 34 countries, work visas for Saudi Arabia, the UAE and Qatar, Hajj and Umrah, and tours with hotels and air tickets to any country. We build a complete, honest application with you, step by step.",
+      "cta1": "Book a consultation",
+      "cta2": "Explore 34 countries",
+      "fact1": "Study, work, Hajj, Umrah and tours",
+      "fact2": "Office 52, Mall of Lyallpur",
+      "board_title": "Departures · Faisalabad",
+      "board_cols": [
+        "TO",
+        "CITY",
+        "ROUTE",
+        "STATUS"
+      ],
+      "board_foot": "Intakes and requirements change every year. Ask us for the current dates for your country and course.",
+      "open": "Open",
+      "study_only": "Study only"
     },
-    {
-     "id": "gulf-work-visa",
-     "code": "GCC",
-     "title": "Gulf Work Visas",
-     "text": "Work visas for Saudi Arabia, the UAE (Dubai) and Qatar, processed for workers who have a genuine job offer.",
-     "points": [
-      "Job offer and contract check before you pay anything",
-      "Visa and employer document processing",
-      "GAMCA medical and protector stamp guidance",
-      "Pre-departure briefing on your rights and contract"
-     ],
-     "tag": "SAUDI · UAE · QATAR",
-     "short": "Saudi Arabia, UAE and Qatar"
+    "trust": [
+      [
+        "34",
+        "study countries"
+      ],
+      [
+        "Faisalabad",
+        "Walk-in office, Mon–Sat"
+      ],
+      [
+        "Genuine",
+        "documents only"
+      ],
+      [
+        "Written",
+        "fees before you start"
+      ]
+    ],
+    "services": {
+      "eyebrow": "What we do",
+      "title": "Study, work and travel services",
+      "lede": "Every case starts with a one-to-one review of your documents and budget. You get a clear plan before you pay any fee.",
+      "ask": "Ask about this",
+      "label": "Service",
+      "items": [
+        {
+          "id": "student-visa",
+          "code": "STU",
+          "title": "Student Visa",
+          "text": "From choosing a course to receiving your visa decision, across 34 destinations in Europe, Asia, Australia and North America.",
+          "points": [
+            "Country, university and course shortlist",
+            "Admission application and offer follow-up",
+            "Financial and document checklist",
+            "Visa file review and interview preparation"
+          ],
+          "tag": "34 COUNTRIES",
+          "short": "Admission and visa for 34 countries"
+        },
+        {
+          "id": "scholarships",
+          "code": "SCH",
+          "title": "Scholarships",
+          "text": "We find scholarships and fee discounts that match your grades and course, and help you apply on time.",
+          "points": [
+            "Government and university scholarships",
+            "Personal statement guidance",
+            "Deadline tracking"
+          ],
+          "tag": "FUNDING",
+          "short": "Funding that matches your grades"
+        },
+        {
+          "id": "gulf-work-visa",
+          "code": "GCC",
+          "title": "Gulf Work Visas",
+          "text": "Work visas for Saudi Arabia, the UAE (Dubai) and Qatar, processed for workers who have a genuine job offer.",
+          "points": [
+            "Job offer and contract check before you pay anything",
+            "Visa and employer document processing",
+            "GAMCA medical and protector stamp guidance",
+            "Pre-departure briefing on your rights and contract"
+          ],
+          "tag": "SAUDI · UAE · QATAR",
+          "short": "Saudi Arabia, UAE and Qatar"
+        },
+        {
+          "id": "hajj-umrah",
+          "code": "UMR",
+          "title": "Hajj & Umrah",
+          "text": "Umrah for individuals, families and groups, and guidance for Hajj under the government and private schemes.",
+          "points": [
+            "Umrah visa processing",
+            "Flights, hotels in Makkah and Madinah, and transport",
+            "Family and group packages",
+            "Hajj scheme guidance and documents"
+          ],
+          "tag": "MAKKAH · MADINAH",
+          "short": "Visa, flights and hotels"
+        },
+        {
+          "id": "visit-visa",
+          "code": "VIS",
+          "title": "Visit & Business Visa",
+          "text": "Tourism, family visits, meetings and trade fairs in the UK, Schengen countries, the USA, Australia, Dubai, Turkey and Malaysia.",
+          "points": [
+            "Travel plan and invitation guidance",
+            "Supporting documents checklist",
+            "Application form and appointment booking"
+          ],
+          "tag": "TOURISM · BUSINESS",
+          "short": "Tourism, family visits and meetings"
+        },
+        {
+          "id": "tours",
+          "code": "TUR",
+          "title": "Tours & Holidays",
+          "text": "Complete tour packages to any country: we plan the trip, book your hotels and flights, and arrange sightseeing for families, couples and groups.",
+          "points": [
+            "Tour packages for any country",
+            "Hotel bookings at every budget",
+            "Air tickets worldwide",
+            "Sightseeing, transfers and travel insurance"
+          ],
+          "tag": "ANY DESTINATION",
+          "short": "Tours, hotels and air tickets"
+        }
+      ],
+      "extra": [
+        [
+          "Family & spouse visas",
+          "Help for families joining a spouse, parent or relative studying or working abroad."
+        ],
+        [
+          "Visa refusal review",
+          "We study a refusal letter and plan a stronger re-application."
+        ],
+        [
+          "SOP & interview prep",
+          "Personal statements and mock visa interviews."
+        ],
+        [
+          "Document attestation",
+          "HEC, IBCC and MOFA attestation guidance."
+        ]
+      ]
     },
-    {
-     "id": "hajj-umrah",
-     "code": "UMR",
-     "title": "Hajj & Umrah",
-     "text": "Umrah for individuals, families and groups, and guidance for Hajj under the government and private schemes.",
-     "points": [
-      "Umrah visa processing",
-      "Flights, hotels in Makkah and Madinah, and transport",
-      "Family and group packages",
-      "Hajj scheme guidance and documents"
-     ],
-     "tag": "MAKKAH · MADINAH",
-     "short": "Visa, flights and hotels"
+    "countries": {
+      "eyebrow": "Study destinations",
+      "title": "{n} study destinations from Pakistan",
+      "lede": "Choose a country to see intakes, English tests, scholarships and the steps for Pakistani students. Requirements change every year, so we confirm the latest for your course.",
+      "all": "All",
+      "regions": {
+        "en": "English-speaking countries",
+        "eu": "Europe",
+        "as": "Asia & Middle East"
+      },
+      "intakes": "Intakes",
+      "scholarships": "Scholarships",
+      "view": "View guide"
     },
-    {
-     "id": "visit-visa",
-     "code": "VIS",
-     "title": "Visit & Business Visa",
-     "text": "Tourism, family visits, meetings and trade fairs in the UK, Schengen countries, the USA, Australia, Dubai, Turkey and Malaysia.",
-     "points": [
-      "Travel plan and invitation guidance",
-      "Supporting documents checklist",
-      "Application form and appointment booking"
-     ],
-     "tag": "TOURISM · BUSINESS",
-     "short": "Tourism, family visits and meetings"
+    "process": {
+      "eyebrow": "How it works",
+      "title": "Five steps from first visit to departure",
+      "steps": [
+        [
+          "Consultation",
+          "We review your education, budget and goals, in the office or on a video call."
+        ],
+        [
+          "Plan & shortlist",
+          "You get a shortlist of countries, universities and the visa route that fits."
+        ],
+        [
+          "Admission",
+          "We prepare and submit your applications and follow up until you receive offers."
+        ],
+        [
+          "Visa file",
+          "We check every document, prepare your forms and get you ready for the interview."
+        ],
+        [
+          "Pre-departure",
+          "Travel, accommodation and arrival guidance so you land prepared."
+        ]
+      ]
     },
-    {
-     "id": "tours",
-     "code": "TUR",
-     "title": "Tours & Holidays",
-     "text": "Complete tour packages to any country: we plan the trip, book your hotels and flights, and arrange sightseeing for families, couples and groups.",
-     "points": [
-      "Tour packages for any country",
-      "Hotel bookings at every budget",
-      "Air tickets worldwide",
-      "Sightseeing, transfers and travel insurance"
-     ],
-     "tag": "ANY DESTINATION",
-     "short": "Tours, hotels and air tickets"
+    "coaching": {
+      "eyebrow": "English test coaching",
+      "title": "Prepare for your English test with us",
+      "lede": "Most universities and visas need an approved English test. We coach you for the one your course and visa accept.",
+      "tests": [
+        [
+          "IELTS Academic",
+          "For university admission. Practice for all four modules with timed mock tests."
+        ],
+        [
+          "IELTS General",
+          "For work, family and migration routes that ask for General Training."
+        ],
+        [
+          "PTE Academic",
+          "Computer-based test with fast results. Strategy for each question type."
+        ],
+        [
+          "Oxford ELLT",
+          "Online English test accepted by many UK universities. We help you book and prepare."
+        ]
+      ],
+      "item": {
+        "id": "ielts-pte",
+        "code": "ENG",
+        "title": "IELTS & PTE Coaching",
+        "text": "Coaching for the English test your course and visa accept, with timed mock tests and feedback.",
+        "tag": "ENGLISH TESTS"
+      }
+    },
+    "promise": {
+      "eyebrow": "Our promise",
+      "title": "Honest advice protects your future applications",
+      "lede": "A refused visa stays on your record. A file with false documents can lead to a ban of up to ten years. That is why we work only with genuine documents and tell you plainly when a route is not right for you.",
+      "items": [
+        [
+          "Genuine documents only",
+          "Bank statements, letters and certificates must be your own and real. We explain exactly what is needed and how to prepare it."
+        ],
+        [
+          "No false guarantees",
+          "Visa decisions are made by embassies and immigration departments. We prepare the strongest file possible, tell you your real chances, and never sell so-called free visas."
+        ],
+        [
+          "Clear fees in writing",
+          "You know our service fee, the university fees and the visa fees before you start."
+        ],
+        [
+          "You stay informed",
+          "We share copies of everything we submit for you, and update you at each step."
+        ]
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        [
+          "Which country is best for me?",
+          "It depends on your grades, English test score, budget and the career you want. In the first consultation we compare two or three countries for your profile and explain the total cost of each."
+        ],
+        [
+          "Do I need IELTS to study abroad?",
+          "Most universities ask for an English test such as IELTS, PTE or Oxford ELLT. Some accept other evidence, such as previous study in English. We check what your chosen university and visa accept before you book a test."
+        ],
+        [
+          "What documents should I bring to the first meeting?",
+          "Bring your passport, educational certificates and transcripts, any English test result, and an idea of your budget. If you have a refusal from any country, bring that letter too."
+        ],
+        [
+          "Which work visas do you handle?",
+          "We process work visas for Saudi Arabia, the UAE and Qatar for workers with a genuine job offer. We check the offer and contract before you pay anything. Be careful of anyone selling a so-called free visa without a real employer; it can leave you stranded or unpaid."
+        ],
+        [
+          "Do you arrange Umrah and Hajj?",
+          "Yes. We arrange Umrah for individuals, families and groups, including visa, flights, hotels and transport. For Hajj, we guide you through the government and private schemes and the documents you need."
+        ],
+        [
+          "Can you arrange a holiday tour abroad?",
+          "Yes. We plan tours to any country, with hotel bookings, flights, transfers and sightseeing, for families, couples and groups. Tell us your dates and budget and we will send you a package."
+        ],
+        [
+          "Can you guarantee my visa?",
+          "No consultant can honestly guarantee a visa. The decision belongs to the embassy or immigration department. We make sure your application is complete, genuine and well prepared."
+        ],
+        [
+          "Can my family abroad contact you?",
+          "Yes. Families in the UK and elsewhere can reach us on WhatsApp or email. All advice and case work is handled by our team at the Faisalabad office."
+        ]
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Visit us or send your details",
+      "office": "Office",
+      "address": "Office 52, Mall of Lyallpur, Harrian Wala Chowk, D Ground, Block D, People's Colony No 1, Faisalabad 38000",
+      "maps": "Open in Google Maps",
+      "phone": "Phone & WhatsApp",
+      "uk": "UK contact line",
+      "uk_note": "For families in the UK. Advice is provided by our Faisalabad office.",
+      "email": "Email",
+      "hours_label": "Opening hours",
+      "hours": "Monday to Saturday, 9am–5pm",
+      "f_name": "Full name",
+      "f_phone": "Phone / WhatsApp",
+      "f_service": "Service",
+      "f_country": "Preferred country",
+      "f_level": "Study level",
+      "f_mode": "Preferred counselling",
+      "f_msg": "Your message",
+      "f_msg_ph": "Your last qualification, English test score and budget help us prepare.",
+      "f_note": "Your details are sent to our team on WhatsApp. We do not share them with anyone else.",
+      "f_submit": "Prepare WhatsApp message",
+      "f_ready": "Your message is ready.",
+      "f_ready_note": "Tap the button to open WhatsApp and press send.",
+      "f_open": "Open WhatsApp",
+      "f_required": "Please fill this in",
+      "services": [
+        "Student Visa",
+        "Scholarships",
+        "Gulf Work Visa",
+        "Hajj / Umrah",
+        "Visit / Business Visa",
+        "Tours & Holidays",
+        "Air tickets",
+        "Family Visa",
+        "IELTS / PTE coaching"
+      ],
+      "not_sure": "Not sure yet",
+      "other": "Other",
+      "levels": [
+        "Not applicable",
+        "Foundation / Diploma",
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ],
+      "modes": [
+        "Visit the office",
+        "Phone call",
+        "Video call",
+        "WhatsApp"
+      ],
+      "greeting": "Assalam o Alaikum M2M Global Consultants,"
+    },
+    "footer": {
+      "about": "Study abroad and visa consultants in Faisalabad, helping students and families plan their education and travel with genuine, well-prepared applications.",
+      "services": "Services",
+      "countries": "Popular countries",
+      "follow": "Follow us",
+      "rights": "M2M Global Consultants, Faisalabad. All rights reserved.",
+      "by": "Website by"
+    },
+    "country": {
+      "home": "Home",
+      "countries": "Countries",
+      "title": "Study in {name} from Pakistan",
+      "cta": "Talk to a counsellor about {name}",
+      "intakes": "Intakes",
+      "tests": "English tests",
+      "scholarships": "Scholarships",
+      "why": "Why study in {name}",
+      "steps": "Steps for Pakistani students",
+      "docs": "Documents you will usually need",
+      "docs_common": [
+        "Valid passport",
+        "Educational certificates and transcripts (attested by HEC/IBCC where needed)",
+        "English test result or waiver",
+        "Proof of funds in your or your sponsor's genuine account",
+        "Admission or offer letter"
+      ],
+      "note": "Good to know",
+      "reviewed": "Requirements change often. This guide was last reviewed in October 2026; we confirm the current rules before you apply.",
+      "more": "More countries in {region}",
+      "wa_text": "Assalam o Alaikum, I want to study in {name}. Please guide me.",
+      "back": "All countries"
+    },
+    "checker": {
+      "title": "Which country fits my profile?",
+      "eyebrow": "Destination checker",
+      "lede": "Answer six quick questions about your studies, English and budget. You will see the countries that usually fit a profile like yours, with the reasons.",
+      "band_title": "Not sure which country is right for you?",
+      "band_text": "Answer six questions and see the countries that usually fit your marks, English score and budget.",
+      "band_cta": "Check in one minute",
+      "level": "What do you want to study?",
+      "levels": [
+        [
+          "bachelor",
+          "Bachelor's degree"
+        ],
+        [
+          "master",
+          "Master's degree"
+        ],
+        [
+          "phd",
+          "PhD / research"
+        ],
+        [
+          "mbbs",
+          "MBBS / medicine"
+        ]
+      ],
+      "marks": "Marks in your last qualification (%)",
+      "marks_hint": "For CGPA, use the percentage shown on your transcript or your university's conversion.",
+      "english": "English test score (IELTS band or equivalent)",
+      "eng_opts": [
+        [
+          "0",
+          "Not taken yet"
+        ],
+        [
+          "5",
+          "5.0"
+        ],
+        [
+          "5.5",
+          "5.5"
+        ],
+        [
+          "6",
+          "6.0"
+        ],
+        [
+          "6.5",
+          "6.5"
+        ],
+        [
+          "7",
+          "7.0 or higher"
+        ]
+      ],
+      "emi": "My previous education was in English medium",
+      "budget": "Yearly budget for fees and living",
+      "budgets": [
+        [
+          "1",
+          "Under 30 lakh PKR"
+        ],
+        [
+          "2",
+          "30 to 60 lakh PKR"
+        ],
+        [
+          "3",
+          "60 lakh to 1 crore PKR"
+        ],
+        [
+          "4",
+          "Over 1 crore PKR"
+        ]
+      ],
+      "gap": "Years since your last qualification",
+      "gaps": [
+        [
+          "0",
+          "Less than 1 year"
+        ],
+        [
+          "1",
+          "1 year"
+        ],
+        [
+          "2",
+          "2 years"
+        ],
+        [
+          "3",
+          "3 years"
+        ],
+        [
+          "4",
+          "4 years"
+        ],
+        [
+          "5",
+          "5 years"
+        ],
+        [
+          "7",
+          "6 years or more"
+        ]
+      ],
+      "submit": "Show my options",
+      "results": "Countries that fit your profile",
+      "none": "No country is a clear match for this profile. Talk to a counsellor; there may still be a route, such as a foundation year or a different course level.",
+      "labels": {
+        "strong": "Strong match",
+        "good": "Good match",
+        "possible": "Possible with conditions"
+      },
+      "reasons": {
+        "budget_ok": "Fits your budget",
+        "budget_sch": "A little above your budget; possible with a scholarship or fee discount",
+        "eng_ok": "Your English score meets the usual requirement ({req})",
+        "eng_low": "The usual requirement is {req}; you may need a higher score or a pathway course",
+        "eng_none_ok": "Some universities accept English-medium education instead of a test",
+        "eng_none": "You will need an English test (usually {req} or higher)",
+        "eng_free": "Usually no IELTS needed; universities run their own entry process",
+        "marks_sch": "Your marks give you a good chance at scholarships here",
+        "marks_low": "Admissions here are competitive for your marks",
+        "gap_warn": "Your study gap needs a clear explanation for this country",
+        "phd": "Good options for research degrees",
+        "mbbs": "Popular for MBBS; always check PMDC recognition",
+        "canada": "M2M helps with admission; the study permit is filed through a licensed RCIC consultant"
+      },
+      "view": "Read the {name} guide",
+      "wa": "Discuss my results on WhatsApp",
+      "wa_intro": "Assalam o Alaikum, I used the destination checker on your website.",
+      "summary_labels": {
+        "level": "Level",
+        "marks": "Marks",
+        "english": "English",
+        "budget": "Budget",
+        "gap": "Gap",
+        "results": "Suggested"
+      },
+      "disclaimer": "This is general guidance based on typical requirements, not a visa or admission decision. Rules, fees and exchange rates change, and every university sets its own criteria. A counsellor will check your full profile.",
+      "how_title": "How the checker works",
+      "how": [
+        "It compares your answers with typical admission requirements, costs and scholarship options for each country.",
+        "Countries above your budget appear only when a scholarship could close the gap.",
+        "It never predicts visa approval. That decision belongs to the embassy."
+      ],
+      "marks_invalid": "Enter your marks as a percentage between 30 and 100"
+    },
+    "land": {
+      "services_title": "What we do",
+      "services_lede": "Choose a service to see the details and how we help.",
+      "more": "Learn more",
+      "also": "Also: IELTS & PTE coaching, family and spouse visas, visa refusal review, SOP help and HEC/IBCC/MOFA attestation.",
+      "countries_title": "Study in 34 countries",
+      "countries_lede": "Pick a country to read its guide: intakes, English tests, scholarships and steps for Pakistani students.",
+      "all_countries": "See all 34 countries",
+      "find": "Find my country",
+      "steps_title": "How it works",
+      "steps": [
+        [
+          "Free consultation",
+          "We review your documents, budget and goals."
+        ],
+        [
+          "Clear plan",
+          "You get the right country, course or package for you."
+        ],
+        [
+          "Application",
+          "We prepare and submit everything with you."
+        ],
+        [
+          "Travel",
+          "Visa, tickets and pre-departure briefing."
+        ]
+      ],
+      "why_title": "Why families trust M2M",
+      "why": [
+        [
+          "Walk-in office",
+          "Talk to a real counsellor in person"
+        ],
+        [
+          "Genuine documents only",
+          "No fake papers and no so-called free visas"
+        ],
+        [
+          "Clear fees in writing",
+          "You know every cost before you start"
+        ],
+        [
+          "Walk-in office",
+          "Mall of Lyallpur, Faisalabad, Mon–Sat"
+        ]
+      ],
+      "reviews_link": "Find us on Google Maps",
+      "contact_title": "Talk to us today",
+      "contact_lede": "Call, WhatsApp or visit our office in Faisalabad. Or send your details and a counsellor will contact you.",
+      "send": "Send your details",
+      "lede_short": "Study visas for 34 countries, Gulf work visas, Hajj & Umrah, and tours with hotels and air tickets, from our office in Faisalabad.",
+      "trust": [
+        [
+          "34",
+          "study countries"
+        ],
+        [
+          "Faisalabad",
+          "Walk-in office"
+        ],
+        [
+          "Genuine",
+          "documents only"
+        ],
+        [
+          "Mon–Sat",
+          "Mall of Lyallpur office"
+        ]
+      ],
+      "reviews_title": "Our promise to you",
+      "reviews_text": "Honest advice, genuine documents and fees written down before you pay.",
+      "countries_line": "Study in 34 countries: see every country guide"
+    },
+    "service": {
+      "home": "Home",
+      "services": "Services",
+      "what": "What we do for you",
+      "how": "How it works",
+      "faq": "Questions",
+      "other": "Other services",
+      "cta": "Ask about {name} on WhatsApp",
+      "wa_text": "Assalam o Alaikum, I would like to know more about {name}."
+    },
+    "pages": {
+      "countries_title": "Study destinations",
+      "contact_title": "Contact & FAQ",
+      "countries_crumb": "Countries",
+      "contact_crumb": "Contact"
     }
-   ],
-   "extra": [
-    [
-     "Family & spouse visas",
-     "Help for families joining a spouse, parent or relative studying or working abroad."
-    ],
-    [
-     "Visa refusal review",
-     "We study a refusal letter and plan a stronger re-application."
-    ],
-    [
-     "SOP & interview prep",
-     "Personal statements and mock visa interviews."
-    ],
-    [
-     "Document attestation",
-     "HEC, IBCC and MOFA attestation guidance."
-    ]
-   ]
   },
-  "countries": {
-   "eyebrow": "Study destinations",
-   "title": "{n} study destinations from Pakistan",
-   "lede": "Choose a country to see intakes, English tests, scholarships and the steps for Pakistani students. Requirements change every year, so we confirm the latest for your course.",
-   "all": "All",
-   "regions": {
-    "en": "English-speaking countries",
-    "eu": "Europe",
-    "as": "Asia & Middle East"
-   },
-   "intakes": "Intakes",
-   "scholarships": "Scholarships",
-   "view": "View guide"
-  },
-  "process": {
-   "eyebrow": "How it works",
-   "title": "Five steps from first visit to departure",
-   "steps": [
-    [
-     "Consultation",
-     "We review your education, budget and goals, in the office or on a video call."
-    ],
-    [
-     "Plan & shortlist",
-     "You get a shortlist of countries, universities and the visa route that fits."
-    ],
-    [
-     "Admission",
-     "We prepare and submit your applications and follow up until you receive offers."
-    ],
-    [
-     "Visa file",
-     "We check every document, prepare your forms and get you ready for the interview."
-    ],
-    [
-     "Pre-departure",
-     "Travel, accommodation and arrival guidance so you land prepared."
-    ]
-   ]
-  },
-  "coaching": {
-   "eyebrow": "English test coaching",
-   "title": "Prepare for your English test with us",
-   "lede": "Most universities and visas need an approved English test. We coach you for the one your course and visa accept.",
-   "tests": [
-    [
-     "IELTS Academic",
-     "For university admission. Practice for all four modules with timed mock tests."
-    ],
-    [
-     "IELTS General",
-     "For work, family and migration routes that ask for General Training."
-    ],
-    [
-     "PTE Academic",
-     "Computer-based test with fast results. Strategy for each question type."
-    ],
-    [
-     "Oxford ELLT",
-     "Online English test accepted by many UK universities. We help you book and prepare."
-    ]
-   ],
-   "item": {
-    "id": "ielts-pte",
-    "code": "ENG",
-    "title": "IELTS & PTE Coaching",
-    "text": "Coaching for the English test your course and visa accept, with timed mock tests and feedback.",
-    "tag": "ENGLISH TESTS"
-   }
-  },
-  "promise": {
-   "eyebrow": "Our promise",
-   "title": "Honest advice protects your future applications",
-   "lede": "A refused visa stays on your record. A file with false documents can lead to a ban of up to ten years. That is why we work only with genuine documents and tell you plainly when a route is not right for you.",
-   "items": [
-    [
-     "Genuine documents only",
-     "Bank statements, letters and certificates must be your own and real. We explain exactly what is needed and how to prepare it."
-    ],
-    [
-     "No false guarantees",
-     "Visa decisions are made by embassies and immigration departments. We prepare the strongest file possible, tell you your real chances, and never sell so-called free visas."
-    ],
-    [
-     "Clear fees in writing",
-     "You know our service fee, the university fees and the visa fees before you start."
-    ],
-    [
-     "You stay informed",
-     "We share copies of everything we submit for you, and update you at each step."
-    ]
-   ]
-  },
-  "faq": {
-   "eyebrow": "Questions",
-   "title": "Frequently asked questions",
-   "items": [
-    [
-     "Which country is best for me?",
-     "It depends on your grades, English test score, budget and the career you want. In the first consultation we compare two or three countries for your profile and explain the total cost of each."
-    ],
-    [
-     "Do I need IELTS to study abroad?",
-     "Most universities ask for an English test such as IELTS, PTE or Oxford ELLT. Some accept other evidence, such as previous study in English. We check what your chosen university and visa accept before you book a test."
-    ],
-    [
-     "What documents should I bring to the first meeting?",
-     "Bring your passport, educational certificates and transcripts, any English test result, and an idea of your budget. If you have a refusal from any country, bring that letter too."
-    ],
-    [
-     "Which work visas do you handle?",
-     "We process work visas for Saudi Arabia, the UAE and Qatar for workers with a genuine job offer. We check the offer and contract before you pay anything. Be careful of anyone selling a so-called free visa without a real employer; it can leave you stranded or unpaid."
-    ],
-    [
-     "Do you arrange Umrah and Hajj?",
-     "Yes. We arrange Umrah for individuals, families and groups, including visa, flights, hotels and transport. For Hajj, we guide you through the government and private schemes and the documents you need."
-    ],
-    [
-     "Can you arrange a holiday tour abroad?",
-     "Yes. We plan tours to any country, with hotel bookings, flights, transfers and sightseeing, for families, couples and groups. Tell us your dates and budget and we will send you a package."
-    ],
-    [
-     "Can you guarantee my visa?",
-     "No consultant can honestly guarantee a visa. The decision belongs to the embassy or immigration department. We make sure your application is complete, genuine and well prepared."
-    ],
-    [
-     "Can my family abroad contact you?",
-     "Yes. Families in the UK and elsewhere can reach us on WhatsApp or email. All advice and case work is handled by our team at the Faisalabad office."
-    ]
-   ]
-  },
-  "contact": {
-   "eyebrow": "Contact",
-   "title": "Visit us or send your details",
-   "office": "Office",
-   "address": "Office 52, Mall of Lyallpur, Harrian Wala Chowk, D Ground, Block D, People's Colony No 1, Faisalabad 38000",
-   "maps": "Open in Google Maps",
-   "phone": "Phone & WhatsApp",
-   "uk": "UK contact line",
-   "uk_note": "For families in the UK. Advice is provided by our Faisalabad office.",
-   "email": "Email",
-   "hours_label": "Opening hours",
-   "hours": "Monday to Saturday, 9am–5pm",
-   "f_name": "Full name",
-   "f_phone": "Phone / WhatsApp",
-   "f_service": "Service",
-   "f_country": "Preferred country",
-   "f_level": "Study level",
-   "f_mode": "Preferred counselling",
-   "f_msg": "Your message",
-   "f_msg_ph": "Your last qualification, English test score and budget help us prepare.",
-   "f_note": "Your details are sent to our team on WhatsApp. We do not share them with anyone else.",
-   "f_submit": "Prepare WhatsApp message",
-   "f_ready": "Your message is ready.",
-   "f_ready_note": "Tap the button to open WhatsApp and press send.",
-   "f_open": "Open WhatsApp",
-   "f_required": "Please fill this in",
-   "services": [
-    "Student Visa",
-    "Scholarships",
-    "Gulf Work Visa",
-    "Hajj / Umrah",
-    "Visit / Business Visa",
-    "Tours & Holidays",
-    "Air tickets",
-    "Family Visa",
-    "IELTS / PTE coaching"
-   ],
-   "not_sure": "Not sure yet",
-   "other": "Other",
-   "levels": [
-    "Not applicable",
-    "Foundation / Diploma",
-    "Bachelor's",
-    "Master's",
-    "PhD"
-   ],
-   "modes": [
-    "Visit the office",
-    "Phone call",
-    "Video call",
-    "WhatsApp"
-   ],
-   "greeting": "Assalam o Alaikum M2M Global Consultants,"
-  },
-  "footer": {
-   "about": "Study abroad and visa consultants in Faisalabad, helping students and families plan their education and travel with genuine, well-prepared applications.",
-   "services": "Services",
-   "countries": "Popular countries",
-   "follow": "Follow us",
-   "rights": "M2M Global Consultants, Faisalabad. All rights reserved.",
-   "by": "Website by"
-  },
-  "country": {
-   "home": "Home",
-   "countries": "Countries",
-   "title": "Study in {name} from Pakistan",
-   "cta": "Talk to a counsellor about {name}",
-   "intakes": "Intakes",
-   "tests": "English tests",
-   "scholarships": "Scholarships",
-   "why": "Why study in {name}",
-   "steps": "Steps for Pakistani students",
-   "docs": "Documents you will usually need",
-   "docs_common": [
-    "Valid passport",
-    "Educational certificates and transcripts (attested by HEC/IBCC where needed)",
-    "English test result or waiver",
-    "Proof of funds in your or your sponsor's genuine account",
-    "Admission or offer letter"
-   ],
-   "note": "Good to know",
-   "reviewed": "Requirements change often. This guide was last reviewed in October 2026; we confirm the current rules before you apply.",
-   "more": "More countries in {region}",
-   "wa_text": "Assalam o Alaikum, I want to study in {name}. Please guide me.",
-   "back": "All countries"
-  },
-  "checker": {
-   "title": "Which country fits my profile?",
-   "eyebrow": "Destination checker",
-   "lede": "Answer six quick questions about your studies, English and budget. You will see the countries that usually fit a profile like yours, with the reasons.",
-   "band_title": "Not sure which country is right for you?",
-   "band_text": "Answer six questions and see the countries that usually fit your marks, English score and budget.",
-   "band_cta": "Check in one minute",
-   "level": "What do you want to study?",
-   "levels": [
-    [
-     "bachelor",
-     "Bachelor's degree"
-    ],
-    [
-     "master",
-     "Master's degree"
-    ],
-    [
-     "phd",
-     "PhD / research"
-    ],
-    [
-     "mbbs",
-     "MBBS / medicine"
-    ]
-   ],
-   "marks": "Marks in your last qualification (%)",
-   "marks_hint": "For CGPA, use the percentage shown on your transcript or your university's conversion.",
-   "english": "English test score (IELTS band or equivalent)",
-   "eng_opts": [
-    [
-     "0",
-     "Not taken yet"
-    ],
-    [
-     "5",
-     "5.0"
-    ],
-    [
-     "5.5",
-     "5.5"
-    ],
-    [
-     "6",
-     "6.0"
-    ],
-    [
-     "6.5",
-     "6.5"
-    ],
-    [
-     "7",
-     "7.0 or higher"
-    ]
-   ],
-   "emi": "My previous education was in English medium",
-   "budget": "Yearly budget for fees and living",
-   "budgets": [
-    [
-     "1",
-     "Under 30 lakh PKR"
-    ],
-    [
-     "2",
-     "30 to 60 lakh PKR"
-    ],
-    [
-     "3",
-     "60 lakh to 1 crore PKR"
-    ],
-    [
-     "4",
-     "Over 1 crore PKR"
-    ]
-   ],
-   "gap": "Years since your last qualification",
-   "gaps": [
-    [
-     "0",
-     "Less than 1 year"
-    ],
-    [
-     "1",
-     "1 year"
-    ],
-    [
-     "2",
-     "2 years"
-    ],
-    [
-     "3",
-     "3 years"
-    ],
-    [
-     "4",
-     "4 years"
-    ],
-    [
-     "5",
-     "5 years"
-    ],
-    [
-     "7",
-     "6 years or more"
-    ]
-   ],
-   "submit": "Show my options",
-   "results": "Countries that fit your profile",
-   "none": "No country is a clear match for this profile. Talk to a counsellor; there may still be a route, such as a foundation year or a different course level.",
-   "labels": {
-    "strong": "Strong match",
-    "good": "Good match",
-    "possible": "Possible with conditions"
-   },
-   "reasons": {
-    "budget_ok": "Fits your budget",
-    "budget_sch": "A little above your budget; possible with a scholarship or fee discount",
-    "eng_ok": "Your English score meets the usual requirement ({req})",
-    "eng_low": "The usual requirement is {req}; you may need a higher score or a pathway course",
-    "eng_none_ok": "Some universities accept English-medium education instead of a test",
-    "eng_none": "You will need an English test (usually {req} or higher)",
-    "eng_free": "Usually no IELTS needed; universities run their own entry process",
-    "marks_sch": "Your marks give you a good chance at scholarships here",
-    "marks_low": "Admissions here are competitive for your marks",
-    "gap_warn": "Your study gap needs a clear explanation for this country",
-    "phd": "Good options for research degrees",
-    "mbbs": "Popular for MBBS; always check PMDC recognition",
-    "canada": "M2M helps with admission; the study permit is filed through a licensed RCIC consultant"
-   },
-   "view": "Read the {name} guide",
-   "wa": "Discuss my results on WhatsApp",
-   "wa_intro": "Assalam o Alaikum, I used the destination checker on your website.",
-   "summary_labels": {
-    "level": "Level",
-    "marks": "Marks",
-    "english": "English",
-    "budget": "Budget",
-    "gap": "Gap",
-    "results": "Suggested"
-   },
-   "disclaimer": "This is general guidance based on typical requirements, not a visa or admission decision. Rules, fees and exchange rates change, and every university sets its own criteria. A counsellor will check your full profile.",
-   "how_title": "How the checker works",
-   "how": [
-    "It compares your answers with typical admission requirements, costs and scholarship options for each country.",
-    "Countries above your budget appear only when a scholarship could close the gap.",
-    "It never predicts visa approval. That decision belongs to the embassy."
-   ],
-   "marks_invalid": "Enter your marks as a percentage between 30 and 100"
-  },
-  "land": {
-   "services_title": "What we do",
-   "services_lede": "Choose a service to see the details and how we help.",
-   "more": "Learn more",
-   "also": "Also: IELTS & PTE coaching, family and spouse visas, visa refusal review, SOP help and HEC/IBCC/MOFA attestation.",
-   "countries_title": "Study in 34 countries",
-   "countries_lede": "Pick a country to read its guide: intakes, English tests, scholarships and steps for Pakistani students.",
-   "all_countries": "See all 34 countries",
-   "find": "Find my country",
-   "steps_title": "How it works",
-   "steps": [
-    [
-     "Free consultation",
-     "We review your documents, budget and goals."
-    ],
-    [
-     "Clear plan",
-     "You get the right country, course or package for you."
-    ],
-    [
-     "Application",
-     "We prepare and submit everything with you."
-    ],
-    [
-     "Travel",
-     "Visa, tickets and pre-departure briefing."
-    ]
-   ],
-   "why_title": "Why families trust M2M",
-   "why": [
-    [
-     "★ 5.0 on Google",
-     "29 reviews from our clients"
-    ],
-    [
-     "Genuine documents only",
-     "No fake papers and no so-called free visas"
-    ],
-    [
-     "Clear fees in writing",
-     "You know every cost before you start"
-    ],
-    [
-     "Walk-in office",
-     "Mall of Lyallpur, Faisalabad, Mon–Sat"
-    ]
-   ],
-   "reviews_link": "Read our Google reviews",
-   "contact_title": "Talk to us today",
-   "contact_lede": "Call, WhatsApp or visit our office in Faisalabad. Or send your details and a counsellor will contact you.",
-   "send": "Send your details",
-   "lede_short": "Study visas for 34 countries, Gulf work visas, Hajj & Umrah, and tours with hotels and air tickets, from our office in Faisalabad.",
-   "trust": [
-    [
-     "34",
-     "study countries"
-    ],
-    [
-     "★ 5.0",
-     "29 Google reviews"
-    ],
-    [
-     "Genuine",
-     "documents only"
-    ],
-    [
-     "Mon–Sat",
-     "Mall of Lyallpur office"
-    ]
-   ],
-   "reviews_title": "What our clients say",
-   "reviews_text": "Rated 5.0 out of 5 by 29 clients on Google.",
-   "countries_line": "Study in 34 countries: see every country guide"
-  },
-  "service": {
-   "home": "Home",
-   "services": "Services",
-   "what": "What we do for you",
-   "how": "How it works",
-   "faq": "Questions",
-   "other": "Other services",
-   "cta": "Ask about {name} on WhatsApp",
-   "wa_text": "Assalam o Alaikum, I would like to know more about {name}."
-  },
-  "pages": {
-   "countries_title": "Study destinations",
-   "contact_title": "Contact & FAQ",
-   "countries_crumb": "Countries",
-   "contact_crumb": "Contact"
-  }
- },
- "ur": {
-  "lang": "ur",
-  "dir": "rtl",
-  "switch_label": "English",
-  "switch_name": "English",
-  "site_desc": "ایم ٹو ایم گلوبل کنسلٹنٹس، فیصل آباد: 34 ممالک کے اسٹڈی ویزے، خلیجی ورک ویزے (سعودی عرب، یو اے ای، قطر)، حج و عمرہ، ٹور اور ہالیڈے پیکجز، ہوٹل بکنگ، ہوائی ٹکٹ اور IELTS/PTE کوچنگ۔",
-  "nav": {
-   "services": "خدمات",
-   "countries": "ممالک",
-   "coaching": "IELTS اور PTE",
-   "process": "طریقہ کار",
-   "faq": "سوالات",
-   "contact": "رابطہ",
-   "checker": "اپنا ملک تلاش کریں"
-  },
-  "menu": "مینو",
-  "whatsapp": "واٹس ایپ کریں",
-  "hours": "پیر تا ہفتہ، صبح 9 سے شام 5",
-  "hero": {
-   "eyebrow": "بیرونِ ملک تعلیم، ویزا اور سفری کنسلٹنٹس · فیصل آباد",
-   "title_a": "آپ کی اسٹڈی اور ویزا فائل، پہلے دن سے",
-   "title_em": "درست",
-   "title_b": "تیار۔",
-   "lede": "ایم ٹو ایم گلوبل کنسلٹنٹس طلبہ، ورکرز اور خاندانوں کی 34 ممالک کے اسٹڈی ویزوں، سعودی عرب، یو اے ای اور قطر کے ورک ویزوں، حج و عمرہ، اور کسی بھی ملک کے ٹور، ہوٹل اور ہوائی ٹکٹوں میں مدد کرتا ہے۔ ہم آپ کے ساتھ قدم بہ قدم مکمل اور سچی درخواست تیار کرتے ہیں۔",
-   "cta1": "مشاورت بک کریں",
-   "cta2": "34 ممالک دیکھیں",
-   "fact1": "گوگل پر (29 ریویوز)",
-   "fact2": "آفس 52، مال آف لائلپور",
-   "board_title": "روانگی · فیصل آباد",
-   "board_cols": [
-    "منزل",
-    "شہر",
-    "روٹ",
-    "اسٹیٹس"
-   ],
-   "board_foot": "انٹیک اور شرائط ہر سال بدلتی ہیں۔ اپنے ملک اور کورس کی تازہ تاریخیں ہم سے پوچھیں۔",
-   "open": "کھلا",
-   "study_only": "صرف اسٹڈی"
-  },
-  "trust": [
-   [
-    "★ 5.0 گوگل",
-    "گوگل میپس پر 29 ریویوز"
-   ],
-   [
-    "دفتر میں آئیں",
-    "مال آف لائلپور، ہڑیانوالہ چوک"
-   ],
-   [
-    "FBR رجسٹرڈ",
-    "پاکستان میں رجسٹرڈ کاروبار"
-   ],
-   [
-    "پیر تا ہفتہ",
-    "صبح 9 سے شام 5، پاکستانی وقت"
-   ]
-  ],
-  "services": {
-   "eyebrow": "ہم کیا کرتے ہیں",
-   "title": "تعلیم، روزگار اور سفر کی خدمات",
-   "lede": "ہر کیس آپ کی دستاویزات اور بجٹ کے انفرادی جائزے سے شروع ہوتا ہے۔ کوئی بھی فیس دینے سے پہلے آپ کو واضح منصوبہ ملتا ہے۔",
-   "ask": "اس بارے میں پوچھیں",
-   "label": "سروس",
-   "items": [
-    {
-     "id": "student-visa",
-     "code": "STU",
-     "title": "اسٹوڈنٹ ویزا",
-     "text": "کورس کے انتخاب سے ویزا فیصلے تک، یورپ، ایشیا، آسٹریلیا اور شمالی امریکہ کے 34 ممالک کے لیے۔",
-     "points": [
-      "ملک، یونیورسٹی اور کورس کی شارٹ لسٹ",
-      "داخلے کی درخواست اور آفر کی پیروی",
-      "مالی اور دستاویزات کی چیک لسٹ",
-      "ویزا فائل کا جائزہ اور انٹرویو کی تیاری"
-     ],
-     "tag": "34 ممالک",
-     "short": "34 ممالک کے لیے داخلہ اور ویزا"
+  "ur": {
+    "lang": "ur",
+    "dir": "rtl",
+    "switch_label": "English",
+    "switch_name": "English",
+    "site_desc": "ایم ٹو ایم گلوبل کنسلٹنٹس، فیصل آباد: 34 ممالک کے اسٹڈی ویزے، خلیجی ورک ویزے (سعودی عرب، یو اے ای، قطر)، حج و عمرہ، ٹور اور ہالیڈے پیکجز، ہوٹل بکنگ، ہوائی ٹکٹ اور IELTS/PTE کوچنگ۔",
+    "nav": {
+      "services": "خدمات",
+      "countries": "ممالک",
+      "coaching": "IELTS اور PTE",
+      "process": "طریقہ کار",
+      "faq": "سوالات",
+      "contact": "رابطہ",
+      "checker": "اپنا ملک تلاش کریں"
     },
-    {
-     "id": "scholarships",
-     "code": "SCH",
-     "title": "اسکالرشپس",
-     "text": "ہم آپ کے نمبروں اور کورس کے مطابق اسکالرشپس اور فیس رعایت تلاش کرتے ہیں اور وقت پر اپلائی میں مدد دیتے ہیں۔",
-     "points": [
-      "سرکاری اور یونیورسٹی اسکالرشپس",
-      "پرسنل اسٹیٹمنٹ کی رہنمائی",
-      "آخری تاریخوں کی نگرانی"
-     ],
-     "tag": "فنڈنگ",
-     "short": "آپ کے نمبروں کے مطابق فنڈنگ"
+    "menu": "مینو",
+    "whatsapp": "واٹس ایپ کریں",
+    "hours": "پیر تا ہفتہ، صبح 9 سے شام 5",
+    "hero": {
+      "eyebrow": "بیرونِ ملک تعلیم، ویزا اور سفری کنسلٹنٹس · فیصل آباد",
+      "title_a": "آپ کی اسٹڈی اور ویزا فائل، پہلے دن سے",
+      "title_em": "درست",
+      "title_b": "تیار۔",
+      "lede": "ایم ٹو ایم گلوبل کنسلٹنٹس طلبہ، ورکرز اور خاندانوں کی 34 ممالک کے اسٹڈی ویزوں، سعودی عرب، یو اے ای اور قطر کے ورک ویزوں، حج و عمرہ، اور کسی بھی ملک کے ٹور، ہوٹل اور ہوائی ٹکٹوں میں مدد کرتا ہے۔ ہم آپ کے ساتھ قدم بہ قدم مکمل اور سچی درخواست تیار کرتے ہیں۔",
+      "cta1": "مشاورت بک کریں",
+      "cta2": "34 ممالک دیکھیں",
+      "fact1": "پڑھائی، کام، حج، عمرہ اور ٹورز",
+      "fact2": "آفس 52، مال آف لائلپور",
+      "board_title": "روانگی · فیصل آباد",
+      "board_cols": [
+        "منزل",
+        "شہر",
+        "روٹ",
+        "اسٹیٹس"
+      ],
+      "board_foot": "انٹیک اور شرائط ہر سال بدلتی ہیں۔ اپنے ملک اور کورس کی تازہ تاریخیں ہم سے پوچھیں۔",
+      "open": "کھلا",
+      "study_only": "صرف اسٹڈی"
     },
-    {
-     "id": "gulf-work-visa",
-     "code": "GCC",
-     "title": "خلیجی ورک ویزے",
-     "text": "سعودی عرب، یو اے ای (دبئی) اور قطر کے ورک ویزے، ان ورکرز کے لیے جن کے پاس اصل نوکری کی آفر ہو۔",
-     "points": [
-      "کوئی رقم دینے سے پہلے نوکری کی آفر اور معاہدے کی جانچ",
-      "ویزا اور آجر کی دستاویزات کی پروسیسنگ",
-      "GAMCA میڈیکل اور پروٹیکٹر اسٹیمپ کی رہنمائی",
-      "روانگی سے پہلے آپ کے حقوق اور معاہدے پر بریفنگ"
-     ],
-     "tag": "سعودیہ · یو اے ای · قطر",
-     "short": "سعودی عرب، یو اے ای اور قطر"
+    "trust": [
+      [
+        "34",
+        "تعلیمی ممالک"
+      ],
+      [
+        "فیصل آباد",
+        "واک ان آفس، ہفتہ تا جمعہ"
+      ],
+      [
+        "اصل",
+        "دستاویزات"
+      ],
+      [
+        "لکھی ہوئی",
+        "فیس پہلے"
+      ]
+    ],
+    "services": {
+      "eyebrow": "ہم کیا کرتے ہیں",
+      "title": "تعلیم، روزگار اور سفر کی خدمات",
+      "lede": "ہر کیس آپ کی دستاویزات اور بجٹ کے انفرادی جائزے سے شروع ہوتا ہے۔ کوئی بھی فیس دینے سے پہلے آپ کو واضح منصوبہ ملتا ہے۔",
+      "ask": "اس بارے میں پوچھیں",
+      "label": "سروس",
+      "items": [
+        {
+          "id": "student-visa",
+          "code": "STU",
+          "title": "اسٹوڈنٹ ویزا",
+          "text": "کورس کے انتخاب سے ویزا فیصلے تک، یورپ، ایشیا، آسٹریلیا اور شمالی امریکہ کے 34 ممالک کے لیے۔",
+          "points": [
+            "ملک، یونیورسٹی اور کورس کی شارٹ لسٹ",
+            "داخلے کی درخواست اور آفر کی پیروی",
+            "مالی اور دستاویزات کی چیک لسٹ",
+            "ویزا فائل کا جائزہ اور انٹرویو کی تیاری"
+          ],
+          "tag": "34 ممالک",
+          "short": "34 ممالک کے لیے داخلہ اور ویزا"
+        },
+        {
+          "id": "scholarships",
+          "code": "SCH",
+          "title": "اسکالرشپس",
+          "text": "ہم آپ کے نمبروں اور کورس کے مطابق اسکالرشپس اور فیس رعایت تلاش کرتے ہیں اور وقت پر اپلائی میں مدد دیتے ہیں۔",
+          "points": [
+            "سرکاری اور یونیورسٹی اسکالرشپس",
+            "پرسنل اسٹیٹمنٹ کی رہنمائی",
+            "آخری تاریخوں کی نگرانی"
+          ],
+          "tag": "فنڈنگ",
+          "short": "آپ کے نمبروں کے مطابق فنڈنگ"
+        },
+        {
+          "id": "gulf-work-visa",
+          "code": "GCC",
+          "title": "خلیجی ورک ویزے",
+          "text": "سعودی عرب، یو اے ای (دبئی) اور قطر کے ورک ویزے، ان ورکرز کے لیے جن کے پاس اصل نوکری کی آفر ہو۔",
+          "points": [
+            "کوئی رقم دینے سے پہلے نوکری کی آفر اور معاہدے کی جانچ",
+            "ویزا اور آجر کی دستاویزات کی پروسیسنگ",
+            "GAMCA میڈیکل اور پروٹیکٹر اسٹیمپ کی رہنمائی",
+            "روانگی سے پہلے آپ کے حقوق اور معاہدے پر بریفنگ"
+          ],
+          "tag": "سعودیہ · یو اے ای · قطر",
+          "short": "سعودی عرب، یو اے ای اور قطر"
+        },
+        {
+          "id": "hajj-umrah",
+          "code": "UMR",
+          "title": "حج و عمرہ",
+          "text": "افراد، خاندانوں اور گروپس کے لیے عمرہ، اور سرکاری و پرائیویٹ اسکیم کے تحت حج کی رہنمائی۔",
+          "points": [
+            "عمرہ ویزا پروسیسنگ",
+            "پروازیں، مکہ اور مدینہ میں ہوٹل، اور ٹرانسپورٹ",
+            "فیملی اور گروپ پیکجز",
+            "حج اسکیم کی رہنمائی اور دستاویزات"
+          ],
+          "tag": "مکہ · مدینہ",
+          "short": "ویزا، پروازیں اور ہوٹل"
+        },
+        {
+          "id": "visit-visa",
+          "code": "VIS",
+          "title": "وزٹ اور بزنس ویزا",
+          "text": "برطانیہ، شینگن ممالک، امریکہ، آسٹریلیا، دبئی، ترکی اور ملائیشیا کے لیے سیاحت، فیملی وزٹ، میٹنگز اور تجارتی نمائشیں۔",
+          "points": [
+            "سفری منصوبہ اور دعوت نامے کی رہنمائی",
+            "معاون دستاویزات کی چیک لسٹ",
+            "درخواست فارم اور اپائنٹمنٹ بکنگ"
+          ],
+          "tag": "سیاحت · کاروبار",
+          "short": "سیاحت، فیملی وزٹ اور میٹنگز"
+        },
+        {
+          "id": "tours",
+          "code": "TUR",
+          "title": "ٹورز اور تعطیلات",
+          "text": "کسی بھی ملک کے مکمل ٹور پیکجز: ہم سفر کی منصوبہ بندی کرتے ہیں، ہوٹل اور پروازیں بک کرتے ہیں، اور خاندانوں، جوڑوں اور گروپس کے لیے سیر کا انتظام کرتے ہیں۔",
+          "points": [
+            "کسی بھی ملک کے ٹور پیکجز",
+            "ہر بجٹ میں ہوٹل بکنگ",
+            "دنیا بھر کے ہوائی ٹکٹ",
+            "سیر، ٹرانسفر اور ٹریول انشورنس"
+          ],
+          "tag": "ہر منزل",
+          "short": "ٹور، ہوٹل اور ہوائی ٹکٹ"
+        }
+      ],
+      "extra": [
+        [
+          "فیملی اور اسپاؤس ویزے",
+          "بیرونِ ملک پڑھنے یا کام کرنے والے رشتہ دار کے پاس جانے والے خاندانوں کی مدد۔"
+        ],
+        [
+          "ویزا ریفیوزل کا جائزہ",
+          "ہم ریفیوزل لیٹر پڑھ کر مضبوط دوبارہ درخواست کا منصوبہ بناتے ہیں۔"
+        ],
+        [
+          "SOP اور انٹرویو کی تیاری",
+          "پرسنل اسٹیٹمنٹ اور ویزا انٹرویو کی مشق۔"
+        ],
+        [
+          "دستاویزات کی تصدیق",
+          "HEC، IBCC اور MOFA اٹیسٹیشن کی رہنمائی۔"
+        ]
+      ]
     },
-    {
-     "id": "hajj-umrah",
-     "code": "UMR",
-     "title": "حج و عمرہ",
-     "text": "افراد، خاندانوں اور گروپس کے لیے عمرہ، اور سرکاری و پرائیویٹ اسکیم کے تحت حج کی رہنمائی۔",
-     "points": [
-      "عمرہ ویزا پروسیسنگ",
-      "پروازیں، مکہ اور مدینہ میں ہوٹل، اور ٹرانسپورٹ",
-      "فیملی اور گروپ پیکجز",
-      "حج اسکیم کی رہنمائی اور دستاویزات"
-     ],
-     "tag": "مکہ · مدینہ",
-     "short": "ویزا، پروازیں اور ہوٹل"
+    "countries": {
+      "eyebrow": "تعلیمی منزلیں",
+      "title": "پاکستان سے {n} تعلیمی منزلیں",
+      "lede": "کسی ملک پر کلک کر کے انٹیک، انگریزی ٹیسٹ، اسکالرشپس اور پاکستانی طلبہ کے لیے مراحل دیکھیں۔ شرائط ہر سال بدلتی ہیں، اس لیے ہم آپ کے کورس کے لیے تازہ معلومات کی تصدیق کرتے ہیں۔",
+      "all": "سب",
+      "regions": {
+        "en": "انگریزی بولنے والے ممالک",
+        "eu": "یورپ",
+        "as": "ایشیا اور مشرقِ وسطیٰ"
+      },
+      "intakes": "انٹیک",
+      "scholarships": "اسکالرشپس",
+      "view": "گائیڈ دیکھیں"
     },
-    {
-     "id": "visit-visa",
-     "code": "VIS",
-     "title": "وزٹ اور بزنس ویزا",
-     "text": "برطانیہ، شینگن ممالک، امریکہ، آسٹریلیا، دبئی، ترکی اور ملائیشیا کے لیے سیاحت، فیملی وزٹ، میٹنگز اور تجارتی نمائشیں۔",
-     "points": [
-      "سفری منصوبہ اور دعوت نامے کی رہنمائی",
-      "معاون دستاویزات کی چیک لسٹ",
-      "درخواست فارم اور اپائنٹمنٹ بکنگ"
-     ],
-     "tag": "سیاحت · کاروبار",
-     "short": "سیاحت، فیملی وزٹ اور میٹنگز"
+    "process": {
+      "eyebrow": "طریقہ کار",
+      "title": "پہلی ملاقات سے روانگی تک پانچ مراحل",
+      "steps": [
+        [
+          "مشاورت",
+          "ہم دفتر یا ویڈیو کال پر آپ کی تعلیم، بجٹ اور اہداف کا جائزہ لیتے ہیں۔"
+        ],
+        [
+          "منصوبہ اور شارٹ لسٹ",
+          "آپ کو ممالک، یونیورسٹیوں اور مناسب ویزا روٹ کی فہرست ملتی ہے۔"
+        ],
+        [
+          "داخلہ",
+          "ہم درخواستیں تیار اور جمع کرتے ہیں اور آفر ملنے تک پیروی کرتے ہیں۔"
+        ],
+        [
+          "ویزا فائل",
+          "ہم ہر دستاویز چیک کرتے ہیں، فارم تیار کرتے ہیں اور انٹرویو کی تیاری کرواتے ہیں۔"
+        ],
+        [
+          "روانگی سے پہلے",
+          "سفر، رہائش اور پہنچنے کی رہنمائی تاکہ آپ تیار ہو کر جائیں۔"
+        ]
+      ]
     },
-    {
-     "id": "tours",
-     "code": "TUR",
-     "title": "ٹورز اور تعطیلات",
-     "text": "کسی بھی ملک کے مکمل ٹور پیکجز: ہم سفر کی منصوبہ بندی کرتے ہیں، ہوٹل اور پروازیں بک کرتے ہیں، اور خاندانوں، جوڑوں اور گروپس کے لیے سیر کا انتظام کرتے ہیں۔",
-     "points": [
-      "کسی بھی ملک کے ٹور پیکجز",
-      "ہر بجٹ میں ہوٹل بکنگ",
-      "دنیا بھر کے ہوائی ٹکٹ",
-      "سیر، ٹرانسفر اور ٹریول انشورنس"
-     ],
-     "tag": "ہر منزل",
-     "short": "ٹور، ہوٹل اور ہوائی ٹکٹ"
+    "coaching": {
+      "eyebrow": "انگریزی ٹیسٹ کوچنگ",
+      "title": "اپنے انگریزی ٹیسٹ کی تیاری ہمارے ساتھ کریں",
+      "lede": "زیادہ تر یونیورسٹیوں اور ویزوں کے لیے منظور شدہ انگریزی ٹیسٹ ضروری ہے۔ ہم وہی ٹیسٹ کرواتے ہیں جو آپ کا کورس اور ویزا قبول کرے۔",
+      "tests": [
+        [
+          "IELTS Academic",
+          "یونیورسٹی داخلے کے لیے۔ چاروں ماڈیولز کی ٹائمڈ موک ٹیسٹ کے ساتھ مشق۔"
+        ],
+        [
+          "IELTS General",
+          "کام، فیملی اور امیگریشن روٹس کے لیے جہاں جنرل ٹریننگ مانگی جائے۔"
+        ],
+        [
+          "PTE Academic",
+          "کمپیوٹر پر ٹیسٹ، جلد نتیجہ۔ ہر سوال کی قسم کے لیے حکمتِ عملی۔"
+        ],
+        [
+          "Oxford ELLT",
+          "آن لائن انگریزی ٹیسٹ جو بہت سی برطانوی یونیورسٹیاں قبول کرتی ہیں۔"
+        ]
+      ],
+      "item": {
+        "id": "ielts-pte",
+        "code": "ENG",
+        "title": "IELTS اور PTE کوچنگ",
+        "text": "اس انگریزی ٹیسٹ کی کوچنگ جو آپ کا کورس اور ویزا قبول کرے، ٹائمڈ موک ٹیسٹ اور فیڈبیک کے ساتھ۔",
+        "tag": "انگریزی ٹیسٹ"
+      }
+    },
+    "promise": {
+      "eyebrow": "ہمارا وعدہ",
+      "title": "سچی رہنمائی آپ کی آئندہ درخواستوں کی حفاظت کرتی ہے",
+      "lede": "ریفیوز ویزا آپ کے ریکارڈ میں رہتا ہے۔ جعلی دستاویزات والی فائل پر دس سال تک پابندی لگ سکتی ہے۔ اسی لیے ہم صرف اصل دستاویزات کے ساتھ کام کرتے ہیں اور صاف بتاتے ہیں جب کوئی روٹ آپ کے لیے مناسب نہ ہو۔",
+      "items": [
+        [
+          "صرف اصل دستاویزات",
+          "بینک اسٹیٹمنٹ، خطوط اور سرٹیفکیٹ آپ کے اپنے اور اصل ہونے چاہییں۔ ہم بتاتے ہیں کیا چاہیے اور کیسے تیار کرنا ہے۔"
+        ],
+        [
+          "کوئی جھوٹی گارنٹی نہیں",
+          "ویزا کا فیصلہ سفارت خانے اور امیگریشن محکمے کرتے ہیں۔ ہم مضبوط ترین فائل تیار کرتے ہیں، اصل امکانات بتاتے ہیں اور کبھی نام نہاد فری ویزا نہیں بیچتے۔"
+        ],
+        [
+          "تحریری اور واضح فیس",
+          "شروع کرنے سے پہلے آپ کو ہماری سروس فیس، یونیورسٹی فیس اور ویزا فیس معلوم ہوتی ہے۔"
+        ],
+        [
+          "آپ باخبر رہتے ہیں",
+          "ہم جمع کروائی گئی ہر چیز کی کاپی دیتے ہیں اور ہر مرحلے پر اطلاع دیتے ہیں۔"
+        ]
+      ]
+    },
+    "faq": {
+      "eyebrow": "سوالات",
+      "title": "اکثر پوچھے جانے والے سوالات",
+      "items": [
+        [
+          "میرے لیے کون سا ملک بہتر ہے؟",
+          "یہ آپ کے نمبروں، انگریزی ٹیسٹ اسکور، بجٹ اور کیریئر پر منحصر ہے۔ پہلی مشاورت میں ہم آپ کی پروفائل کے لیے دو تین ممالک کا موازنہ کر کے ہر ایک کا کل خرچ بتاتے ہیں۔"
+        ],
+        [
+          "کیا باہر پڑھنے کے لیے IELTS ضروری ہے؟",
+          "زیادہ تر یونیورسٹیاں IELTS، PTE یا Oxford ELLT جیسا ٹیسٹ مانگتی ہیں۔ کچھ دوسرے ثبوت بھی مانتی ہیں، جیسے انگریزی میڈیم میں پچھلی تعلیم۔ ٹیسٹ بک کرنے سے پہلے ہم چیک کرتے ہیں کہ آپ کی یونیورسٹی اور ویزا کیا قبول کرتے ہیں۔"
+        ],
+        [
+          "پہلی ملاقات میں کون سی دستاویزات لاؤں؟",
+          "پاسپورٹ، تعلیمی سرٹیفکیٹ اور ٹرانسکرپٹ، انگریزی ٹیسٹ کا نتیجہ اگر ہو، اور بجٹ کا اندازہ۔ اگر کسی ملک سے ریفیوزل ہوئی ہو تو وہ خط بھی ساتھ لائیں۔"
+        ],
+        [
+          "آپ کون سے ورک ویزے کرتے ہیں؟",
+          "ہم سعودی عرب، یو اے ای اور قطر کے ورک ویزے ان ورکرز کے لیے پروسیس کرتے ہیں جن کے پاس اصل نوکری کی آفر ہو۔ کوئی رقم دینے سے پہلے ہم آفر اور معاہدہ چیک کرتے ہیں۔ بغیر اصل آجر کے نام نہاد فری ویزا بیچنے والوں سے ہوشیار رہیں؛ اس سے آپ بیرونِ ملک پھنس سکتے ہیں یا تنخواہ سے محروم رہ سکتے ہیں۔"
+        ],
+        [
+          "کیا آپ عمرہ اور حج کا انتظام کرتے ہیں؟",
+          "جی ہاں۔ ہم افراد، خاندانوں اور گروپس کے لیے عمرہ کا انتظام کرتے ہیں، بشمول ویزا، پروازیں، ہوٹل اور ٹرانسپورٹ۔ حج کے لیے ہم سرکاری اور پرائیویٹ اسکیم اور مطلوبہ دستاویزات میں رہنمائی کرتے ہیں۔"
+        ],
+        [
+          "کیا آپ بیرونِ ملک سیاحتی ٹور کا انتظام کرتے ہیں؟",
+          "جی ہاں۔ ہم کسی بھی ملک کے ٹور کی منصوبہ بندی کرتے ہیں، ہوٹل بکنگ، پروازوں، ٹرانسفر اور سیر کے ساتھ، خاندانوں، جوڑوں اور گروپس کے لیے۔ اپنی تاریخیں اور بجٹ بتائیں، ہم آپ کو پیکج بھیج دیں گے۔"
+        ],
+        [
+          "کیا آپ ویزا کی گارنٹی دیتے ہیں؟",
+          "کوئی بھی کنسلٹنٹ ایمانداری سے ویزا کی گارنٹی نہیں دے سکتا۔ فیصلہ سفارت خانے یا امیگریشن محکمے کا ہوتا ہے۔ ہم یقینی بناتے ہیں کہ آپ کی درخواست مکمل، اصل اور اچھی طرح تیار ہو۔"
+        ],
+        [
+          "کیا بیرونِ ملک میرا خاندان آپ سے رابطہ کر سکتا ہے؟",
+          "جی ہاں۔ برطانیہ اور دوسرے ممالک سے خاندان واٹس ایپ یا ای میل پر رابطہ کر سکتے ہیں۔ تمام مشاورت اور کیس کا کام فیصل آباد آفس کی ٹیم کرتی ہے۔"
+        ]
+      ]
+    },
+    "contact": {
+      "eyebrow": "رابطہ",
+      "title": "دفتر آئیں یا اپنی تفصیلات بھیجیں",
+      "office": "دفتر",
+      "address": "آفس 52، مال آف لائلپور، ہڑیانوالہ چوک، ڈی گراؤنڈ، بلاک ڈی، پیپلز کالونی نمبر 1، فیصل آباد 38000",
+      "maps": "گوگل میپس میں کھولیں",
+      "phone": "فون اور واٹس ایپ",
+      "uk": "برطانیہ رابطہ نمبر",
+      "uk_note": "برطانیہ میں مقیم خاندانوں کے لیے۔ مشاورت فیصل آباد آفس سے دی جاتی ہے۔",
+      "email": "ای میل",
+      "hours_label": "اوقاتِ کار",
+      "hours": "پیر تا ہفتہ، صبح 9 سے شام 5",
+      "f_name": "پورا نام",
+      "f_phone": "فون / واٹس ایپ",
+      "f_service": "سروس",
+      "f_country": "پسندیدہ ملک",
+      "f_level": "تعلیمی سطح",
+      "f_mode": "مشاورت کا طریقہ",
+      "f_msg": "آپ کا پیغام",
+      "f_msg_ph": "آخری ڈگری، انگریزی ٹیسٹ اسکور اور بجٹ لکھیں تو ہم بہتر تیاری کر سکتے ہیں۔",
+      "f_note": "آپ کی تفصیلات واٹس ایپ پر ہماری ٹیم کو جاتی ہیں۔ ہم انہیں کسی اور کو نہیں دیتے۔",
+      "f_submit": "واٹس ایپ پیغام تیار کریں",
+      "f_ready": "آپ کا پیغام تیار ہے۔",
+      "f_ready_note": "واٹس ایپ کھولنے کے لیے بٹن دبائیں اور بھیج دیں۔",
+      "f_open": "واٹس ایپ کھولیں",
+      "f_required": "یہ خانہ پُر کریں",
+      "services": [
+        "اسٹوڈنٹ ویزا",
+        "اسکالرشپس",
+        "خلیجی ورک ویزا",
+        "حج / عمرہ",
+        "وزٹ / بزنس ویزا",
+        "ٹورز اور تعطیلات",
+        "ہوائی ٹکٹ",
+        "فیملی ویزا",
+        "IELTS / PTE کوچنگ"
+      ],
+      "not_sure": "ابھی طے نہیں",
+      "other": "دیگر",
+      "levels": [
+        "لاگو نہیں",
+        "فاؤنڈیشن / ڈپلومہ",
+        "بیچلرز",
+        "ماسٹرز",
+        "پی ایچ ڈی"
+      ],
+      "modes": [
+        "دفتر آؤں گا",
+        "فون کال",
+        "ویڈیو کال",
+        "واٹس ایپ"
+      ],
+      "greeting": "السلام علیکم ایم ٹو ایم گلوبل کنسلٹنٹس،"
+    },
+    "footer": {
+      "about": "فیصل آباد میں بیرونِ ملک تعلیم اور ویزا کنسلٹنٹس، جو طلبہ اور خاندانوں کو اصل اور اچھی طرح تیار درخواستوں کے ساتھ تعلیم اور سفر کی منصوبہ بندی میں مدد دیتے ہیں۔",
+      "services": "خدمات",
+      "countries": "مقبول ممالک",
+      "follow": "ہمیں فالو کریں",
+      "rights": "ایم ٹو ایم گلوبل کنسلٹنٹس، فیصل آباد۔ جملہ حقوق محفوظ ہیں۔",
+      "by": "ویب سائٹ:"
+    },
+    "country": {
+      "home": "ہوم",
+      "countries": "ممالک",
+      "title": "پاکستان سے {name} میں تعلیم",
+      "cta": "{name} کے بارے میں کونسلر سے بات کریں",
+      "intakes": "انٹیک",
+      "tests": "انگریزی ٹیسٹ",
+      "scholarships": "اسکالرشپس",
+      "why": "{name} میں کیوں پڑھیں",
+      "steps": "پاکستانی طلبہ کے لیے مراحل",
+      "docs": "عام طور پر درکار دستاویزات",
+      "docs_common": [
+        "کارآمد پاسپورٹ",
+        "تعلیمی سرٹیفکیٹ اور ٹرانسکرپٹ (جہاں ضروری ہو HEC/IBCC سے تصدیق شدہ)",
+        "انگریزی ٹیسٹ کا نتیجہ یا چھوٹ",
+        "آپ یا اسپانسر کے اصل اکاؤنٹ میں فنڈز کا ثبوت",
+        "داخلہ یا آفر لیٹر"
+      ],
+      "note": "اہم بات",
+      "reviewed": "شرائط اکثر بدلتی ہیں۔ یہ گائیڈ آخری بار اکتوبر 2026 میں دیکھی گئی؛ اپلائی سے پہلے ہم موجودہ قوانین کی تصدیق کرتے ہیں۔",
+      "more": "{region} کے مزید ممالک",
+      "wa_text": "السلام علیکم، میں {name} میں پڑھنا چاہتا ہوں۔ رہنمائی کریں۔",
+      "back": "تمام ممالک"
+    },
+    "checker": {
+      "title": "میری پروفائل کے لیے کون سا ملک بہتر ہے؟",
+      "eyebrow": "ملک تلاش کریں",
+      "lede": "اپنی تعلیم، انگریزی اور بجٹ کے بارے میں چھ مختصر سوالات کے جواب دیں۔ آپ کو وہ ممالک وجوہات کے ساتھ نظر آئیں گے جو عام طور پر آپ جیسی پروفائل کے لیے موزوں ہوتے ہیں۔",
+      "band_title": "یقین نہیں کہ کون سا ملک آپ کے لیے صحیح ہے؟",
+      "band_text": "چھ سوالات کے جواب دیں اور دیکھیں کون سے ممالک آپ کے نمبروں، انگریزی اسکور اور بجٹ کے مطابق ہیں۔",
+      "band_cta": "ایک منٹ میں چیک کریں",
+      "level": "آپ کیا پڑھنا چاہتے ہیں؟",
+      "levels": [
+        [
+          "bachelor",
+          "بیچلرز ڈگری"
+        ],
+        [
+          "master",
+          "ماسٹرز ڈگری"
+        ],
+        [
+          "phd",
+          "پی ایچ ڈی / ریسرچ"
+        ],
+        [
+          "mbbs",
+          "MBBS / میڈیسن"
+        ]
+      ],
+      "marks": "آخری ڈگری میں نمبر (%)",
+      "marks_hint": "CGPA ہو تو ٹرانسکرپٹ پر لکھا فیصد یا یونیورسٹی کا تبادلہ استعمال کریں۔",
+      "english": "انگریزی ٹیسٹ اسکور (IELTS بینڈ یا برابر)",
+      "eng_opts": [
+        [
+          "0",
+          "ابھی نہیں دیا"
+        ],
+        [
+          "5",
+          "5.0"
+        ],
+        [
+          "5.5",
+          "5.5"
+        ],
+        [
+          "6",
+          "6.0"
+        ],
+        [
+          "6.5",
+          "6.5"
+        ],
+        [
+          "7",
+          "7.0 یا زیادہ"
+        ]
+      ],
+      "emi": "میری پچھلی تعلیم انگریزی میڈیم میں تھی",
+      "budget": "فیس اور رہائش کا سالانہ بجٹ",
+      "budgets": [
+        [
+          "1",
+          "30 لاکھ روپے سے کم"
+        ],
+        [
+          "2",
+          "30 سے 60 لاکھ روپے"
+        ],
+        [
+          "3",
+          "60 لاکھ سے 1 کروڑ روپے"
+        ],
+        [
+          "4",
+          "1 کروڑ روپے سے زیادہ"
+        ]
+      ],
+      "gap": "آخری ڈگری کو کتنے سال ہوئے",
+      "gaps": [
+        [
+          "0",
+          "ایک سال سے کم"
+        ],
+        [
+          "1",
+          "1 سال"
+        ],
+        [
+          "2",
+          "2 سال"
+        ],
+        [
+          "3",
+          "3 سال"
+        ],
+        [
+          "4",
+          "4 سال"
+        ],
+        [
+          "5",
+          "5 سال"
+        ],
+        [
+          "7",
+          "6 سال یا زیادہ"
+        ]
+      ],
+      "submit": "میرے آپشنز دکھائیں",
+      "results": "آپ کی پروفائل کے لیے موزوں ممالک",
+      "none": "اس پروفائل کے لیے کوئی ملک واضح طور پر موزوں نہیں۔ کونسلر سے بات کریں؛ فاؤنڈیشن سال یا مختلف کورس لیول جیسا راستہ پھر بھی ہو سکتا ہے۔",
+      "labels": {
+        "strong": "بہترین میچ",
+        "good": "اچھا میچ",
+        "possible": "شرائط کے ساتھ ممکن"
+      },
+      "reasons": {
+        "budget_ok": "آپ کے بجٹ میں ہے",
+        "budget_sch": "بجٹ سے تھوڑا زیادہ؛ اسکالرشپ یا فیس رعایت سے ممکن",
+        "eng_ok": "آپ کا انگریزی اسکور عام شرط ({req}) پوری کرتا ہے",
+        "eng_low": "عام شرط {req} ہے؛ زیادہ اسکور یا پاتھ وے کورس کی ضرورت ہو سکتی ہے",
+        "eng_none_ok": "کچھ یونیورسٹیاں ٹیسٹ کی بجائے انگریزی میڈیم تعلیم قبول کرتی ہیں",
+        "eng_none": "آپ کو انگریزی ٹیسٹ دینا ہوگا (عموماً {req} یا زیادہ)",
+        "eng_free": "عموماً IELTS ضروری نہیں؛ یونیورسٹیاں اپنا داخلہ عمل رکھتی ہیں",
+        "marks_sch": "آپ کے نمبروں کے ساتھ یہاں اسکالرشپ کا اچھا موقع ہے",
+        "marks_low": "آپ کے نمبروں کے لحاظ سے یہاں داخلہ مقابلے والا ہے",
+        "gap_warn": "اس ملک کے لیے تعلیمی وقفے کی واضح وضاحت ضروری ہے",
+        "phd": "ریسرچ ڈگریوں کے لیے اچھے مواقع",
+        "mbbs": "MBBS کے لیے مقبول؛ PMDC تسلیم شدگی ضرور چیک کریں",
+        "canada": "M2M داخلے میں مدد کرتا ہے؛ اسٹڈی پرمٹ لائسنس یافتہ RCIC کنسلٹنٹ کے ذریعے جمع ہوتا ہے"
+      },
+      "view": "{name} کی گائیڈ پڑھیں",
+      "wa": "واٹس ایپ پر نتائج پر بات کریں",
+      "wa_intro": "السلام علیکم، میں نے آپ کی ویب سائٹ پر ملک تلاش کرنے والا ٹول استعمال کیا۔",
+      "summary_labels": {
+        "level": "لیول",
+        "marks": "نمبر",
+        "english": "انگریزی",
+        "budget": "بجٹ",
+        "gap": "وقفہ",
+        "results": "تجویز کردہ"
+      },
+      "disclaimer": "یہ عام شرائط پر مبنی عمومی رہنمائی ہے، ویزا یا داخلے کا فیصلہ نہیں۔ قوانین، فیسیں اور ایکسچینج ریٹ بدلتے رہتے ہیں اور ہر یونیورسٹی اپنی شرائط رکھتی ہے۔ کونسلر آپ کی مکمل پروفائل دیکھے گا۔",
+      "how_title": "یہ ٹول کیسے کام کرتا ہے",
+      "how": [
+        "یہ آپ کے جوابات کا ہر ملک کی عام داخلہ شرائط، اخراجات اور اسکالرشپس سے موازنہ کرتا ہے۔",
+        "بجٹ سے زیادہ والے ممالک صرف تب نظر آتے ہیں جب اسکالرشپ فرق پورا کر سکے۔",
+        "یہ کبھی ویزا منظوری کی پیش گوئی نہیں کرتا۔ وہ فیصلہ سفارت خانے کا ہوتا ہے۔"
+      ],
+      "marks_invalid": "نمبر 30 سے 100 کے درمیان فیصد میں لکھیں"
+    },
+    "land": {
+      "services_title": "ہم کیا کرتے ہیں",
+      "services_lede": "تفصیل اور ہماری مدد جاننے کے لیے کوئی سروس منتخب کریں۔",
+      "more": "مزید جانیں",
+      "also": "اس کے علاوہ: IELTS اور PTE کوچنگ، فیملی اور اسپاؤس ویزے، ویزا ریفیوزل کا جائزہ، SOP میں مدد اور HEC/IBCC/MOFA تصدیق۔",
+      "countries_title": "34 ممالک میں تعلیم",
+      "countries_lede": "کسی ملک کو منتخب کر کے اس کی گائیڈ پڑھیں: انٹیک، انگریزی ٹیسٹ، اسکالرشپس اور پاکستانی طلبہ کے لیے مراحل۔",
+      "all_countries": "تمام 34 ممالک دیکھیں",
+      "find": "اپنا ملک تلاش کریں",
+      "steps_title": "طریقہ کار",
+      "steps": [
+        [
+          "مفت مشاورت",
+          "ہم آپ کی دستاویزات، بجٹ اور اہداف کا جائزہ لیتے ہیں۔"
+        ],
+        [
+          "واضح منصوبہ",
+          "آپ کے لیے صحیح ملک، کورس یا پیکج۔"
+        ],
+        [
+          "درخواست",
+          "ہم آپ کے ساتھ سب کچھ تیار اور جمع کرتے ہیں۔"
+        ],
+        [
+          "سفر",
+          "ویزا، ٹکٹ اور روانگی سے پہلے بریفنگ۔"
+        ]
+      ],
+      "why_title": "خاندان M2M پر کیوں بھروسہ کرتے ہیں",
+      "why": [
+        [
+          "واک ان آفس",
+          "ایک اصل کونسلر سے آمنے سامنے بات"
+        ],
+        [
+          "صرف اصل دستاویزات",
+          "کوئی جعلی کاغذات اور کوئی نام نہاد فری ویزا نہیں"
+        ],
+        [
+          "تحریری اور واضح فیس",
+          "شروع سے پہلے ہر خرچ معلوم"
+        ],
+        [
+          "دفتر میں آئیں",
+          "مال آف لائلپور، فیصل آباد، پیر تا ہفتہ"
+        ]
+      ],
+      "reviews_link": "گوگل میپس پر ہمیں تلاش کریں",
+      "contact_title": "آج ہی بات کریں",
+      "contact_lede": "کال کریں، واٹس ایپ کریں یا فیصل آباد میں ہمارے دفتر آئیں۔ یا اپنی تفصیلات بھیجیں، کونسلر آپ سے رابطہ کرے گا۔",
+      "send": "اپنی تفصیلات بھیجیں",
+      "lede_short": "34 ممالک کے اسٹڈی ویزے، خلیجی ورک ویزے، حج و عمرہ، اور ہوٹل و ہوائی ٹکٹ کے ساتھ ٹورز، فیصل آباد میں ہمارے دفتر سے۔",
+      "trust": [
+        [
+          "34",
+          "تعلیمی ممالک"
+        ],
+        [
+          "فیصل آباد",
+          "واک ان آفس"
+        ],
+        [
+          "اصل",
+          "دستاویزات ہی"
+        ],
+        [
+          "پیر تا ہفتہ",
+          "مال آف لائلپور دفتر"
+        ]
+      ],
+      "reviews_title": "آپ سے ہمارا وعدہ",
+      "reviews_text": "ایماندارانہ مشورہ، اصل دستاویزات، اور ادائیگی سے پہلے لکھی ہوئی فیس۔",
+      "countries_line": "34 ممالک میں تعلیم: ہر ملک کی گائیڈ دیکھیں"
+    },
+    "service": {
+      "home": "ہوم",
+      "services": "خدمات",
+      "what": "ہم آپ کے لیے کیا کرتے ہیں",
+      "how": "طریقہ کار",
+      "faq": "سوالات",
+      "other": "دیگر خدمات",
+      "cta": "واٹس ایپ پر {name} کے بارے میں پوچھیں",
+      "wa_text": "السلام علیکم، میں {name} کے بارے میں مزید جاننا چاہتا ہوں۔"
+    },
+    "pages": {
+      "countries_title": "تعلیمی منزلیں",
+      "contact_title": "رابطہ اور سوالات",
+      "countries_crumb": "ممالک",
+      "contact_crumb": "رابطہ"
     }
-   ],
-   "extra": [
-    [
-     "فیملی اور اسپاؤس ویزے",
-     "بیرونِ ملک پڑھنے یا کام کرنے والے رشتہ دار کے پاس جانے والے خاندانوں کی مدد۔"
-    ],
-    [
-     "ویزا ریفیوزل کا جائزہ",
-     "ہم ریفیوزل لیٹر پڑھ کر مضبوط دوبارہ درخواست کا منصوبہ بناتے ہیں۔"
-    ],
-    [
-     "SOP اور انٹرویو کی تیاری",
-     "پرسنل اسٹیٹمنٹ اور ویزا انٹرویو کی مشق۔"
-    ],
-    [
-     "دستاویزات کی تصدیق",
-     "HEC، IBCC اور MOFA اٹیسٹیشن کی رہنمائی۔"
-    ]
-   ]
   },
-  "countries": {
-   "eyebrow": "تعلیمی منزلیں",
-   "title": "پاکستان سے {n} تعلیمی منزلیں",
-   "lede": "کسی ملک پر کلک کر کے انٹیک، انگریزی ٹیسٹ، اسکالرشپس اور پاکستانی طلبہ کے لیے مراحل دیکھیں۔ شرائط ہر سال بدلتی ہیں، اس لیے ہم آپ کے کورس کے لیے تازہ معلومات کی تصدیق کرتے ہیں۔",
-   "all": "سب",
-   "regions": {
-    "en": "انگریزی بولنے والے ممالک",
-    "eu": "یورپ",
-    "as": "ایشیا اور مشرقِ وسطیٰ"
-   },
-   "intakes": "انٹیک",
-   "scholarships": "اسکالرشپس",
-   "view": "گائیڈ دیکھیں"
-  },
-  "process": {
-   "eyebrow": "طریقہ کار",
-   "title": "پہلی ملاقات سے روانگی تک پانچ مراحل",
-   "steps": [
-    [
-     "مشاورت",
-     "ہم دفتر یا ویڈیو کال پر آپ کی تعلیم، بجٹ اور اہداف کا جائزہ لیتے ہیں۔"
+  "faq_map": {
+    "student-visa": [
+      0,
+      1,
+      2,
+      6
     ],
-    [
-     "منصوبہ اور شارٹ لسٹ",
-     "آپ کو ممالک، یونیورسٹیوں اور مناسب ویزا روٹ کی فہرست ملتی ہے۔"
+    "scholarships": [
+      0,
+      6
     ],
-    [
-     "داخلہ",
-     "ہم درخواستیں تیار اور جمع کرتے ہیں اور آفر ملنے تک پیروی کرتے ہیں۔"
+    "gulf-work-visa": [
+      3,
+      6
     ],
-    [
-     "ویزا فائل",
-     "ہم ہر دستاویز چیک کرتے ہیں، فارم تیار کرتے ہیں اور انٹرویو کی تیاری کرواتے ہیں۔"
+    "hajj-umrah": [
+      4
     ],
-    [
-     "روانگی سے پہلے",
-     "سفر، رہائش اور پہنچنے کی رہنمائی تاکہ آپ تیار ہو کر جائیں۔"
+    "visit-visa": [
+      2,
+      6
+    ],
+    "tours": [
+      5
+    ],
+    "ielts-pte": [
+      1
     ]
-   ]
-  },
-  "coaching": {
-   "eyebrow": "انگریزی ٹیسٹ کوچنگ",
-   "title": "اپنے انگریزی ٹیسٹ کی تیاری ہمارے ساتھ کریں",
-   "lede": "زیادہ تر یونیورسٹیوں اور ویزوں کے لیے منظور شدہ انگریزی ٹیسٹ ضروری ہے۔ ہم وہی ٹیسٹ کرواتے ہیں جو آپ کا کورس اور ویزا قبول کرے۔",
-   "tests": [
-    [
-     "IELTS Academic",
-     "یونیورسٹی داخلے کے لیے۔ چاروں ماڈیولز کی ٹائمڈ موک ٹیسٹ کے ساتھ مشق۔"
-    ],
-    [
-     "IELTS General",
-     "کام، فیملی اور امیگریشن روٹس کے لیے جہاں جنرل ٹریننگ مانگی جائے۔"
-    ],
-    [
-     "PTE Academic",
-     "کمپیوٹر پر ٹیسٹ، جلد نتیجہ۔ ہر سوال کی قسم کے لیے حکمتِ عملی۔"
-    ],
-    [
-     "Oxford ELLT",
-     "آن لائن انگریزی ٹیسٹ جو بہت سی برطانوی یونیورسٹیاں قبول کرتی ہیں۔"
-    ]
-   ],
-   "item": {
-    "id": "ielts-pte",
-    "code": "ENG",
-    "title": "IELTS اور PTE کوچنگ",
-    "text": "اس انگریزی ٹیسٹ کی کوچنگ جو آپ کا کورس اور ویزا قبول کرے، ٹائمڈ موک ٹیسٹ اور فیڈبیک کے ساتھ۔",
-    "tag": "انگریزی ٹیسٹ"
-   }
-  },
-  "promise": {
-   "eyebrow": "ہمارا وعدہ",
-   "title": "سچی رہنمائی آپ کی آئندہ درخواستوں کی حفاظت کرتی ہے",
-   "lede": "ریفیوز ویزا آپ کے ریکارڈ میں رہتا ہے۔ جعلی دستاویزات والی فائل پر دس سال تک پابندی لگ سکتی ہے۔ اسی لیے ہم صرف اصل دستاویزات کے ساتھ کام کرتے ہیں اور صاف بتاتے ہیں جب کوئی روٹ آپ کے لیے مناسب نہ ہو۔",
-   "items": [
-    [
-     "صرف اصل دستاویزات",
-     "بینک اسٹیٹمنٹ، خطوط اور سرٹیفکیٹ آپ کے اپنے اور اصل ہونے چاہییں۔ ہم بتاتے ہیں کیا چاہیے اور کیسے تیار کرنا ہے۔"
-    ],
-    [
-     "کوئی جھوٹی گارنٹی نہیں",
-     "ویزا کا فیصلہ سفارت خانے اور امیگریشن محکمے کرتے ہیں۔ ہم مضبوط ترین فائل تیار کرتے ہیں، اصل امکانات بتاتے ہیں اور کبھی نام نہاد فری ویزا نہیں بیچتے۔"
-    ],
-    [
-     "تحریری اور واضح فیس",
-     "شروع کرنے سے پہلے آپ کو ہماری سروس فیس، یونیورسٹی فیس اور ویزا فیس معلوم ہوتی ہے۔"
-    ],
-    [
-     "آپ باخبر رہتے ہیں",
-     "ہم جمع کروائی گئی ہر چیز کی کاپی دیتے ہیں اور ہر مرحلے پر اطلاع دیتے ہیں۔"
-    ]
-   ]
-  },
-  "faq": {
-   "eyebrow": "سوالات",
-   "title": "اکثر پوچھے جانے والے سوالات",
-   "items": [
-    [
-     "میرے لیے کون سا ملک بہتر ہے؟",
-     "یہ آپ کے نمبروں، انگریزی ٹیسٹ اسکور، بجٹ اور کیریئر پر منحصر ہے۔ پہلی مشاورت میں ہم آپ کی پروفائل کے لیے دو تین ممالک کا موازنہ کر کے ہر ایک کا کل خرچ بتاتے ہیں۔"
-    ],
-    [
-     "کیا باہر پڑھنے کے لیے IELTS ضروری ہے؟",
-     "زیادہ تر یونیورسٹیاں IELTS، PTE یا Oxford ELLT جیسا ٹیسٹ مانگتی ہیں۔ کچھ دوسرے ثبوت بھی مانتی ہیں، جیسے انگریزی میڈیم میں پچھلی تعلیم۔ ٹیسٹ بک کرنے سے پہلے ہم چیک کرتے ہیں کہ آپ کی یونیورسٹی اور ویزا کیا قبول کرتے ہیں۔"
-    ],
-    [
-     "پہلی ملاقات میں کون سی دستاویزات لاؤں؟",
-     "پاسپورٹ، تعلیمی سرٹیفکیٹ اور ٹرانسکرپٹ، انگریزی ٹیسٹ کا نتیجہ اگر ہو، اور بجٹ کا اندازہ۔ اگر کسی ملک سے ریفیوزل ہوئی ہو تو وہ خط بھی ساتھ لائیں۔"
-    ],
-    [
-     "آپ کون سے ورک ویزے کرتے ہیں؟",
-     "ہم سعودی عرب، یو اے ای اور قطر کے ورک ویزے ان ورکرز کے لیے پروسیس کرتے ہیں جن کے پاس اصل نوکری کی آفر ہو۔ کوئی رقم دینے سے پہلے ہم آفر اور معاہدہ چیک کرتے ہیں۔ بغیر اصل آجر کے نام نہاد فری ویزا بیچنے والوں سے ہوشیار رہیں؛ اس سے آپ بیرونِ ملک پھنس سکتے ہیں یا تنخواہ سے محروم رہ سکتے ہیں۔"
-    ],
-    [
-     "کیا آپ عمرہ اور حج کا انتظام کرتے ہیں؟",
-     "جی ہاں۔ ہم افراد، خاندانوں اور گروپس کے لیے عمرہ کا انتظام کرتے ہیں، بشمول ویزا، پروازیں، ہوٹل اور ٹرانسپورٹ۔ حج کے لیے ہم سرکاری اور پرائیویٹ اسکیم اور مطلوبہ دستاویزات میں رہنمائی کرتے ہیں۔"
-    ],
-    [
-     "کیا آپ بیرونِ ملک سیاحتی ٹور کا انتظام کرتے ہیں؟",
-     "جی ہاں۔ ہم کسی بھی ملک کے ٹور کی منصوبہ بندی کرتے ہیں، ہوٹل بکنگ، پروازوں، ٹرانسفر اور سیر کے ساتھ، خاندانوں، جوڑوں اور گروپس کے لیے۔ اپنی تاریخیں اور بجٹ بتائیں، ہم آپ کو پیکج بھیج دیں گے۔"
-    ],
-    [
-     "کیا آپ ویزا کی گارنٹی دیتے ہیں؟",
-     "کوئی بھی کنسلٹنٹ ایمانداری سے ویزا کی گارنٹی نہیں دے سکتا۔ فیصلہ سفارت خانے یا امیگریشن محکمے کا ہوتا ہے۔ ہم یقینی بناتے ہیں کہ آپ کی درخواست مکمل، اصل اور اچھی طرح تیار ہو۔"
-    ],
-    [
-     "کیا بیرونِ ملک میرا خاندان آپ سے رابطہ کر سکتا ہے؟",
-     "جی ہاں۔ برطانیہ اور دوسرے ممالک سے خاندان واٹس ایپ یا ای میل پر رابطہ کر سکتے ہیں۔ تمام مشاورت اور کیس کا کام فیصل آباد آفس کی ٹیم کرتی ہے۔"
-    ]
-   ]
-  },
-  "contact": {
-   "eyebrow": "رابطہ",
-   "title": "دفتر آئیں یا اپنی تفصیلات بھیجیں",
-   "office": "دفتر",
-   "address": "آفس 52، مال آف لائلپور، ہڑیانوالہ چوک، ڈی گراؤنڈ، بلاک ڈی، پیپلز کالونی نمبر 1، فیصل آباد 38000",
-   "maps": "گوگل میپس میں کھولیں",
-   "phone": "فون اور واٹس ایپ",
-   "uk": "برطانیہ رابطہ نمبر",
-   "uk_note": "برطانیہ میں مقیم خاندانوں کے لیے۔ مشاورت فیصل آباد آفس سے دی جاتی ہے۔",
-   "email": "ای میل",
-   "hours_label": "اوقاتِ کار",
-   "hours": "پیر تا ہفتہ، صبح 9 سے شام 5",
-   "f_name": "پورا نام",
-   "f_phone": "فون / واٹس ایپ",
-   "f_service": "سروس",
-   "f_country": "پسندیدہ ملک",
-   "f_level": "تعلیمی سطح",
-   "f_mode": "مشاورت کا طریقہ",
-   "f_msg": "آپ کا پیغام",
-   "f_msg_ph": "آخری ڈگری، انگریزی ٹیسٹ اسکور اور بجٹ لکھیں تو ہم بہتر تیاری کر سکتے ہیں۔",
-   "f_note": "آپ کی تفصیلات واٹس ایپ پر ہماری ٹیم کو جاتی ہیں۔ ہم انہیں کسی اور کو نہیں دیتے۔",
-   "f_submit": "واٹس ایپ پیغام تیار کریں",
-   "f_ready": "آپ کا پیغام تیار ہے۔",
-   "f_ready_note": "واٹس ایپ کھولنے کے لیے بٹن دبائیں اور بھیج دیں۔",
-   "f_open": "واٹس ایپ کھولیں",
-   "f_required": "یہ خانہ پُر کریں",
-   "services": [
-    "اسٹوڈنٹ ویزا",
-    "اسکالرشپس",
-    "خلیجی ورک ویزا",
-    "حج / عمرہ",
-    "وزٹ / بزنس ویزا",
-    "ٹورز اور تعطیلات",
-    "ہوائی ٹکٹ",
-    "فیملی ویزا",
-    "IELTS / PTE کوچنگ"
-   ],
-   "not_sure": "ابھی طے نہیں",
-   "other": "دیگر",
-   "levels": [
-    "لاگو نہیں",
-    "فاؤنڈیشن / ڈپلومہ",
-    "بیچلرز",
-    "ماسٹرز",
-    "پی ایچ ڈی"
-   ],
-   "modes": [
-    "دفتر آؤں گا",
-    "فون کال",
-    "ویڈیو کال",
-    "واٹس ایپ"
-   ],
-   "greeting": "السلام علیکم ایم ٹو ایم گلوبل کنسلٹنٹس،"
-  },
-  "footer": {
-   "about": "فیصل آباد میں بیرونِ ملک تعلیم اور ویزا کنسلٹنٹس، جو طلبہ اور خاندانوں کو اصل اور اچھی طرح تیار درخواستوں کے ساتھ تعلیم اور سفر کی منصوبہ بندی میں مدد دیتے ہیں۔",
-   "services": "خدمات",
-   "countries": "مقبول ممالک",
-   "follow": "ہمیں فالو کریں",
-   "rights": "ایم ٹو ایم گلوبل کنسلٹنٹس، فیصل آباد۔ جملہ حقوق محفوظ ہیں۔",
-   "by": "ویب سائٹ:"
-  },
-  "country": {
-   "home": "ہوم",
-   "countries": "ممالک",
-   "title": "پاکستان سے {name} میں تعلیم",
-   "cta": "{name} کے بارے میں کونسلر سے بات کریں",
-   "intakes": "انٹیک",
-   "tests": "انگریزی ٹیسٹ",
-   "scholarships": "اسکالرشپس",
-   "why": "{name} میں کیوں پڑھیں",
-   "steps": "پاکستانی طلبہ کے لیے مراحل",
-   "docs": "عام طور پر درکار دستاویزات",
-   "docs_common": [
-    "کارآمد پاسپورٹ",
-    "تعلیمی سرٹیفکیٹ اور ٹرانسکرپٹ (جہاں ضروری ہو HEC/IBCC سے تصدیق شدہ)",
-    "انگریزی ٹیسٹ کا نتیجہ یا چھوٹ",
-    "آپ یا اسپانسر کے اصل اکاؤنٹ میں فنڈز کا ثبوت",
-    "داخلہ یا آفر لیٹر"
-   ],
-   "note": "اہم بات",
-   "reviewed": "شرائط اکثر بدلتی ہیں۔ یہ گائیڈ آخری بار اکتوبر 2026 میں دیکھی گئی؛ اپلائی سے پہلے ہم موجودہ قوانین کی تصدیق کرتے ہیں۔",
-   "more": "{region} کے مزید ممالک",
-   "wa_text": "السلام علیکم، میں {name} میں پڑھنا چاہتا ہوں۔ رہنمائی کریں۔",
-   "back": "تمام ممالک"
-  },
-  "checker": {
-   "title": "میری پروفائل کے لیے کون سا ملک بہتر ہے؟",
-   "eyebrow": "ملک تلاش کریں",
-   "lede": "اپنی تعلیم، انگریزی اور بجٹ کے بارے میں چھ مختصر سوالات کے جواب دیں۔ آپ کو وہ ممالک وجوہات کے ساتھ نظر آئیں گے جو عام طور پر آپ جیسی پروفائل کے لیے موزوں ہوتے ہیں۔",
-   "band_title": "یقین نہیں کہ کون سا ملک آپ کے لیے صحیح ہے؟",
-   "band_text": "چھ سوالات کے جواب دیں اور دیکھیں کون سے ممالک آپ کے نمبروں، انگریزی اسکور اور بجٹ کے مطابق ہیں۔",
-   "band_cta": "ایک منٹ میں چیک کریں",
-   "level": "آپ کیا پڑھنا چاہتے ہیں؟",
-   "levels": [
-    [
-     "bachelor",
-     "بیچلرز ڈگری"
-    ],
-    [
-     "master",
-     "ماسٹرز ڈگری"
-    ],
-    [
-     "phd",
-     "پی ایچ ڈی / ریسرچ"
-    ],
-    [
-     "mbbs",
-     "MBBS / میڈیسن"
-    ]
-   ],
-   "marks": "آخری ڈگری میں نمبر (%)",
-   "marks_hint": "CGPA ہو تو ٹرانسکرپٹ پر لکھا فیصد یا یونیورسٹی کا تبادلہ استعمال کریں۔",
-   "english": "انگریزی ٹیسٹ اسکور (IELTS بینڈ یا برابر)",
-   "eng_opts": [
-    [
-     "0",
-     "ابھی نہیں دیا"
-    ],
-    [
-     "5",
-     "5.0"
-    ],
-    [
-     "5.5",
-     "5.5"
-    ],
-    [
-     "6",
-     "6.0"
-    ],
-    [
-     "6.5",
-     "6.5"
-    ],
-    [
-     "7",
-     "7.0 یا زیادہ"
-    ]
-   ],
-   "emi": "میری پچھلی تعلیم انگریزی میڈیم میں تھی",
-   "budget": "فیس اور رہائش کا سالانہ بجٹ",
-   "budgets": [
-    [
-     "1",
-     "30 لاکھ روپے سے کم"
-    ],
-    [
-     "2",
-     "30 سے 60 لاکھ روپے"
-    ],
-    [
-     "3",
-     "60 لاکھ سے 1 کروڑ روپے"
-    ],
-    [
-     "4",
-     "1 کروڑ روپے سے زیادہ"
-    ]
-   ],
-   "gap": "آخری ڈگری کو کتنے سال ہوئے",
-   "gaps": [
-    [
-     "0",
-     "ایک سال سے کم"
-    ],
-    [
-     "1",
-     "1 سال"
-    ],
-    [
-     "2",
-     "2 سال"
-    ],
-    [
-     "3",
-     "3 سال"
-    ],
-    [
-     "4",
-     "4 سال"
-    ],
-    [
-     "5",
-     "5 سال"
-    ],
-    [
-     "7",
-     "6 سال یا زیادہ"
-    ]
-   ],
-   "submit": "میرے آپشنز دکھائیں",
-   "results": "آپ کی پروفائل کے لیے موزوں ممالک",
-   "none": "اس پروفائل کے لیے کوئی ملک واضح طور پر موزوں نہیں۔ کونسلر سے بات کریں؛ فاؤنڈیشن سال یا مختلف کورس لیول جیسا راستہ پھر بھی ہو سکتا ہے۔",
-   "labels": {
-    "strong": "بہترین میچ",
-    "good": "اچھا میچ",
-    "possible": "شرائط کے ساتھ ممکن"
-   },
-   "reasons": {
-    "budget_ok": "آپ کے بجٹ میں ہے",
-    "budget_sch": "بجٹ سے تھوڑا زیادہ؛ اسکالرشپ یا فیس رعایت سے ممکن",
-    "eng_ok": "آپ کا انگریزی اسکور عام شرط ({req}) پوری کرتا ہے",
-    "eng_low": "عام شرط {req} ہے؛ زیادہ اسکور یا پاتھ وے کورس کی ضرورت ہو سکتی ہے",
-    "eng_none_ok": "کچھ یونیورسٹیاں ٹیسٹ کی بجائے انگریزی میڈیم تعلیم قبول کرتی ہیں",
-    "eng_none": "آپ کو انگریزی ٹیسٹ دینا ہوگا (عموماً {req} یا زیادہ)",
-    "eng_free": "عموماً IELTS ضروری نہیں؛ یونیورسٹیاں اپنا داخلہ عمل رکھتی ہیں",
-    "marks_sch": "آپ کے نمبروں کے ساتھ یہاں اسکالرشپ کا اچھا موقع ہے",
-    "marks_low": "آپ کے نمبروں کے لحاظ سے یہاں داخلہ مقابلے والا ہے",
-    "gap_warn": "اس ملک کے لیے تعلیمی وقفے کی واضح وضاحت ضروری ہے",
-    "phd": "ریسرچ ڈگریوں کے لیے اچھے مواقع",
-    "mbbs": "MBBS کے لیے مقبول؛ PMDC تسلیم شدگی ضرور چیک کریں",
-    "canada": "M2M داخلے میں مدد کرتا ہے؛ اسٹڈی پرمٹ لائسنس یافتہ RCIC کنسلٹنٹ کے ذریعے جمع ہوتا ہے"
-   },
-   "view": "{name} کی گائیڈ پڑھیں",
-   "wa": "واٹس ایپ پر نتائج پر بات کریں",
-   "wa_intro": "السلام علیکم، میں نے آپ کی ویب سائٹ پر ملک تلاش کرنے والا ٹول استعمال کیا۔",
-   "summary_labels": {
-    "level": "لیول",
-    "marks": "نمبر",
-    "english": "انگریزی",
-    "budget": "بجٹ",
-    "gap": "وقفہ",
-    "results": "تجویز کردہ"
-   },
-   "disclaimer": "یہ عام شرائط پر مبنی عمومی رہنمائی ہے، ویزا یا داخلے کا فیصلہ نہیں۔ قوانین، فیسیں اور ایکسچینج ریٹ بدلتے رہتے ہیں اور ہر یونیورسٹی اپنی شرائط رکھتی ہے۔ کونسلر آپ کی مکمل پروفائل دیکھے گا۔",
-   "how_title": "یہ ٹول کیسے کام کرتا ہے",
-   "how": [
-    "یہ آپ کے جوابات کا ہر ملک کی عام داخلہ شرائط، اخراجات اور اسکالرشپس سے موازنہ کرتا ہے۔",
-    "بجٹ سے زیادہ والے ممالک صرف تب نظر آتے ہیں جب اسکالرشپ فرق پورا کر سکے۔",
-    "یہ کبھی ویزا منظوری کی پیش گوئی نہیں کرتا۔ وہ فیصلہ سفارت خانے کا ہوتا ہے۔"
-   ],
-   "marks_invalid": "نمبر 30 سے 100 کے درمیان فیصد میں لکھیں"
-  },
-  "land": {
-   "services_title": "ہم کیا کرتے ہیں",
-   "services_lede": "تفصیل اور ہماری مدد جاننے کے لیے کوئی سروس منتخب کریں۔",
-   "more": "مزید جانیں",
-   "also": "اس کے علاوہ: IELTS اور PTE کوچنگ، فیملی اور اسپاؤس ویزے، ویزا ریفیوزل کا جائزہ، SOP میں مدد اور HEC/IBCC/MOFA تصدیق۔",
-   "countries_title": "34 ممالک میں تعلیم",
-   "countries_lede": "کسی ملک کو منتخب کر کے اس کی گائیڈ پڑھیں: انٹیک، انگریزی ٹیسٹ، اسکالرشپس اور پاکستانی طلبہ کے لیے مراحل۔",
-   "all_countries": "تمام 34 ممالک دیکھیں",
-   "find": "اپنا ملک تلاش کریں",
-   "steps_title": "طریقہ کار",
-   "steps": [
-    [
-     "مفت مشاورت",
-     "ہم آپ کی دستاویزات، بجٹ اور اہداف کا جائزہ لیتے ہیں۔"
-    ],
-    [
-     "واضح منصوبہ",
-     "آپ کے لیے صحیح ملک، کورس یا پیکج۔"
-    ],
-    [
-     "درخواست",
-     "ہم آپ کے ساتھ سب کچھ تیار اور جمع کرتے ہیں۔"
-    ],
-    [
-     "سفر",
-     "ویزا، ٹکٹ اور روانگی سے پہلے بریفنگ۔"
-    ]
-   ],
-   "why_title": "خاندان M2M پر کیوں بھروسہ کرتے ہیں",
-   "why": [
-    [
-     "★ 5.0 گوگل پر",
-     "ہمارے کلائنٹس کے 29 ریویوز"
-    ],
-    [
-     "صرف اصل دستاویزات",
-     "کوئی جعلی کاغذات اور کوئی نام نہاد فری ویزا نہیں"
-    ],
-    [
-     "تحریری اور واضح فیس",
-     "شروع سے پہلے ہر خرچ معلوم"
-    ],
-    [
-     "دفتر میں آئیں",
-     "مال آف لائلپور، فیصل آباد، پیر تا ہفتہ"
-    ]
-   ],
-   "reviews_link": "ہمارے گوگل ریویوز پڑھیں",
-   "contact_title": "آج ہی بات کریں",
-   "contact_lede": "کال کریں، واٹس ایپ کریں یا فیصل آباد میں ہمارے دفتر آئیں۔ یا اپنی تفصیلات بھیجیں، کونسلر آپ سے رابطہ کرے گا۔",
-   "send": "اپنی تفصیلات بھیجیں",
-   "lede_short": "34 ممالک کے اسٹڈی ویزے، خلیجی ورک ویزے، حج و عمرہ، اور ہوٹل و ہوائی ٹکٹ کے ساتھ ٹورز، فیصل آباد میں ہمارے دفتر سے۔",
-   "trust": [
-    [
-     "34",
-     "تعلیمی ممالک"
-    ],
-    [
-     "★ 5.0",
-     "گوگل پر 29 ریویوز"
-    ],
-    [
-     "اصل",
-     "دستاویزات ہی"
-    ],
-    [
-     "پیر تا ہفتہ",
-     "مال آف لائلپور دفتر"
-    ]
-   ],
-   "reviews_title": "ہمارے کلائنٹس کیا کہتے ہیں",
-   "reviews_text": "گوگل پر 29 کلائنٹس نے 5 میں سے 5.0 ریٹنگ دی۔",
-   "countries_line": "34 ممالک میں تعلیم: ہر ملک کی گائیڈ دیکھیں"
-  },
-  "service": {
-   "home": "ہوم",
-   "services": "خدمات",
-   "what": "ہم آپ کے لیے کیا کرتے ہیں",
-   "how": "طریقہ کار",
-   "faq": "سوالات",
-   "other": "دیگر خدمات",
-   "cta": "واٹس ایپ پر {name} کے بارے میں پوچھیں",
-   "wa_text": "السلام علیکم، میں {name} کے بارے میں مزید جاننا چاہتا ہوں۔"
-  },
-  "pages": {
-   "countries_title": "تعلیمی منزلیں",
-   "contact_title": "رابطہ اور سوالات",
-   "countries_crumb": "ممالک",
-   "contact_crumb": "رابطہ"
   }
- },
- "faq_map": {
-  "student-visa": [
-   0,
-   1,
-   2,
-   6
-  ],
-  "scholarships": [
-   0,
-   6
-  ],
-  "gulf-work-visa": [
-   3,
-   6
-  ],
-  "hajj-umrah": [
-   4
-  ],
-  "visit-visa": [
-   2,
-   6
-  ],
-  "tours": [
-   5
-  ],
-  "ielts-pte": [
-   1
-  ]
- }
 }

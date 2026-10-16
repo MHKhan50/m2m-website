@@ -330,7 +330,7 @@ def home(lang: str) -> str:
     <h1>{e(h['title_a'])} <em>{e(h['title_em'])}</em> {e(h['title_b'])}</h1>
     <p class="lede">{e(h['lede'])}</p>
     <div class="hero-ctas"><a class="btn btn-gold" href="https://wa.me/{WA}" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>{e(t['whatsapp'])}</a><a class="btn btn-ghost" href="{rel(here, checker_path(lang))}">{e(L['find'])}</a></div>
-    <div class="hero-facts"><span><b>★ 5.0</b> {e(h['fact1'])}</span><span>{e(h['fact2'])}</span></div>
+    <div class="hero-facts"><span>{e(h['fact1'])}</span><span>{e(h['fact2'])}</span></div>
   </div>
   <div class="board" aria-label="{e(h['board_title'])}">
     <div class="board-top"><span>{e(h['board_title'])}</span><strong dir="ltr">LYP</strong></div>
