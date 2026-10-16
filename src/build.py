@@ -25,7 +25,7 @@ WA = "923095685686"
 PHONE_PK = ("+92 309 5685686", "+923095685686")
 PHONE_UK = ("+44 7828 585686", "+447828585686")
 EMAIL = "info@m2mglobalconsultants.com"
-GENERATED = ["study-in", "ur", "assets", "eligibility"]  # folders this script owns and rebuilds
+GENERATED = ["study-in", "ur", "assets", "eligibility", "services", "countries", "contact"]  # folders this script owns and rebuilds
 
 SOCIAL = [
     ("Facebook", "fb", "https://www.facebook.com/m2mglobalconsultants/"),
@@ -114,6 +114,27 @@ def rel(from_path: str, to_path: str) -> str:
     return ("../" * depth) + to_path if (depth or to_path) else "./"
 
 
+def lang_root(lang: str) -> str:
+    return "" if lang == "en" else "ur/"
+
+
+def service_path(lang: str, sid: str) -> str:
+    return lang_root(lang) + f"services/{sid}/"
+
+
+def countries_path(lang: str) -> str:
+    return lang_root(lang) + "countries/"
+
+
+def contact_path(lang: str) -> str:
+    return lang_root(lang) + "contact/"
+
+
+def services_all(lang: str) -> list[dict]:
+    """The six main services plus English test coaching, each with its own page."""
+    return UI[lang]["services"]["items"] + [UI[lang]["coaching"]["item"]]
+
+
 def checker_path(lang: str) -> str:
     return ("" if lang == "en" else "ur/") + "eligibility/"
 
@@ -149,7 +170,7 @@ def layout(lang: str, here: str, title: str, desc: str, body: str, other_lang_pa
     foot_countries = "".join(
         f'<li><a href="{a(page_path(lang, s))}">{e(by_slug[s]["name"][lang])}</a></li>' for s in popular)
     foot_services = "".join(
-        f'<li><a href="{home}#{it["id"]}">{e(it["title"])}</a></li>' for it in t["services"]["items"])
+        f'<li><a href="{a(service_path(lang, it["id"]))}">{e(it["title"])}</a></li>' for it in services_all(lang))
     return f"""<!doctype html>
 <html lang="{lang}" dir="{t['dir']}">
 <head>
@@ -188,11 +209,11 @@ def layout(lang: str, here: str, title: str, desc: str, body: str, other_lang_pa
   <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">{e(t['menu'])}</button>
   <nav class="main" id="mainNav" aria-label="Main">
     <a href="{home}#services">{e(nav['services'])}</a>
-    <a href="{home}#destinations">{e(nav['countries'])}</a>
-    <a href="{home}#coaching">{e(nav['coaching'])}</a>
+    <a href="{a(countries_path(lang))}">{e(nav['countries'])}</a>
+    <a href="{a(service_path(lang, 'ielts-pte'))}">{e(nav['coaching'])}</a>
     <a href="{a(checker_path(lang))}">{e(nav['checker'])}</a>
-    <a href="{home}#faq">{e(nav['faq'])}</a>
-    <a href="{home}#contact">{e(nav['contact'])}</a>
+    <a href="{a(contact_path(lang))}#faq">{e(nav['faq'])}</a>
+    <a href="{a(contact_path(lang))}">{e(nav['contact'])}</a>
   </nav>
   <a class="btn btn-gold cta" href="https://wa.me/{WA}" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>{e(t['whatsapp'])}</a>
 </div></header>
@@ -229,7 +250,7 @@ def country_card(c: dict, lang: str, here: str) -> str:
             f'<span class="go">{e(t["view"])} <span aria-hidden="true">{"→" if lang == "en" else "←"}</span></span></a>')
 
 
-def contact_section(lang: str, preset_country: str | None = None) -> str:
+def contact_section(lang: str, preset_country: str | None = None, preset_service: str | None = None) -> str:
     t = UI[lang]["contact"]
     opts = lambda items, sel=None: "".join(  # noqa: E731
         f'<option{" selected" if i == sel else ""}>{e(i)}</option>' for i in items)
@@ -247,7 +268,7 @@ def contact_section(lang: str, preset_country: str | None = None) -> str:
   <form class="enquiry" id="enquiry" novalidate data-wa="{WA}" data-greeting="{e(t['greeting'])}" data-required="{e(t['f_required'])}" data-labels='{e(json.dumps(labels, ensure_ascii=False))}'>
     <div class="f"><label for="f-name">{e(t['f_name'])}</label><input id="f-name" name="name" autocomplete="name" required></div>
     <div class="f"><label for="f-phone">{e(t['f_phone'])}</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required dir="ltr"></div>
-    <div class="f"><label for="f-service">{e(t['f_service'])}</label><select id="f-service" name="service">{opts(t['services'])}</select></div>
+    <div class="f"><label for="f-service">{e(t['f_service'])}</label><select id="f-service" name="service">{opts(t['services'], preset_service)}</select></div>
     <div class="f"><label for="f-country">{e(t['f_country'])}</label><select id="f-country" name="country">{opts(countries, preset_country)}</select></div>
     <div class="f"><label for="f-level">{e(t['f_level'])}</label><select id="f-level" name="level">{opts(t['levels'])}</select></div>
     <div class="f"><label for="f-mode">{e(t['f_mode'])}</label><select id="f-mode" name="mode">{opts(t['modes'])}</select></div>
@@ -267,78 +288,158 @@ def home(lang: str) -> str:
     here = page_path(lang)
     t = UI[lang]
     h = t["hero"]
+    L = t["land"]
     rows = "".join(
         f'<tr><td>{code}</td><td class="city">{e(city[lang])}</td><td>{e(route[lang])}</td>'
         f'<td><span class="st{" soon" if st == "study_only" else ""}">{e(h[st])}</span></td></tr>'
         for code, city, route, st in BOARD)
-    trust = "".join(f'<div><b>{e(a)}</b><span>{e(b)}</span></div>' for a, b in t["trust"])
-    s = t["services"]
-    passes = "".join(
-        f'<article class="pass" id="{it["id"]}"><div class="pass-head"><span>{e(s["label"])}</span><span class="code">{it["code"]}</span></div>'
-        f'<div class="pass-body"><h3>{e(it["title"])}</h3><p>{e(it["text"])}</p><ul>'
-        + "".join(f"<li>{e(p)}</li>" for p in it["points"])
-        + f'</ul></div><div class="pass-foot"><span>{e(it["tag"])}</span><a href="#contact" data-service="{i}">{e(s["ask"])}</a></div></article>'
-        for i, it in enumerate(s["items"]))
-    extra = "".join(f'<div><b>{e(a)}</b><span>{e(b)}</span></div>' for a, b in s["extra"])
-    ct = t["countries"]
-    chips = f'<button type="button" class="chip on" data-f="all" aria-pressed="true">{e(ct["all"])} <span>{len(COUNTRIES)}</span></button>' + "".join(
-        f'<button type="button" class="chip" data-f="{k}" aria-pressed="false">{e(v)} <span>{sum(1 for c in COUNTRIES if c["region"] == k)}</span></button>'
-        for k, v in ct["regions"].items())
-    cards = "\n".join(country_card(c, lang, here) for c in COUNTRIES)
-    steps = "".join(f"<li><h3>{e(a)}</h3><p>{e(b)}</p></li>" for a, b in t["process"]["steps"])
-    tests = "".join(f'<div class="test"><b dir="ltr">{e(a)}</b><p>{e(b)}</p></div>' for a, b in t["coaching"]["tests"])
-    promise = "".join(f"<li><b>{e(a)}</b><span>{e(b)}</span></li>" for a, b in t["promise"]["items"])
-    faq = "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in t["faq"]["items"])
+    trust = "".join(f'<div><b>{e(x)}</b><span>{e(y)}</span></div>' for x, y in t["trust"])
+    cards = "".join(
+        f'<a class="svc" href="{rel(here, service_path(lang, it["id"]))}"><span class="code" dir="ltr">{it["code"]}</span>'
+        f'<h3>{e(it["title"])}</h3><p>{e(it["text"])}</p><span class="go">{e(L["more"])} <span aria-hidden="true">{"→" if lang == "en" else "←"}</span></span></a>'
+        for it in t["services"]["items"])
+    groups = "".join(
+        f'<div class="pill-group"><h3>{e(label)}</h3><div class="pills">'
+        + "".join(f'<a class="mini" href="{rel(here, page_path(lang, c["slug"]))}"><span dir="ltr">{e(c["code"])}</span>{e(c["name"][lang])}</a>'
+                  for c in COUNTRIES if c["region"] == key)
+        + "</div></div>"
+        for key, label in t["countries"]["regions"].items())
+    steps = "".join(f"<li><h3>{e(x)}</h3><p>{e(y)}</p></li>" for x, y in L["steps"])
+    why = "".join(f"<li><b>{e(x)}</b><span>{e(y)}</span></li>" for x, y in L["why"])
+    c = t["contact"]
     body = f"""<section class="hero"><div class="wrap">
   <div>
     <p class="eyebrow eyebrow-gold">{e(h['eyebrow'])}</p>
     <h1>{e(h['title_a'])} <em>{e(h['title_em'])}</em> {e(h['title_b'])}</h1>
     <p class="lede">{e(h['lede'])}</p>
-    <div class="hero-ctas"><a class="btn btn-gold" href="#contact">{e(h['cta1'])}</a><a class="btn btn-ghost" href="#destinations">{e(h['cta2'])}</a></div>
-    <div class="hero-facts"><span><b>★ 5.0</b> {e(h['fact1'])}</span><span>{e(h['fact2'])}</span></div>
+    <div class="hero-ctas"><a class="btn btn-gold" href="https://wa.me/{WA}" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>{e(t['whatsapp'])}</a><a class="btn btn-ghost" href="{rel(here, checker_path(lang))}">{e(L['find'])}</a></div>
   </div>
   <div class="board" aria-label="{e(h['board_title'])}">
     <div class="board-top"><span>{e(h['board_title'])}</span><strong dir="ltr">LYP</strong></div>
-    <div class="board-scroll"><table><thead><tr>{''.join(f'<th>{e(c)}</th>' for c in h['board_cols'])}</tr></thead><tbody>{rows}</tbody></table></div>
+    <div class="board-scroll"><table><thead><tr>{''.join(f'<th>{e(x)}</th>' for x in h['board_cols'])}</tr></thead><tbody>{rows}</tbody></table></div>
     <p class="board-foot">{e(h['board_foot'])}</p>
   </div>
 </div></section>
 <div class="trust"><div class="wrap">{trust}</div></div>
+<section id="services" class="sec-tight"><div class="wrap">
+  <div class="sec-head"><h2>{e(L['services_title'])}</h2><p class="lede">{e(L['services_lede'])}</p></div>
+  <div class="svc-grid">{cards}</div>
+  <p class="also"><a href="{rel(here, service_path(lang, 'ielts-pte'))}">{e(L['also'])}</a></p>
+</div></section>
+<section id="destinations" class="dest sec-tight"><div class="wrap">
+  <div class="sec-head row-head"><div><h2>{e(L['countries_title'])}</h2><p class="lede">{e(L['countries_lede'])}</p></div>
+    <div class="row-ctas"><a class="btn btn-blue" href="{rel(here, countries_path(lang))}">{e(L['all_countries'])}</a><a class="btn btn-ghost-dark" href="{rel(here, checker_path(lang))}">{e(L['find'])}</a></div></div>
+  <div class="pill-groups">{groups}</div>
+</div></section>
+<section class="sec-tight"><div class="wrap two-col">
+  <div><h2>{e(L['steps_title'])}</h2><ol class="steps steps-4">{steps}</ol></div>
+  <div><h2>{e(L['why_title'])}</h2><ul class="why-list">{why}</ul>
+    <a class="back" href="https://www.google.com/maps/search/?api=1&amp;query=M2M+Global+Consultants+Faisalabad" target="_blank" rel="noopener">{e(L['reviews_link'])}</a></div>
+</div></section>
+<section class="contact-band"><div class="wrap">
+  <div><h2>{e(L['contact_title'])}</h2><p>{e(L['contact_lede'])}</p>
+    <p class="cb-lines"><a href="tel:{PHONE_PK[1]}" dir="ltr">{PHONE_PK[0]}</a><span>{e(c['address'])}</span></p></div>
+  <div class="row-ctas"><a class="btn btn-gold" href="https://wa.me/{WA}" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>{e(t['whatsapp'])}</a><a class="btn btn-ghost" href="{rel(here, contact_path(lang))}">{e(L['send'])}</a></div>
+</div></section>"""
+    title = "M2M Global Consultants" + (" | Study abroad, visa & travel consultants, Faisalabad" if lang == "en" else " | بیرونِ ملک تعلیم، ویزا اور سفری کنسلٹنٹس، فیصل آباد")
+    return layout(lang, here, title, t["site_desc"], body, page_path("ur" if lang == "en" else "en"))
+
+
+def countries_page(lang: str) -> str:
+    here = countries_path(lang)
+    t = UI[lang]
+    ct = t["countries"]
+    chips = f'<button type="button" class="chip on" data-f="all" aria-pressed="true">{e(ct["all"])} <span>{len(COUNTRIES)}</span></button>' + "".join(
+        f'<button type="button" class="chip" data-f="{k}" aria-pressed="false">{e(v)} <span>{sum(1 for c in COUNTRIES if c["region"] == k)}</span></button>'
+        for k, v in ct["regions"].items())
+    cards = "\n".join(country_card(c, lang, here) for c in COUNTRIES)
+    body = f"""<section class="c-hero"><div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(here, page_path(lang))}">{e(t['country']['home'])}</a><span aria-hidden="true">/</span><span>{e(t['pages']['countries_crumb'])}</span></nav>
+  <p class="eyebrow eyebrow-gold">{e(ct['eyebrow'])}</p>
+  <h1>{e(ct['title'].format(n=len(COUNTRIES)))}</h1>
+  <p class="lede">{e(ct['lede'])}</p>
+</div></section>
 <div class="check-band"><div class="wrap">
   <div><h2>{e(t['checker']['band_title'])}</h2><p>{e(t['checker']['band_text'])}</p></div>
   <a class="btn btn-gold" href="{rel(here, checker_path(lang))}">{e(t['checker']['band_cta'])}</a>
 </div></div>
-<section id="services"><div class="wrap">
-  <div class="sec-head"><p class="eyebrow">{e(s['eyebrow'])}</p><h2>{e(s['title'])}</h2><p class="lede">{e(s['lede'])}</p></div>
-  <div class="passes">{passes}</div>
-  <div class="extra">{extra}</div>
-</div></section>
 <section id="destinations" class="dest"><div class="wrap">
-  <div class="sec-head"><p class="eyebrow">{e(ct['eyebrow'])}</p><h2>{e(ct['title'].format(n=len(COUNTRIES)))}</h2><p class="lede">{e(ct['lede'])}</p></div>
   <div class="filters" role="group" aria-label="{e(ct['eyebrow'])}">{chips}</div>
   <div class="dest-grid" id="destGrid">
 {cards}
   </div>
+</div></section>"""
+    return layout(lang, here, f"{t['pages']['countries_title']} | M2M Global Consultants", ct["lede"], body,
+                  countries_path("ur" if lang == "en" else "en"))
+
+
+def service_page(it: dict, lang: str) -> str:
+    here = service_path(lang, it["id"])
+    t = UI[lang]
+    st = t["service"]
+    name = it["title"]
+    if it["id"] == "ielts-pte":
+        what = "".join(f'<li><b dir="ltr">{e(x)}</b> {e(y)}</li>' for x, y in t["coaching"]["tests"])
+        lede = t["coaching"]["lede"]
+    else:
+        what = "".join(f"<li>{e(x)}</li>" for x in it["points"])
+        lede = it["text"]
+    steps = "".join(f"<li><h3>{e(x)}</h3><p>{e(y)}</p></li>" for x, y in t["land"]["steps"])
+    faq_items = [t["faq"]["items"][i] for i in UI["faq_map"].get(it["id"], [])]
+    faq = "".join(f"<details><summary>{e(q)}</summary><p>{e(ans)}</p></details>" for q, ans in faq_items)
+    faq_block = f'<h2>{e(st["faq"])}</h2><div class="faq">{faq}</div>' if faq else ""
+    others = "".join(f'<a class="mini" href="{rel(here, service_path(lang, o["id"]))}"><span dir="ltr">{o["code"]}</span>{e(o["title"])}</a>'
+                     for o in services_all(lang) if o["id"] != it["id"])
+    extra = "".join(f'<li><b>{e(x)}</b> {e(y)}</li>' for x, y in t["services"]["extra"])
+    student_link = ""
+    if it["id"] in ("student-visa", "scholarships"):
+        student_link = f'<p><a class="btn btn-blue" href="{rel(here, countries_path(lang))}">{e(t["land"]["all_countries"])}</a> <a class="btn btn-ghost-dark" href="{rel(here, checker_path(lang))}">{e(t["land"]["find"])}</a></p>'
+    services_opts = t["contact"]["services"]
+    preset = next((o for o in services_opts if o.split(" /")[0].split(" ")[0] in name), None)
+    body = f"""<section class="c-hero"><div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(here, page_path(lang))}">{e(st['home'])}</a><span aria-hidden="true">/</span><a href="{rel(here, page_path(lang))}#services">{e(st['services'])}</a><span aria-hidden="true">/</span><span>{e(name)}</span></nav>
+  <p class="eyebrow eyebrow-gold" dir="ltr">{it['code']} · {e(it['tag'])}</p>
+  <h1>{e(name)}</h1>
+  <p class="lede">{e(lede)}</p>
+  <div class="hero-ctas"><a class="btn btn-gold" href="{wa_link(st['wa_text'].format(name=name))}" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>{e(st['cta'].format(name=name))}</a></div>
 </div></section>
-<section id="process"><div class="wrap">
-  <div class="sec-head"><p class="eyebrow">{e(t['process']['eyebrow'])}</p><h2>{e(t['process']['title'])}</h2></div>
-  <ol class="steps">{steps}</ol>
+<section class="c-body"><div class="wrap c-grid">
+  <div class="c-main">
+    <h2>{e(st['what'])}</h2>
+    <ul class="why">{what}</ul>
+    {student_link}
+    <h2>{e(st['how'])}</h2>
+    <ol class="steps steps-4">{steps}</ol>
+    {faq_block}
+  </div>
+  <aside class="c-side">
+    <h2>{e(st['other'])}</h2>
+    <div class="minis">{others}</div>
+    <ul class="docs extra-list">{extra}</ul>
+  </aside>
 </div></section>
-<section id="coaching" class="coach"><div class="wrap">
-  <div class="sec-head"><p class="eyebrow">{e(t['coaching']['eyebrow'])}</p><h2>{e(t['coaching']['title'])}</h2><p class="lede">{e(t['coaching']['lede'])}</p></div>
-  <div class="tests">{tests}</div>
+{contact_section(lang, preset_service=preset)}"""
+    return layout(lang, here, f"{name} | M2M Global Consultants", lede, body,
+                  service_path("ur" if lang == "en" else "en", it["id"]))
+
+
+def contact_page(lang: str) -> str:
+    here = contact_path(lang)
+    t = UI[lang]
+    faq = "".join(f"<details><summary>{e(q)}</summary><p>{e(ans)}</p></details>" for q, ans in t["faq"]["items"])
+    promise = "".join(f"<li><b>{e(x)}</b><span>{e(y)}</span></li>" for x, y in t["promise"]["items"])
+    body = f"""<section class="c-hero"><div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(here, page_path(lang))}">{e(t['country']['home'])}</a><span aria-hidden="true">/</span><span>{e(t['pages']['contact_crumb'])}</span></nav>
+  <h1>{e(t['pages']['contact_title'])}</h1>
+  <p class="lede">{e(t['land']['contact_lede'])}</p>
 </div></section>
-<section class="promise"><div class="wrap">
-  <div class="sec-head" style="margin:0"><p class="eyebrow">{e(t['promise']['eyebrow'])}</p><h2>{e(t['promise']['title'])}</h2><p class="lede">{e(t['promise']['lede'])}</p></div>
-  <ul class="promise-list">{promise}</ul>
-</div></section>
-<section id="faq"><div class="wrap">
-  <div class="sec-head"><p class="eyebrow">{e(t['faq']['eyebrow'])}</p><h2>{e(t['faq']['title'])}</h2></div>
-  <div class="faq">{faq}</div>
-</div></section>
-{contact_section(lang)}"""
-    title = "M2M Global Consultants" + (" | Study abroad & visa consultants, Faisalabad" if lang == "en" else " | بیرونِ ملک تعلیم اور ویزا کنسلٹنٹس، فیصل آباد")
-    return layout(lang, here, title, t["site_desc"], body, page_path("ur" if lang == "en" else "en"))
+{contact_section(lang)}
+<section id="faq"><div class="wrap two-col">
+  <div><h2>{e(t['faq']['title'])}</h2><div class="faq">{faq}</div></div>
+  <div><h2>{e(t['promise']['title'])}</h2><ul class="promise-list">{promise}</ul></div>
+</div></section>"""
+    return layout(lang, here, f"{t['pages']['contact_title']} | M2M Global Consultants", t["land"]["contact_lede"], body,
+                  contact_path("ur" if lang == "en" else "en"))
 
 
 def country_page(c: dict, lang: str) -> str:
@@ -357,7 +458,7 @@ def country_page(c: dict, lang: str) -> str:
     b_style, b_html = banner(c, lang)
     intro = BANNERS[c["slug"]]["intro"][lang]
     body = f"""<section class="c-hero has-banner" style="{b_style}"><div class="flagbar" aria-hidden="true"></div><div class="wrap">
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="{home_p}">{e(t['home'])}</a><span aria-hidden="true">/</span><a href="{home_p}#destinations">{e(t['countries'])}</a><span aria-hidden="true">/</span><span>{e(name)}</span></nav>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{home_p}">{e(t['home'])}</a><span aria-hidden="true">/</span><a href="{rel(here, countries_path(lang))}">{e(t['countries'])}</a><span aria-hidden="true">/</span><span>{e(name)}</span></nav>
   {b_html}
   <div class="c-hero-grid">
     <div>
@@ -390,7 +491,7 @@ def country_page(c: dict, lang: str) -> str:
 <section class="c-more"><div class="wrap">
   <h2>{e(t['more'].format(region=region))}</h2>
   <div class="minis">{more_links}</div>
-  <p><a class="back" href="{home_p}#destinations">{"←" if lang == "en" else "→"} {e(t['back'])}</a></p>
+  <p><a class="back" href="{rel(here, countries_path(lang))}">{"←" if lang == "en" else "→"} {e(t['back'])}</a></p>
 </div></section>
 {contact_section(lang, preset_country=name)}"""
     title = f"{t['title'].format(name=name)} | M2M Global Consultants"
@@ -466,7 +567,12 @@ def main() -> None:
         write(page_path(lang) + "index.html", home(lang))
         pages.append(page_path(lang))
         write(checker_path(lang) + "index.html", checker_page(lang))
-        pages.append(checker_path(lang))
+        write(countries_path(lang) + "index.html", countries_page(lang))
+        write(contact_path(lang) + "index.html", contact_page(lang))
+        pages += [checker_path(lang), countries_path(lang), contact_path(lang)]
+        for it in services_all(lang):
+            write(service_path(lang, it["id"]) + "index.html", service_page(it, lang))
+            pages.append(service_path(lang, it["id"]))
         for c in COUNTRIES:
             write(page_path(lang, c["slug"]) + "index.html", country_page(c, lang))
             pages.append(page_path(lang, c["slug"]))

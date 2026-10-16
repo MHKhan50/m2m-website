@@ -220,7 +220,14 @@
      "Oxford ELLT",
      "Online English test accepted by many UK universities. We help you book and prepare."
     ]
-   ]
+   ],
+   "item": {
+    "id": "ielts-pte",
+    "code": "ENG",
+    "title": "IELTS & PTE Coaching",
+    "text": "Coaching for the English test your course and visa accept, with timed mock tests and feedback.",
+    "tag": "ENGLISH TESTS"
+   }
   },
   "promise": {
    "eyebrow": "Our promise",
@@ -517,6 +524,74 @@
     "It never predicts visa approval. That decision belongs to the embassy."
    ],
    "marks_invalid": "Enter your marks as a percentage between 30 and 100"
+  },
+  "land": {
+   "services_title": "What we do",
+   "services_lede": "Choose a service to see the details and how we help.",
+   "more": "Learn more",
+   "also": "Also: IELTS & PTE coaching, family and spouse visas, visa refusal review, SOP help and HEC/IBCC/MOFA attestation.",
+   "countries_title": "Study in 34 countries",
+   "countries_lede": "Pick a country to read its guide: intakes, English tests, scholarships and steps for Pakistani students.",
+   "all_countries": "See all 34 countries",
+   "find": "Find my country",
+   "steps_title": "How it works",
+   "steps": [
+    [
+     "Free consultation",
+     "We review your documents, budget and goals."
+    ],
+    [
+     "Clear plan",
+     "You get the right country, course or package for you."
+    ],
+    [
+     "Application",
+     "We prepare and submit everything with you."
+    ],
+    [
+     "Travel",
+     "Visa, tickets and pre-departure briefing."
+    ]
+   ],
+   "why_title": "Why families trust M2M",
+   "why": [
+    [
+     "★ 5.0 on Google",
+     "29 reviews from our clients"
+    ],
+    [
+     "Genuine documents only",
+     "No fake papers and no so-called free visas"
+    ],
+    [
+     "Clear fees in writing",
+     "You know every cost before you start"
+    ],
+    [
+     "Walk-in office",
+     "Mall of Lyallpur, Faisalabad, Mon–Sat"
+    ]
+   ],
+   "reviews_link": "Read our Google reviews",
+   "contact_title": "Talk to us today",
+   "contact_lede": "Call, WhatsApp or visit our office in Faisalabad. Or send your details and a counsellor will contact you.",
+   "send": "Send your details"
+  },
+  "service": {
+   "home": "Home",
+   "services": "Services",
+   "what": "What we do for you",
+   "how": "How it works",
+   "faq": "Questions",
+   "other": "Other services",
+   "cta": "Ask about {name} on WhatsApp",
+   "wa_text": "Assalam o Alaikum, I would like to know more about {name}."
+  },
+  "pages": {
+   "countries_title": "Study destinations",
+   "contact_title": "Contact & FAQ",
+   "countries_crumb": "Countries",
+   "contact_crumb": "Contact"
   }
  },
  "ur": {
@@ -740,7 +815,14 @@
      "Oxford ELLT",
      "آن لائن انگریزی ٹیسٹ جو بہت سی برطانوی یونیورسٹیاں قبول کرتی ہیں۔"
     ]
-   ]
+   ],
+   "item": {
+    "id": "ielts-pte",
+    "code": "ENG",
+    "title": "IELTS اور PTE کوچنگ",
+    "text": "اس انگریزی ٹیسٹ کی کوچنگ جو آپ کا کورس اور ویزا قبول کرے، ٹائمڈ موک ٹیسٹ اور فیڈبیک کے ساتھ۔",
+    "tag": "انگریزی ٹیسٹ"
+   }
   },
   "promise": {
    "eyebrow": "ہمارا وعدہ",
@@ -1037,6 +1119,103 @@
     "یہ کبھی ویزا منظوری کی پیش گوئی نہیں کرتا۔ وہ فیصلہ سفارت خانے کا ہوتا ہے۔"
    ],
    "marks_invalid": "نمبر 30 سے 100 کے درمیان فیصد میں لکھیں"
+  },
+  "land": {
+   "services_title": "ہم کیا کرتے ہیں",
+   "services_lede": "تفصیل اور ہماری مدد جاننے کے لیے کوئی سروس منتخب کریں۔",
+   "more": "مزید جانیں",
+   "also": "اس کے علاوہ: IELTS اور PTE کوچنگ، فیملی اور اسپاؤس ویزے، ویزا ریفیوزل کا جائزہ، SOP میں مدد اور HEC/IBCC/MOFA تصدیق۔",
+   "countries_title": "34 ممالک میں تعلیم",
+   "countries_lede": "کسی ملک کو منتخب کر کے اس کی گائیڈ پڑھیں: انٹیک، انگریزی ٹیسٹ، اسکالرشپس اور پاکستانی طلبہ کے لیے مراحل۔",
+   "all_countries": "تمام 34 ممالک دیکھیں",
+   "find": "اپنا ملک تلاش کریں",
+   "steps_title": "طریقہ کار",
+   "steps": [
+    [
+     "مفت مشاورت",
+     "ہم آپ کی دستاویزات، بجٹ اور اہداف کا جائزہ لیتے ہیں۔"
+    ],
+    [
+     "واضح منصوبہ",
+     "آپ کے لیے صحیح ملک، کورس یا پیکج۔"
+    ],
+    [
+     "درخواست",
+     "ہم آپ کے ساتھ سب کچھ تیار اور جمع کرتے ہیں۔"
+    ],
+    [
+     "سفر",
+     "ویزا، ٹکٹ اور روانگی سے پہلے بریفنگ۔"
+    ]
+   ],
+   "why_title": "خاندان M2M پر کیوں بھروسہ کرتے ہیں",
+   "why": [
+    [
+     "★ 5.0 گوگل پر",
+     "ہمارے کلائنٹس کے 29 ریویوز"
+    ],
+    [
+     "صرف اصل دستاویزات",
+     "کوئی جعلی کاغذات اور کوئی نام نہاد فری ویزا نہیں"
+    ],
+    [
+     "تحریری اور واضح فیس",
+     "شروع سے پہلے ہر خرچ معلوم"
+    ],
+    [
+     "دفتر میں آئیں",
+     "مال آف لائلپور، فیصل آباد، پیر تا ہفتہ"
+    ]
+   ],
+   "reviews_link": "ہمارے گوگل ریویوز پڑھیں",
+   "contact_title": "آج ہی بات کریں",
+   "contact_lede": "کال کریں، واٹس ایپ کریں یا فیصل آباد میں ہمارے دفتر آئیں۔ یا اپنی تفصیلات بھیجیں، کونسلر آپ سے رابطہ کرے گا۔",
+   "send": "اپنی تفصیلات بھیجیں"
+  },
+  "service": {
+   "home": "ہوم",
+   "services": "خدمات",
+   "what": "ہم آپ کے لیے کیا کرتے ہیں",
+   "how": "طریقہ کار",
+   "faq": "سوالات",
+   "other": "دیگر خدمات",
+   "cta": "واٹس ایپ پر {name} کے بارے میں پوچھیں",
+   "wa_text": "السلام علیکم، میں {name} کے بارے میں مزید جاننا چاہتا ہوں۔"
+  },
+  "pages": {
+   "countries_title": "تعلیمی منزلیں",
+   "contact_title": "رابطہ اور سوالات",
+   "countries_crumb": "ممالک",
+   "contact_crumb": "رابطہ"
   }
+ },
+ "faq_map": {
+  "student-visa": [
+   0,
+   1,
+   2,
+   6
+  ],
+  "scholarships": [
+   0,
+   6
+  ],
+  "gulf-work-visa": [
+   3,
+   6
+  ],
+  "hajj-umrah": [
+   4
+  ],
+  "visit-visa": [
+   2,
+   6
+  ],
+  "tours": [
+   5
+  ],
+  "ielts-pte": [
+   1
+  ]
  }
 }
