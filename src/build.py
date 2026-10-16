@@ -54,6 +54,51 @@ def load(name: str):
 COUNTRIES = load("countries.json")
 UI = load("ui.json")
 ICONS = (SRC / "assets" / "icons.svg.html").read_text(encoding="utf-8")
+BANNERS = load("banners.json")
+
+
+def _lum(hex_colour: str) -> float:
+    """Relative luminance (WCAG) of a #RRGGBB colour."""
+    def ch(v: int) -> float:
+        c = v / 255
+        return c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
+    r, g, b = (int(hex_colour[i:i + 2], 16) for i in (1, 3, 5))
+    return 0.2126 * ch(r) + 0.7152 * ch(g) + 0.0722 * ch(b)
+
+
+def stamp_accent(flag: list[str]) -> str:
+    """Pick the flag colour that reads best as line-art on the blue hero; white if none does."""
+    usable = [c for c in flag if 0.08 <= _lum(c) <= 0.85]
+    if not usable:
+        return "#FFFFFF"
+    best = max(usable, key=_lum)
+    if _lum(best) < 0.25:  # lift deep reds and greens so the line-art stays readable on blue
+        r, g, b = (int(best[i:i + 2], 16) for i in (1, 3, 5))
+        best = "#" + "".join(f"{int(v + (255 - v) * 0.35):02X}" for v in (r, g, b))
+    return best
+
+
+def banner(c: dict, lang: str) -> str:
+    """Decorative country banner: flag-colour bar, faded city names and a passport-style entry stamp."""
+    b = BANNERS[c["slug"]]
+    f = b["flag"]
+    accent = stamp_accent(f)
+    places = '<i aria-hidden="true">·</i>'.join(f"<span>{e(p)}</span>" for p in b["places"][lang] * 2)
+    code = c["code"]
+    size = 34 if len(code) <= 2 else 26 if len(code) <= 4 else 15
+    city = e(b["places"]["en"][0].upper())
+    stamp = f"""<svg class="stamp" viewBox="0 0 160 160" aria-hidden="true" focusable="false">
+  <defs><path id="st-top" d="M 22,80 a58,58 0 1,1 116,0"/><path id="st-bot" d="M 28,80 a52,52 0 0,0 104,0"/></defs>
+  <circle cx="80" cy="80" r="74" fill="none" stroke="var(--fa)" stroke-width="3"/>
+  <circle cx="80" cy="80" r="64" fill="none" stroke="var(--fa)" stroke-width="1.4" stroke-dasharray="3 4"/>
+  <text class="st-arc"><textPath href="#st-top" startOffset="50%" text-anchor="middle">STUDENT · ENTRY · M2M</textPath></text>
+  <text class="st-code" x="80" y="80" text-anchor="middle" dominant-baseline="central" font-size="{size}">{e(code)}</text>
+  <line x1="46" y1="104" x2="114" y2="104" stroke="var(--fa)" stroke-width="1.4"/>
+  <text class="st-arc"><textPath href="#st-bot" startOffset="50%" text-anchor="middle">{city}</textPath></text>
+</svg>"""
+    style = f"--f1:{f[0]};--f2:{f[1]};--f3:{f[2]};--fa:{accent}"
+    return style, f'<div class="c-banner" aria-hidden="true"><div class="places">{places}</div>{stamp}</div>'
+
 
 
 # ---------- path helpers ----------
@@ -309,13 +354,16 @@ def country_page(c: dict, lang: str) -> str:
     more = [x for x in COUNTRIES if x["region"] == c["region"] and x["slug"] != c["slug"]]
     more_links = "".join(f'<a class="mini" href="{rel(here, page_path(lang, x["slug"]))}"><span dir="ltr">{e(x["code"])}</span>{e(x["name"][lang])}</a>' for x in more)
     wa = wa_link(t["wa_text"].format(name=name))
-    body = f"""<section class="c-hero"><div class="wrap">
+    b_style, b_html = banner(c, lang)
+    intro = BANNERS[c["slug"]]["intro"][lang]
+    body = f"""<section class="c-hero has-banner" style="{b_style}"><div class="flagbar" aria-hidden="true"></div><div class="wrap">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="{home_p}">{e(t['home'])}</a><span aria-hidden="true">/</span><a href="{home_p}#destinations">{e(t['countries'])}</a><span aria-hidden="true">/</span><span>{e(name)}</span></nav>
+  {b_html}
   <div class="c-hero-grid">
     <div>
       <p class="eyebrow eyebrow-gold" dir="ltr">{e(c['code'])} · {e(c['label'])}</p>
       <h1>{e(t['title'].format(name=name))}</h1>
-      <p class="lede">{e(c['tagline'][lang])}</p>
+      <p class="lede">{e(intro)}</p>
       <div class="hero-ctas"><a class="btn btn-gold" href="{wa}" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>{e(t['cta'].format(name=name))}</a></div>
     </div>
     <dl class="c-facts">
@@ -346,7 +394,7 @@ def country_page(c: dict, lang: str) -> str:
 </div></section>
 {contact_section(lang, preset_country=name)}"""
     title = f"{t['title'].format(name=name)} | M2M Global Consultants"
-    desc = f"{c['tagline'][lang]} {t['intakes']}: {c['intakes'][lang]}."
+    desc = intro
     return layout(lang, here, title, desc, body, page_path("ur" if lang == "en" else "en", c["slug"]))
 
 

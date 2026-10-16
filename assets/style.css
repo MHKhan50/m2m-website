@@ -331,3 +331,20 @@ html[lang="ur"] summary::after{font-family:var(--mono)}
 html[lang="ur"] .r-label{font-family:var(--body);letter-spacing:0;text-transform:none;font-size:13px}
 :root[data-theme="dark"] .r-head .iata,:root[data-theme="dark"] .r-link{color:var(--gold)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .r-head .iata,:root:not([data-theme="light"]) .r-link{color:var(--gold)}}
+
+/* ---------- country banner ---------- */
+.c-hero.has-banner{position:relative;padding-top:22px}
+.flagbar{position:absolute;inset:0 0 auto;height:6px;background:linear-gradient(90deg,var(--f1) 0 33.3%,var(--f2) 33.3% 66.6%,var(--f3) 66.6% 100%)}
+.c-banner{position:relative;display:flex;align-items:center;gap:0;margin:-6px 0 18px;min-height:112px;overflow:hidden;border-block:1px solid rgba(255,255,255,.12)}
+.places{flex:1;min-width:0;white-space:nowrap;overflow:hidden;font:800 clamp(28px,5vw,58px)/1 var(--display);font-stretch:80%;letter-spacing:.02em;text-transform:uppercase;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.32);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 6%,#000 80%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 6%,#000 80%,transparent 100%)}
+.places span{display:inline-block}
+.places i{display:inline-block;font-style:normal;margin-inline:.35em;-webkit-text-stroke:0;color:var(--fa);opacity:.7}
+.stamp{flex:none;width:118px;height:118px;margin-inline-start:-36px;transform:rotate(-9deg);opacity:.92}
+.stamp .st-arc{font:700 10.5px var(--mono);letter-spacing:.18em;fill:var(--fa)}
+.stamp .st-code{font-family:var(--mono);font-weight:700;fill:#fff}
+@media (max-width:600px){.c-banner{min-height:88px}.stamp{width:88px;height:88px;margin-inline-start:-28px}}
+html[lang="ur"] .places{font-family:var(--body);text-transform:none;letter-spacing:0;color:rgba(255,255,255,.16);-webkit-text-stroke:0;font-weight:700;line-height:1.9;font-size:clamp(24px,4vw,44px);-webkit-mask-image:linear-gradient(270deg,transparent 0,#000 6%,#000 80%,transparent 100%);mask-image:linear-gradient(270deg,transparent 0,#000 6%,#000 80%,transparent 100%)}
+html[lang="ur"] .stamp{transform:rotate(9deg)}
+.c-hero-grid>*{min-width:0}
+.c-hero{overflow-x:clip}
+.c-hero h1,.c-hero .lede{overflow-wrap:break-word}

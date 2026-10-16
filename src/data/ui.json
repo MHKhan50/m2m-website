@@ -4,7 +4,7 @@
   "dir": "ltr",
   "switch_label": "اردو",
   "switch_name": "Urdu",
-  "site_desc": "M2M Global Consultants, Faisalabad: study visas for 34 countries, Gulf work visas (Saudi Arabia, UAE, Qatar), Hajj and Umrah, visit visas, air tickets and IELTS/PTE coaching.",
+  "site_desc": "M2M Global Consultants, Faisalabad: study visas for 34 countries, Gulf work visas (Saudi Arabia, UAE, Qatar), Hajj and Umrah, tours and holiday packages, hotel bookings, air tickets and IELTS/PTE coaching.",
   "nav": {
    "services": "Services",
    "countries": "Countries",
@@ -22,7 +22,7 @@
    "title_a": "Your study and visa file, prepared",
    "title_em": "properly",
    "title_b": "from day one.",
-   "lede": "M2M Global Consultants helps students, workers and families with study visas for 34 countries, work visas for Saudi Arabia, the UAE and Qatar, Hajj and Umrah, and air tickets. We build a complete, honest application with you, step by step.",
+   "lede": "M2M Global Consultants helps students, workers and families with study visas for 34 countries, work visas for Saudi Arabia, the UAE and Qatar, Hajj and Umrah, and tours with hotels and air tickets to any country. We build a complete, honest application with you, step by step.",
    "cta1": "Book a consultation",
    "cta2": "Explore 34 countries",
    "fact1": "on Google (29 reviews)",
@@ -127,14 +127,15 @@
      "tag": "TOURISM · BUSINESS"
     },
     {
-     "id": "air-tickets",
-     "code": "TKT",
-     "title": "Air Tickets & Travel",
-     "text": "Flights to any country, for students, workers, pilgrims and families, with help on baggage and connections.",
+     "id": "tours",
+     "code": "TUR",
+     "title": "Tours & Holidays",
+     "text": "Complete tour packages to any country: we plan the trip, book your hotels and flights, and arrange sightseeing for families, couples and groups.",
      "points": [
-      "One-way and return tickets worldwide",
-      "Student and group fares when available",
-      "Travel insurance and hotel bookings"
+      "Tour packages for any country",
+      "Hotel bookings at every budget",
+      "Air tickets worldwide",
+      "Sightseeing, transfers and travel insurance"
      ],
      "tag": "ANY DESTINATION"
     }
@@ -269,6 +270,10 @@
      "Yes. We arrange Umrah for individuals, families and groups, including visa, flights, hotels and transport. For Hajj, we guide you through the government and private schemes and the documents you need."
     ],
     [
+     "Can you arrange a holiday tour abroad?",
+     "Yes. We plan tours to any country, with hotel bookings, flights, transfers and sightseeing, for families, couples and groups. Tell us your dates and budget and we will send you a package."
+    ],
+    [
      "Can you guarantee my visa?",
      "No consultant can honestly guarantee a visa. The decision belongs to the embassy or immigration department. We make sure your application is complete, genuine and well prepared."
     ],
@@ -310,6 +315,7 @@
     "Gulf Work Visa",
     "Hajj / Umrah",
     "Visit / Business Visa",
+    "Tours & Holidays",
     "Air tickets",
     "Family Visa",
     "IELTS / PTE coaching"
@@ -518,7 +524,7 @@
   "dir": "rtl",
   "switch_label": "English",
   "switch_name": "English",
-  "site_desc": "ایم ٹو ایم گلوبل کنسلٹنٹس، فیصل آباد: 34 ممالک کے اسٹڈی ویزے، خلیجی ورک ویزے (سعودی عرب، یو اے ای، قطر)، حج و عمرہ، وزٹ ویزے، ہوائی ٹکٹ اور IELTS/PTE کوچنگ۔",
+  "site_desc": "ایم ٹو ایم گلوبل کنسلٹنٹس، فیصل آباد: 34 ممالک کے اسٹڈی ویزے، خلیجی ورک ویزے (سعودی عرب، یو اے ای، قطر)، حج و عمرہ، ٹور اور ہالیڈے پیکجز، ہوٹل بکنگ، ہوائی ٹکٹ اور IELTS/PTE کوچنگ۔",
   "nav": {
    "services": "خدمات",
    "countries": "ممالک",
@@ -536,7 +542,7 @@
    "title_a": "آپ کی اسٹڈی اور ویزا فائل، پہلے دن سے",
    "title_em": "درست",
    "title_b": "تیار۔",
-   "lede": "ایم ٹو ایم گلوبل کنسلٹنٹس طلبہ، ورکرز اور خاندانوں کی 34 ممالک کے اسٹڈی ویزوں، سعودی عرب، یو اے ای اور قطر کے ورک ویزوں، حج و عمرہ اور ہوائی ٹکٹوں میں مدد کرتا ہے۔ ہم آپ کے ساتھ قدم بہ قدم مکمل اور سچی درخواست تیار کرتے ہیں۔",
+   "lede": "ایم ٹو ایم گلوبل کنسلٹنٹس طلبہ، ورکرز اور خاندانوں کی 34 ممالک کے اسٹڈی ویزوں، سعودی عرب، یو اے ای اور قطر کے ورک ویزوں، حج و عمرہ، اور کسی بھی ملک کے ٹور، ہوٹل اور ہوائی ٹکٹوں میں مدد کرتا ہے۔ ہم آپ کے ساتھ قدم بہ قدم مکمل اور سچی درخواست تیار کرتے ہیں۔",
    "cta1": "مشاورت بک کریں",
    "cta2": "34 ممالک دیکھیں",
    "fact1": "گوگل پر (29 ریویوز)",
@@ -641,14 +647,15 @@
      "tag": "سیاحت · کاروبار"
     },
     {
-     "id": "air-tickets",
-     "code": "TKT",
-     "title": "ہوائی ٹکٹ اور سفر",
-     "text": "کسی بھی ملک کے لیے پروازیں، طلبہ، ورکرز، زائرین اور خاندانوں کے لیے، سامان اور کنکشن کی رہنمائی کے ساتھ۔",
+     "id": "tours",
+     "code": "TUR",
+     "title": "ٹورز اور تعطیلات",
+     "text": "کسی بھی ملک کے مکمل ٹور پیکجز: ہم سفر کی منصوبہ بندی کرتے ہیں، ہوٹل اور پروازیں بک کرتے ہیں، اور خاندانوں، جوڑوں اور گروپس کے لیے سیر کا انتظام کرتے ہیں۔",
      "points": [
-      "دنیا بھر کے لیے یک طرفہ اور واپسی ٹکٹ",
-      "دستیاب ہوں تو اسٹوڈنٹ اور گروپ کرایے",
-      "ٹریول انشورنس اور ہوٹل بکنگ"
+      "کسی بھی ملک کے ٹور پیکجز",
+      "ہر بجٹ میں ہوٹل بکنگ",
+      "دنیا بھر کے ہوائی ٹکٹ",
+      "سیر، ٹرانسفر اور ٹریول انشورنس"
      ],
      "tag": "ہر منزل"
     }
@@ -783,6 +790,10 @@
      "جی ہاں۔ ہم افراد، خاندانوں اور گروپس کے لیے عمرہ کا انتظام کرتے ہیں، بشمول ویزا، پروازیں، ہوٹل اور ٹرانسپورٹ۔ حج کے لیے ہم سرکاری اور پرائیویٹ اسکیم اور مطلوبہ دستاویزات میں رہنمائی کرتے ہیں۔"
     ],
     [
+     "کیا آپ بیرونِ ملک سیاحتی ٹور کا انتظام کرتے ہیں؟",
+     "جی ہاں۔ ہم کسی بھی ملک کے ٹور کی منصوبہ بندی کرتے ہیں، ہوٹل بکنگ، پروازوں، ٹرانسفر اور سیر کے ساتھ، خاندانوں، جوڑوں اور گروپس کے لیے۔ اپنی تاریخیں اور بجٹ بتائیں، ہم آپ کو پیکج بھیج دیں گے۔"
+    ],
+    [
      "کیا آپ ویزا کی گارنٹی دیتے ہیں؟",
      "کوئی بھی کنسلٹنٹ ایمانداری سے ویزا کی گارنٹی نہیں دے سکتا۔ فیصلہ سفارت خانے یا امیگریشن محکمے کا ہوتا ہے۔ ہم یقینی بناتے ہیں کہ آپ کی درخواست مکمل، اصل اور اچھی طرح تیار ہو۔"
     ],
@@ -824,6 +835,7 @@
     "خلیجی ورک ویزا",
     "حج / عمرہ",
     "وزٹ / بزنس ویزا",
+    "ٹورز اور تعطیلات",
     "ہوائی ٹکٹ",
     "فیملی ویزا",
     "IELTS / PTE کوچنگ"
