@@ -22,6 +22,20 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "src"
 SITE = "https://m2mglobalconsultants.com"  # canonical address once the domain points here
 WA = "923095685686"
+# Tawk.to live chat. Paste the Property ID and Widget ID here (format: "PROPERTY/WIDGET").
+# Left empty, no chat widget is added to the pages.
+TAWK = ""
+
+
+def tawk_snippet() -> str:
+    if not TAWK:
+        return ""
+    return (
+        '<script>var Tawk_API=Tawk_API||{},Tawk_LoadStart=new Date();'
+        '(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];'
+        's1.async=true;s1.src="https://embed.tawk.to/' + TAWK + '";s1.charset="UTF-8";'
+        's1.setAttribute("crossorigin","*");s0.parentNode.insertBefore(s1,s0);})();</script>'
+    )
 PHONE_PK = ("+92 309 5685686", "+923095685686")
 PHONE_UK = ("+44 7828 585686", "+447828585686")
 EMAIL = "info@m2mglobalconsultants.com"
@@ -234,6 +248,7 @@ def layout(lang: str, here: str, title: str, desc: str, body: str, other_lang_pa
 </div></footer>
 <a class="wa-float" href="https://wa.me/{WA}" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#i-wa"/></svg></a>
 <script src="{a('assets/site.js')}" defer></script>{extra_js}
+{tawk_snippet()}
 </body>
 </html>
 """
