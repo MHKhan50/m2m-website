@@ -25,7 +25,7 @@ WA = "923095685686"
 PHONE_PK = ("+92 309 5685686", "+923095685686")
 PHONE_UK = ("+44 7828 585686", "+447828585686")
 EMAIL = "info@m2mglobalconsultants.com"
-GENERATED = ["study-in", "ur", "assets"]  # folders this script owns and rebuilds
+GENERATED = ["study-in", "ur", "assets", "eligibility"]  # folders this script owns and rebuilds
 
 SOCIAL = [
     ("Facebook", "fb", "https://www.facebook.com/m2mglobalconsultants/"),
@@ -69,12 +69,16 @@ def rel(from_path: str, to_path: str) -> str:
     return ("../" * depth) + to_path if (depth or to_path) else "./"
 
 
+def checker_path(lang: str) -> str:
+    return ("" if lang == "en" else "ur/") + "eligibility/"
+
+
 def wa_link(text: str) -> str:
     return f"https://wa.me/{WA}?text={quote(text)}"
 
 
 # ---------- shared layout ----------
-def layout(lang: str, here: str, title: str, desc: str, body: str, other_lang_path: str) -> str:
+def layout(lang: str, here: str, title: str, desc: str, body: str, other_lang_path: str, extra_js: str = "") -> str:
     t = UI[lang]
     a = lambda p: rel(here, p)  # noqa: E731
     other = "ur" if lang == "en" else "en"
@@ -142,6 +146,7 @@ def layout(lang: str, here: str, title: str, desc: str, body: str, other_lang_pa
     <a href="{home}#destinations">{e(nav['countries'])}</a>
     <a href="{home}#coaching">{e(nav['coaching'])}</a>
     <a href="{home}#process">{e(nav['process'])}</a>
+    <a href="{a(checker_path(lang))}">{e(nav['checker'])}</a>
     <a href="{home}#faq">{e(nav['faq'])}</a>
     <a href="{home}#contact">{e(nav['contact'])}</a>
   </nav>
@@ -163,7 +168,7 @@ def layout(lang: str, here: str, title: str, desc: str, body: str, other_lang_pa
   </div>
 </div></footer>
 <a class="wa-float" href="https://wa.me/{WA}" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#i-wa"/></svg></a>
-<script src="{a('assets/site.js')}" defer></script>
+<script src="{a('assets/site.js')}" defer></script>{extra_js}
 </body>
 </html>
 """
@@ -255,6 +260,10 @@ def home(lang: str) -> str:
   </div>
 </div></section>
 <div class="trust"><div class="wrap">{trust}</div></div>
+<div class="check-band"><div class="wrap">
+  <div><h2>{e(t['checker']['band_title'])}</h2><p>{e(t['checker']['band_text'])}</p></div>
+  <a class="btn btn-gold" href="{rel(here, checker_path(lang))}">{e(t['checker']['band_cta'])}</a>
+</div></div>
 <section id="services"><div class="wrap">
   <div class="sec-head"><p class="eyebrow">{e(s['eyebrow'])}</p><h2>{e(s['title'])}</h2><p class="lede">{e(s['lede'])}</p></div>
   <div class="passes">{passes}</div>
@@ -342,6 +351,46 @@ def country_page(c: dict, lang: str) -> str:
     return layout(lang, here, title, desc, body, page_path("ur" if lang == "en" else "en", c["slug"]))
 
 
+def checker_page(lang: str) -> str:
+    here = checker_path(lang)
+    t = UI[lang]["checker"]
+    rules = load("eligibility.json")["rules"]
+    opts = lambda items, sel=None: "".join(  # noqa: E731
+        f'<option value="{v}"{" selected" if v == sel else ""}>{e(lbl)}</option>' for v, lbl in items)
+    data = {
+        "wa": WA,
+        "text": {k: t[k] for k in ("results", "none", "labels", "reasons", "view", "wa", "wa_intro",
+                                   "summary_labels", "disclaimer", "marks_invalid")},
+        "countries": [{"slug": c["slug"], "code": c["code"], "name": c["name"][lang],
+                       "url": rel(here, page_path(lang, c["slug"])), "rules": rules[c["slug"]]} for c in COUNTRIES],
+    }
+    how = "".join(f"<li>{e(x)}</li>" for x in t["how"])
+    data_json = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+    body = f"""<section class="c-hero"><div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(here, page_path(lang))}">{e(UI[lang]['country']['home'])}</a><span aria-hidden="true">/</span><span>{e(t['eyebrow'])}</span></nav>
+  <p class="eyebrow eyebrow-gold">{e(t['eyebrow'])}</p>
+  <h1>{e(t['title'])}</h1>
+  <p class="lede">{e(t['lede'])}</p>
+</div></section>
+<section class="checker-sec"><div class="wrap k-grid">
+  <form class="k-form" id="checker" novalidate>
+    <div class="f full"><label for="k-level">{e(t['level'])}</label><select id="k-level">{opts(t['levels'], 'master')}</select></div>
+    <div class="f"><label for="k-marks">{e(t['marks'])}</label><input id="k-marks" type="number" inputmode="decimal" min="30" max="100" step="0.1" value="68" dir="ltr"><small class="hint">{e(t['marks_hint'])}</small></div>
+    <div class="f"><label for="k-english">{e(t['english'])}</label><select id="k-english">{opts(t['eng_opts'], '6')}</select></div>
+    <div class="f full chk"><input id="k-emi" type="checkbox" checked><label for="k-emi">{e(t['emi'])}</label></div>
+    <div class="f"><label for="k-budget">{e(t['budget'])}</label><select id="k-budget">{opts(t['budgets'], '2')}</select></div>
+    <div class="f"><label for="k-gap">{e(t['gap'])}</label><select id="k-gap">{opts(t['gaps'], '1')}</select></div>
+    <div class="f full"><button class="btn btn-blue" type="submit">{e(t['submit'])}</button></div>
+  </form>
+  <aside class="k-how"><h2>{e(t['how_title'])}</h2><ul>{how}</ul></aside>
+  <div class="k-results" id="results" hidden aria-live="polite"></div>
+</div></section>
+<script type="application/json" id="checker-data">{data_json}</script>"""
+    return layout(lang, here, f"{t['title']} | M2M Global Consultants", t["lede"], body,
+                  checker_path("ur" if lang == "en" else "en"),
+                  extra_js=f'\n<script src="{rel(here, "assets/checker.js")}" defer></script>')
+
+
 def not_found() -> str:
     body = """<section class="c-hero"><div class="wrap" style="padding-block:40px">
 <h1>Page not found</h1><p class="lede">The page you are looking for has moved. Go back to the home page to see all services and countries.</p>
@@ -362,13 +411,15 @@ def main() -> None:
     for d in GENERATED:
         shutil.rmtree(ROOT / d, ignore_errors=True)
     (ROOT / "assets").mkdir()
-    for f in ("style.css", "site.js", "logo.png", "icon.png"):
+    for f in ("style.css", "site.js", "checker.js", "logo.png", "icon.png"):
         shutil.copy(SRC / "assets" / f, ROOT / "assets" / f)
 
     pages = []
     for lang in ("en", "ur"):
         write(page_path(lang) + "index.html", home(lang))
         pages.append(page_path(lang))
+        write(checker_path(lang) + "index.html", checker_page(lang))
+        pages.append(checker_path(lang))
         for c in COUNTRIES:
             write(page_path(lang, c["slug"]) + "index.html", country_page(c, lang))
             pages.append(page_path(lang, c["slug"]))
