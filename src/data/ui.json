@@ -4,7 +4,7 @@
   "dir": "ltr",
   "switch_label": "اردو",
   "switch_name": "Urdu",
-  "site_desc": "M2M Global Consultants, Faisalabad: study visas for 34 countries, visit and business visas, scholarships and IELTS/PTE coaching.",
+  "site_desc": "M2M Global Consultants, Faisalabad: study visas for 34 countries, Gulf work visas (Saudi Arabia, UAE, Qatar), Hajj and Umrah, visit visas, air tickets and IELTS/PTE coaching.",
   "nav": {
    "services": "Services",
    "countries": "Countries",
@@ -18,11 +18,11 @@
   "whatsapp": "WhatsApp us",
   "hours": "Mon–Sat, 9am–5pm",
   "hero": {
-   "eyebrow": "Study abroad & visa consultants · Faisalabad",
+   "eyebrow": "Study abroad, visa & travel consultants · Faisalabad",
    "title_a": "Your study and visa file, prepared",
    "title_em": "properly",
    "title_b": "from day one.",
-   "lede": "M2M Global Consultants helps students, families and professionals choose the right country, the right university and the right visa route, then builds a complete, honest application with you, step by step.",
+   "lede": "M2M Global Consultants helps students, workers and families with study visas for 34 countries, work visas for Saudi Arabia, the UAE and Qatar, Hajj and Umrah, and air tickets. We build a complete, honest application with you, step by step.",
    "cta1": "Book a consultation",
    "cta2": "Explore 34 countries",
    "fact1": "on Google (29 reviews)",
@@ -58,8 +58,8 @@
   ],
   "services": {
    "eyebrow": "What we do",
-   "title": "Visa and study services",
-   "lede": "Every case starts with a one-to-one review of your profile, documents and budget. You get a clear plan before you pay any application fee.",
+   "title": "Study, work and travel services",
+   "lede": "Every case starts with a one-to-one review of your documents and budget. You get a clear plan before you pay any fee.",
    "ask": "Ask about this",
    "label": "Service",
    "items": [
@@ -74,55 +74,7 @@
       "Financial and document checklist",
       "Visa file review and interview preparation"
      ],
-     "tag": "ADMISSION → ARRIVAL"
-    },
-    {
-     "id": "visit-visa",
-     "code": "VIS",
-     "title": "Visit Visa",
-     "text": "Tourism and short trips to the UK, Schengen countries, the USA, Australia, Dubai, Turkey and Malaysia.",
-     "points": [
-      "Travel plan and invitation guidance",
-      "Supporting documents checklist",
-      "Application form and appointment booking"
-     ],
-     "tag": "TOURISM · FAMILY"
-    },
-    {
-     "id": "business-visa",
-     "code": "BUS",
-     "title": "Business Visa",
-     "text": "For meetings, trade fairs, conferences and exploring new markets abroad.",
-     "points": [
-      "Invitation letter and company documents",
-      "Business profile and trip purpose",
-      "Application and appointment support"
-     ],
-     "tag": "MEETINGS · EVENTS"
-    },
-    {
-     "id": "family-visa",
-     "code": "FAM",
-     "title": "Family & Spouse Visa",
-     "text": "Help for families joining a spouse, parent or relative who is studying, working or settled abroad.",
-     "points": [
-      "Eligibility check for your route",
-      "Relationship and sponsor documents",
-      "Dependant applications for students"
-     ],
-     "tag": "REUNITE ABROAD"
-    },
-    {
-     "id": "work-visa",
-     "code": "WRK",
-     "title": "Work Visa Guidance",
-     "text": "Honest advice on the legal work routes that fit your skills, including post-study and dependant work rights.",
-     "points": [
-      "Eligibility assessment by country",
-      "Documents for sponsored job offers",
-      "Post-study and spouse work options"
-     ],
-     "tag": "LEGAL ROUTES ONLY"
+     "tag": "34 COUNTRIES"
     },
     {
      "id": "scholarships",
@@ -130,14 +82,68 @@
      "title": "Scholarships",
      "text": "We find scholarships and fee discounts that match your grades and course, and help you apply on time.",
      "points": [
-      "Scholarship search by country and level",
+      "Government and university scholarships",
       "Personal statement guidance",
       "Deadline tracking"
      ],
      "tag": "FUNDING"
+    },
+    {
+     "id": "gulf-work-visa",
+     "code": "GCC",
+     "title": "Gulf Work Visas",
+     "text": "Work visas for Saudi Arabia, the UAE (Dubai) and Qatar, processed for workers who have a genuine job offer.",
+     "points": [
+      "Job offer and contract check before you pay anything",
+      "Visa and employer document processing",
+      "GAMCA medical and protector stamp guidance",
+      "Pre-departure briefing on your rights and contract"
+     ],
+     "tag": "SAUDI · UAE · QATAR"
+    },
+    {
+     "id": "hajj-umrah",
+     "code": "UMR",
+     "title": "Hajj & Umrah",
+     "text": "Umrah for individuals, families and groups, and guidance for Hajj under the government and private schemes.",
+     "points": [
+      "Umrah visa processing",
+      "Flights, hotels in Makkah and Madinah, and transport",
+      "Family and group packages",
+      "Hajj scheme guidance and documents"
+     ],
+     "tag": "MAKKAH · MADINAH"
+    },
+    {
+     "id": "visit-visa",
+     "code": "VIS",
+     "title": "Visit & Business Visa",
+     "text": "Tourism, family visits, meetings and trade fairs in the UK, Schengen countries, the USA, Australia, Dubai, Turkey and Malaysia.",
+     "points": [
+      "Travel plan and invitation guidance",
+      "Supporting documents checklist",
+      "Application form and appointment booking"
+     ],
+     "tag": "TOURISM · BUSINESS"
+    },
+    {
+     "id": "air-tickets",
+     "code": "TKT",
+     "title": "Air Tickets & Travel",
+     "text": "Flights to any country, for students, workers, pilgrims and families, with help on baggage and connections.",
+     "points": [
+      "One-way and return tickets worldwide",
+      "Student and group fares when available",
+      "Travel insurance and hotel bookings"
+     ],
+     "tag": "ANY DESTINATION"
     }
    ],
    "extra": [
+    [
+     "Family & spouse visas",
+     "Help for families joining a spouse, parent or relative studying or working abroad."
+    ],
     [
      "Visa refusal review",
      "We study a refusal letter and plan a stronger re-application."
@@ -149,10 +155,6 @@
     [
      "Document attestation",
      "HEC, IBCC and MOFA attestation guidance."
-    ],
-    [
-     "Travel services",
-     "Air tickets, travel insurance and Umrah arrangements."
     ]
    ]
   },
@@ -230,7 +232,7 @@
     ],
     [
      "No false guarantees",
-     "Visa decisions are made by embassies and immigration departments. We prepare the strongest file possible and tell you your real chances."
+     "Visa decisions are made by embassies and immigration departments. We prepare the strongest file possible, tell you your real chances, and never sell so-called free visas."
     ],
     [
      "Clear fees in writing",
@@ -257,6 +259,14 @@
     [
      "What documents should I bring to the first meeting?",
      "Bring your passport, educational certificates and transcripts, any English test result, and an idea of your budget. If you have a refusal from any country, bring that letter too."
+    ],
+    [
+     "Which work visas do you handle?",
+     "We process work visas for Saudi Arabia, the UAE and Qatar for workers with a genuine job offer. We check the offer and contract before you pay anything. Be careful of anyone selling a so-called free visa without a real employer; it can leave you stranded or unpaid."
+    ],
+    [
+     "Do you arrange Umrah and Hajj?",
+     "Yes. We arrange Umrah for individuals, families and groups, including visa, flights, hotels and transport. For Hajj, we guide you through the government and private schemes and the documents you need."
     ],
     [
      "Can you guarantee my visa?",
@@ -296,11 +306,12 @@
    "f_required": "Please fill this in",
    "services": [
     "Student Visa",
-    "Visit Visa",
-    "Business Visa",
-    "Family Visa",
-    "Work Visa",
     "Scholarships",
+    "Gulf Work Visa",
+    "Hajj / Umrah",
+    "Visit / Business Visa",
+    "Air tickets",
+    "Family Visa",
     "IELTS / PTE coaching"
    ],
    "not_sure": "Not sure yet",
@@ -507,7 +518,7 @@
   "dir": "rtl",
   "switch_label": "English",
   "switch_name": "English",
-  "site_desc": "ایم ٹو ایم گلوبل کنسلٹنٹس، فیصل آباد: 34 ممالک کے اسٹڈی ویزے، وزٹ اور بزنس ویزے، اسکالرشپس اور IELTS/PTE کوچنگ۔",
+  "site_desc": "ایم ٹو ایم گلوبل کنسلٹنٹس، فیصل آباد: 34 ممالک کے اسٹڈی ویزے، خلیجی ورک ویزے (سعودی عرب، یو اے ای، قطر)، حج و عمرہ، وزٹ ویزے، ہوائی ٹکٹ اور IELTS/PTE کوچنگ۔",
   "nav": {
    "services": "خدمات",
    "countries": "ممالک",
@@ -521,11 +532,11 @@
   "whatsapp": "واٹس ایپ کریں",
   "hours": "پیر تا ہفتہ، صبح 9 سے شام 5",
   "hero": {
-   "eyebrow": "بیرونِ ملک تعلیم اور ویزا کنسلٹنٹس · فیصل آباد",
+   "eyebrow": "بیرونِ ملک تعلیم، ویزا اور سفری کنسلٹنٹس · فیصل آباد",
    "title_a": "آپ کی اسٹڈی اور ویزا فائل، پہلے دن سے",
    "title_em": "درست",
    "title_b": "تیار۔",
-   "lede": "ایم ٹو ایم گلوبل کنسلٹنٹس طلبہ، خاندانوں اور پروفیشنلز کو صحیح ملک، صحیح یونیورسٹی اور صحیح ویزا روٹ منتخب کرنے میں مدد دیتا ہے، پھر آپ کے ساتھ قدم بہ قدم مکمل اور سچی درخواست تیار کرتا ہے۔",
+   "lede": "ایم ٹو ایم گلوبل کنسلٹنٹس طلبہ، ورکرز اور خاندانوں کی 34 ممالک کے اسٹڈی ویزوں، سعودی عرب، یو اے ای اور قطر کے ورک ویزوں، حج و عمرہ اور ہوائی ٹکٹوں میں مدد کرتا ہے۔ ہم آپ کے ساتھ قدم بہ قدم مکمل اور سچی درخواست تیار کرتے ہیں۔",
    "cta1": "مشاورت بک کریں",
    "cta2": "34 ممالک دیکھیں",
    "fact1": "گوگل پر (29 ریویوز)",
@@ -561,8 +572,8 @@
   ],
   "services": {
    "eyebrow": "ہم کیا کرتے ہیں",
-   "title": "ویزا اور تعلیمی خدمات",
-   "lede": "ہر کیس آپ کی پروفائل، دستاویزات اور بجٹ کے انفرادی جائزے سے شروع ہوتا ہے۔ کوئی بھی فیس دینے سے پہلے آپ کو واضح منصوبہ ملتا ہے۔",
+   "title": "تعلیم، روزگار اور سفر کی خدمات",
+   "lede": "ہر کیس آپ کی دستاویزات اور بجٹ کے انفرادی جائزے سے شروع ہوتا ہے۔ کوئی بھی فیس دینے سے پہلے آپ کو واضح منصوبہ ملتا ہے۔",
    "ask": "اس بارے میں پوچھیں",
    "label": "سروس",
    "items": [
@@ -577,55 +588,7 @@
       "مالی اور دستاویزات کی چیک لسٹ",
       "ویزا فائل کا جائزہ اور انٹرویو کی تیاری"
      ],
-     "tag": "داخلہ ← آمد"
-    },
-    {
-     "id": "visit-visa",
-     "code": "VIS",
-     "title": "وزٹ ویزا",
-     "text": "برطانیہ، شینگن ممالک، امریکہ، آسٹریلیا، دبئی، ترکی اور ملائیشیا کے لیے سیاحت اور مختصر سفر۔",
-     "points": [
-      "سفری منصوبہ اور دعوت نامے کی رہنمائی",
-      "معاون دستاویزات کی چیک لسٹ",
-      "درخواست فارم اور اپائنٹمنٹ بکنگ"
-     ],
-     "tag": "سیاحت · خاندان"
-    },
-    {
-     "id": "business-visa",
-     "code": "BUS",
-     "title": "بزنس ویزا",
-     "text": "میٹنگز، تجارتی نمائشوں، کانفرنسوں اور بیرونِ ملک نئی منڈیوں کے لیے۔",
-     "points": [
-      "دعوت نامہ اور کمپنی کی دستاویزات",
-      "بزنس پروفائل اور سفر کا مقصد",
-      "درخواست اور اپائنٹمنٹ میں مدد"
-     ],
-     "tag": "میٹنگز · ایونٹس"
-    },
-    {
-     "id": "family-visa",
-     "code": "FAM",
-     "title": "فیملی اور اسپاؤس ویزا",
-     "text": "بیرونِ ملک پڑھنے، کام کرنے یا مقیم شریکِ حیات، والدین یا رشتہ دار کے پاس جانے والے خاندانوں کے لیے۔",
-     "points": [
-      "آپ کے روٹ کے لیے اہلیت کی جانچ",
-      "رشتے اور اسپانسر کی دستاویزات",
-      "طلبہ کے ڈیپنڈنٹس کی درخواستیں"
-     ],
-     "tag": "خاندان کے ساتھ"
-    },
-    {
-     "id": "work-visa",
-     "code": "WRK",
-     "title": "ورک ویزا رہنمائی",
-     "text": "آپ کی مہارت کے مطابق قانونی ورک روٹس پر سچی رہنمائی، بشمول پڑھائی کے بعد اور ڈیپنڈنٹ کام کے حقوق۔",
-     "points": [
-      "ملک کے لحاظ سے اہلیت کا جائزہ",
-      "اسپانسرڈ نوکری کی دستاویزات",
-      "پڑھائی کے بعد اور شریکِ حیات کے کام کے مواقع"
-     ],
-     "tag": "صرف قانونی راستے"
+     "tag": "34 ممالک"
     },
     {
      "id": "scholarships",
@@ -633,14 +596,68 @@
      "title": "اسکالرشپس",
      "text": "ہم آپ کے نمبروں اور کورس کے مطابق اسکالرشپس اور فیس رعایت تلاش کرتے ہیں اور وقت پر اپلائی میں مدد دیتے ہیں۔",
      "points": [
-      "ملک اور سطح کے لحاظ سے اسکالرشپ تلاش",
+      "سرکاری اور یونیورسٹی اسکالرشپس",
       "پرسنل اسٹیٹمنٹ کی رہنمائی",
       "آخری تاریخوں کی نگرانی"
      ],
      "tag": "فنڈنگ"
+    },
+    {
+     "id": "gulf-work-visa",
+     "code": "GCC",
+     "title": "خلیجی ورک ویزے",
+     "text": "سعودی عرب، یو اے ای (دبئی) اور قطر کے ورک ویزے، ان ورکرز کے لیے جن کے پاس اصل نوکری کی آفر ہو۔",
+     "points": [
+      "کوئی رقم دینے سے پہلے نوکری کی آفر اور معاہدے کی جانچ",
+      "ویزا اور آجر کی دستاویزات کی پروسیسنگ",
+      "GAMCA میڈیکل اور پروٹیکٹر اسٹیمپ کی رہنمائی",
+      "روانگی سے پہلے آپ کے حقوق اور معاہدے پر بریفنگ"
+     ],
+     "tag": "سعودیہ · یو اے ای · قطر"
+    },
+    {
+     "id": "hajj-umrah",
+     "code": "UMR",
+     "title": "حج و عمرہ",
+     "text": "افراد، خاندانوں اور گروپس کے لیے عمرہ، اور سرکاری و پرائیویٹ اسکیم کے تحت حج کی رہنمائی۔",
+     "points": [
+      "عمرہ ویزا پروسیسنگ",
+      "پروازیں، مکہ اور مدینہ میں ہوٹل، اور ٹرانسپورٹ",
+      "فیملی اور گروپ پیکجز",
+      "حج اسکیم کی رہنمائی اور دستاویزات"
+     ],
+     "tag": "مکہ · مدینہ"
+    },
+    {
+     "id": "visit-visa",
+     "code": "VIS",
+     "title": "وزٹ اور بزنس ویزا",
+     "text": "برطانیہ، شینگن ممالک، امریکہ، آسٹریلیا، دبئی، ترکی اور ملائیشیا کے لیے سیاحت، فیملی وزٹ، میٹنگز اور تجارتی نمائشیں۔",
+     "points": [
+      "سفری منصوبہ اور دعوت نامے کی رہنمائی",
+      "معاون دستاویزات کی چیک لسٹ",
+      "درخواست فارم اور اپائنٹمنٹ بکنگ"
+     ],
+     "tag": "سیاحت · کاروبار"
+    },
+    {
+     "id": "air-tickets",
+     "code": "TKT",
+     "title": "ہوائی ٹکٹ اور سفر",
+     "text": "کسی بھی ملک کے لیے پروازیں، طلبہ، ورکرز، زائرین اور خاندانوں کے لیے، سامان اور کنکشن کی رہنمائی کے ساتھ۔",
+     "points": [
+      "دنیا بھر کے لیے یک طرفہ اور واپسی ٹکٹ",
+      "دستیاب ہوں تو اسٹوڈنٹ اور گروپ کرایے",
+      "ٹریول انشورنس اور ہوٹل بکنگ"
+     ],
+     "tag": "ہر منزل"
     }
    ],
    "extra": [
+    [
+     "فیملی اور اسپاؤس ویزے",
+     "بیرونِ ملک پڑھنے یا کام کرنے والے رشتہ دار کے پاس جانے والے خاندانوں کی مدد۔"
+    ],
     [
      "ویزا ریفیوزل کا جائزہ",
      "ہم ریفیوزل لیٹر پڑھ کر مضبوط دوبارہ درخواست کا منصوبہ بناتے ہیں۔"
@@ -652,10 +669,6 @@
     [
      "دستاویزات کی تصدیق",
      "HEC، IBCC اور MOFA اٹیسٹیشن کی رہنمائی۔"
-    ],
-    [
-     "سفری خدمات",
-     "ہوائی ٹکٹ، ٹریول انشورنس اور عمرہ کے انتظامات۔"
     ]
    ]
   },
@@ -733,7 +746,7 @@
     ],
     [
      "کوئی جھوٹی گارنٹی نہیں",
-     "ویزا کا فیصلہ سفارت خانے اور امیگریشن محکمے کرتے ہیں۔ ہم مضبوط ترین فائل تیار کرتے ہیں اور آپ کے اصل امکانات بتاتے ہیں۔"
+     "ویزا کا فیصلہ سفارت خانے اور امیگریشن محکمے کرتے ہیں۔ ہم مضبوط ترین فائل تیار کرتے ہیں، اصل امکانات بتاتے ہیں اور کبھی نام نہاد فری ویزا نہیں بیچتے۔"
     ],
     [
      "تحریری اور واضح فیس",
@@ -760,6 +773,14 @@
     [
      "پہلی ملاقات میں کون سی دستاویزات لاؤں؟",
      "پاسپورٹ، تعلیمی سرٹیفکیٹ اور ٹرانسکرپٹ، انگریزی ٹیسٹ کا نتیجہ اگر ہو، اور بجٹ کا اندازہ۔ اگر کسی ملک سے ریفیوزل ہوئی ہو تو وہ خط بھی ساتھ لائیں۔"
+    ],
+    [
+     "آپ کون سے ورک ویزے کرتے ہیں؟",
+     "ہم سعودی عرب، یو اے ای اور قطر کے ورک ویزے ان ورکرز کے لیے پروسیس کرتے ہیں جن کے پاس اصل نوکری کی آفر ہو۔ کوئی رقم دینے سے پہلے ہم آفر اور معاہدہ چیک کرتے ہیں۔ بغیر اصل آجر کے نام نہاد فری ویزا بیچنے والوں سے ہوشیار رہیں؛ اس سے آپ بیرونِ ملک پھنس سکتے ہیں یا تنخواہ سے محروم رہ سکتے ہیں۔"
+    ],
+    [
+     "کیا آپ عمرہ اور حج کا انتظام کرتے ہیں؟",
+     "جی ہاں۔ ہم افراد، خاندانوں اور گروپس کے لیے عمرہ کا انتظام کرتے ہیں، بشمول ویزا، پروازیں، ہوٹل اور ٹرانسپورٹ۔ حج کے لیے ہم سرکاری اور پرائیویٹ اسکیم اور مطلوبہ دستاویزات میں رہنمائی کرتے ہیں۔"
     ],
     [
      "کیا آپ ویزا کی گارنٹی دیتے ہیں؟",
@@ -799,11 +820,12 @@
    "f_required": "یہ خانہ پُر کریں",
    "services": [
     "اسٹوڈنٹ ویزا",
-    "وزٹ ویزا",
-    "بزنس ویزا",
-    "فیملی ویزا",
-    "ورک ویزا",
     "اسکالرشپس",
+    "خلیجی ورک ویزا",
+    "حج / عمرہ",
+    "وزٹ / بزنس ویزا",
+    "ہوائی ٹکٹ",
+    "فیملی ویزا",
     "IELTS / PTE کوچنگ"
    ],
    "not_sure": "ابھی طے نہیں",

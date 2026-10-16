@@ -145,7 +145,6 @@ def layout(lang: str, here: str, title: str, desc: str, body: str, other_lang_pa
     <a href="{home}#services">{e(nav['services'])}</a>
     <a href="{home}#destinations">{e(nav['countries'])}</a>
     <a href="{home}#coaching">{e(nav['coaching'])}</a>
-    <a href="{home}#process">{e(nav['process'])}</a>
     <a href="{a(checker_path(lang))}">{e(nav['checker'])}</a>
     <a href="{home}#faq">{e(nav['faq'])}</a>
     <a href="{home}#contact">{e(nav['contact'])}</a>
