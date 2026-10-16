@@ -258,7 +258,7 @@ def layout(lang: str, here: str, title: str, desc: str, body: str, other_lang_pa
 def country_card(c: dict, lang: str, here: str) -> str:
     t = UI[lang]["countries"]
     return (f'<a class="d" data-r="{c["region"]}" href="{rel(here, page_path(lang, c["slug"]))}">'
-            f'<div class="top"><span class="iata" dir="ltr">{e(c["code"])}</span><span class="flag" dir="ltr">{e(c["label"])}</span></div>'
+            f'<div class="top"><span class="cid"><img class="cflag" src="{rel(here, "assets/flags/" + c["slug"] + ".svg")}" alt="" width="36" height="24"><span class="iata" dir="ltr">{e(c["code"])}</span></span><span class="flag" dir="ltr">{e(c["label"])}</span></div>'
             f'<h3>{e(c["name"][lang])}</h3><p>{e(c["tagline"][lang])}</p>'
             f'<dl class="facts"><div><dt>{e(t["intakes"])}</dt><dd>{e(c["intakes"][lang])}</dd></div>'
             f'<div><dt>{e(t["scholarships"])}</dt><dd dir="auto">{e(c["scholarships"][0])}</dd></div></dl>'
@@ -480,6 +480,7 @@ def country_page(c: dict, lang: str) -> str:
   {b_html}
   <div class="c-hero-grid">
     <div>
+      <img class="hflag" src="{rel(here, "assets/flags/" + c["slug"] + ".svg")}" alt="" width="64" height="43">
       <p class="eyebrow eyebrow-gold" dir="ltr">{e(c['code'])} · {e(c['label'])}</p>
       <h1>{e(t['title'].format(name=name))}</h1>
       <p class="lede">{e(intro)}</p>
@@ -579,6 +580,7 @@ def main() -> None:
     (ROOT / "assets").mkdir()
     for f in ("style.css", "site.js", "checker.js", "logo.png", "icon.png"):
         shutil.copy(SRC / "assets" / f, ROOT / "assets" / f)
+    shutil.copytree(SRC / "assets" / "flags", ROOT / "assets" / "flags")
 
     pages = []
     for lang in ("en", "ur"):
