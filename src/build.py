@@ -67,6 +67,7 @@ def load(name: str):
 
 COUNTRIES = load("countries.json")
 UI = load("ui.json")
+SCH = load("scholarships.json")
 ICONS = (SRC / "assets" / "icons.svg.html").read_text(encoding="utf-8")
 BANNERS = load("banners.json")
 
@@ -391,6 +392,28 @@ def countries_page(lang: str) -> str:
                   countries_path("ur" if lang == "en" else "en"))
 
 
+
+def scholarships_section(lang: str) -> str:
+    """Verified list of fully funded scholarships, grouped by region (scholarships service page only)."""
+    tx = SCH["text"][lang]
+    out = [f'<h2 id="funded">{e(tx["title"])}</h2><p class="sch-lede">{e(tx["lede"])}</p>']
+    for reg in SCH["regions"]:
+        cards = []
+        for it in (i for i in SCH["items"] if i["region"] == reg["id"]):
+            links = " ".join(f'<a href="{e(u)}" target="_blank" rel="noopener" dir="ltr">{e(label)}</a>' for label, u in it["links"])
+            cards.append(f"""<article class="sch-card">
+  <h4 dir="ltr">{e(it["name"])}</h4>
+  <p class="sch-where">{e(it["where"][lang])}</p>
+  <dl><div><dt>{e(tx["levels"])}</dt><dd>{e(it["levels"][lang])}</dd></div>
+  <div><dt>{e(tx["covers"])}</dt><dd>{e(it["covers"][lang])}</dd></div>
+  <div><dt>{e(tx["key"])}</dt><dd>{e(it["key"][lang])}</dd></div></dl>
+  <p class="sch-links"><span>{e(tx["links"])}:</span> {links}</p>
+</article>""")
+        out.append(f'<h3 class="sch-region">{e(reg["name"][lang])}</h3><div class="sch-grid">{"".join(cards)}</div>')
+    out.append(f'<p class="sch-note">{e(tx["note"])}</p>')
+    return "\n".join(out)
+
+
 def service_page(it: dict, lang: str) -> str:
     here = service_path(lang, it["id"])
     t = UI[lang]
@@ -425,7 +448,7 @@ def service_page(it: dict, lang: str) -> str:
   <div class="c-main">
     <h2>{e(st['what'])}</h2>
     <ul class="why">{what}</ul>
-    {student_link}
+    {student_link}{scholarships_section(lang) if it["id"] == "scholarships" else ""}
     <h2>{e(st['how'])}</h2>
     <ol class="steps steps-4">{steps}</ol>
     {faq_block}

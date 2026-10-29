@@ -417,3 +417,18 @@ html[lang="ur"] .pill-group h3{font-family:var(--body);text-transform:none;lette
 .cid{display:inline-flex;align-items:center;gap:8px}
 .cid{flex:none;white-space:nowrap}
 .cid .iata{margin-left:2px}
+
+/* Scholarships list (scholarships service page) */
+.sch-lede{color:var(--muted)}
+.sch-region{margin:28px 0 10px;font-size:1.15rem}
+.sch-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.sch-card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 16px 12px}
+.sch-card h4{margin:0 0 2px;font-size:1rem;line-height:1.35}
+.sch-where{margin:0 0 8px;color:var(--muted);font-size:.9rem}
+.sch-card dl{margin:0;display:grid;gap:6px}
+.sch-card dt{font-weight:600;font-size:.82rem;color:var(--muted)}
+.sch-card dd{margin:0;font-size:.93rem}
+.sch-links{margin:10px 0 0;font-size:.88rem;display:flex;flex-wrap:wrap;gap:4px 10px}
+.sch-links span{color:var(--muted)}
+.sch-links a{color:var(--brand);font-weight:600}
+.sch-note{margin-top:20px;padding:12px 14px;border-left:4px solid var(--gold);background:var(--surface);border-radius:8px;font-size:.93rem}

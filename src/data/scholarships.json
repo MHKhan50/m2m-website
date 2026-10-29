@@ -1,0 +1,850 @@
+{
+ "checked": "2026-10-29",
+ "text": {
+  "en": {
+   "title": "Fully funded scholarships for Pakistani students",
+   "lede": "We checked each scholarship below on its official website on 29 October 2026. Amounts, rules and deadlines change every year, so always confirm on the official page before you apply.",
+   "levels": "Study level",
+   "covers": "What it covers",
+   "key": "Good to know",
+   "links": "Official page",
+   "note": "Applying for these scholarships is free and no one can guarantee you an award. Not every scholarship covers everything: some do not pay airfare, and the Aga Khan award is half loan. We can help you choose courses, prepare documents and write your personal statement."
+  },
+  "ur": {
+   "title": "پاکستانی طلبہ کے لیے مکمل فنڈڈ اسکالرشپس",
+   "lede": "نیچے دی گئی ہر اسکالرشپ ہم نے 29 اکتوبر 2026 کو اس کی سرکاری ویب سائٹ پر چیک کی۔ رقم، شرائط اور آخری تاریخیں ہر سال بدلتی ہیں، اس لیے اپلائی کرنے سے پہلے سرکاری صفحے پر ضرور تصدیق کریں۔",
+   "levels": "تعلیمی سطح",
+   "covers": "کیا شامل ہے",
+   "key": "اہم بات",
+   "links": "سرکاری صفحہ",
+   "note": "ان اسکالرشپس کے لیے اپلائی کرنا مفت ہے اور کوئی بھی اسکالرشپ کی ضمانت نہیں دے سکتا۔ ہر اسکالرشپ میں سب کچھ شامل نہیں: کچھ میں ہوائی ٹکٹ نہیں ملتا، اور آغا خان اسکالرشپ آدھی قرض ہے۔ ہم کورس کے انتخاب، دستاویزات اور پرسنل اسٹیٹمنٹ میں آپ کی مدد کر سکتے ہیں۔"
+  }
+ },
+ "regions": [
+  {
+   "id": "usa",
+   "name": {
+    "en": "United States",
+    "ur": "امریکہ"
+   }
+  },
+  {
+   "id": "uk",
+   "name": {
+    "en": "United Kingdom",
+    "ur": "برطانیہ"
+   }
+  },
+  {
+   "id": "europe",
+   "name": {
+    "en": "Europe",
+    "ur": "یورپ"
+   }
+  },
+  {
+   "id": "canada-australia",
+   "name": {
+    "en": "Canada and Australia",
+    "ur": "کینیڈا اور آسٹریلیا"
+   }
+  },
+  {
+   "id": "asia",
+   "name": {
+    "en": "East Asia",
+    "ur": "مشرقی ایشیا"
+   }
+  },
+  {
+   "id": "middle-east",
+   "name": {
+    "en": "Middle East",
+    "ur": "مشرق وسطیٰ"
+   }
+  },
+  {
+   "id": "global",
+   "name": {
+    "en": "International organisations",
+    "ur": "بین الاقوامی ادارے"
+   }
+  }
+ ],
+ "items": [
+  {
+   "region": "usa",
+   "name": "Fulbright Degree Program (USEFP)",
+   "where": {
+    "en": "USA",
+    "ur": "امریکہ"
+   },
+   "levels": {
+    "en": "Master's, PhD",
+    "ur": "ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "Tuition, living expenses, health insurance and air travel.",
+    "ur": "ٹیوشن، رہائش کے اخراجات، ہیلتھ انشورنس اور ہوائی سفر۔"
+   },
+   "key": {
+    "en": "Apply in Pakistan through USEFP. The 2027 round closed on 1 April 2026; the next round is announced on the USEFP website.",
+    "ur": "پاکستان میں USEFP کے ذریعے اپلائی کریں۔ 2027 کا راؤنڈ یکم اپریل 2026 کو بند ہوا؛ اگلا راؤنڈ USEFP کی ویب سائٹ پر آتا ہے۔"
+   },
+   "links": [
+    [
+     "USEFP",
+     "https://www.usefpakistan.org/"
+    ]
+   ]
+  },
+  {
+   "region": "usa",
+   "name": "Knight-Hennessy Scholars (Stanford University)",
+   "where": {
+    "en": "USA",
+    "ur": "امریکہ"
+   },
+   "levels": {
+    "en": "Any full-time Stanford graduate degree (MS, MBA, PhD, JD, MD and others)",
+    "ur": "اسٹینفورڈ کی کوئی بھی فل ٹائم گریجویٹ ڈگری (MS، MBA، PhD، JD، MD وغیرہ)"
+   },
+   "covers": {
+    "en": "Funding for up to three years of graduate study at Stanford.",
+    "ur": "اسٹینفورڈ میں تین سال تک گریجویٹ تعلیم کی فنڈنگ۔"
+   },
+   "key": {
+    "en": "Apply to Stanford and to Knight-Hennessy separately. For the 2028 cohort, your bachelor's degree must be from January 2021 or later.",
+    "ur": "اسٹینفورڈ اور نائٹ ہینیسی میں الگ الگ اپلائی کریں۔ 2028 کی کلاس کے لیے بیچلرز جنوری 2021 یا اس کے بعد کا ہونا چاہیے۔"
+   },
+   "links": [
+    [
+     "Eligibility",
+     "https://knight-hennessy.stanford.edu/admission/before-you-apply/eligibility"
+    ]
+   ]
+  },
+  {
+   "region": "usa",
+   "name": "Need-blind US colleges: Harvard, MIT, Yale, Princeton, Dartmouth, Amherst",
+   "where": {
+    "en": "USA",
+    "ur": "امریکہ"
+   },
+   "levels": {
+    "en": "Bachelor's",
+    "ur": "بیچلرز"
+   },
+   "covers": {
+    "en": "Admission does not depend on your ability to pay, and the college meets your full demonstrated need. The grant depends on your family's finances.",
+    "ur": "داخلے کا فیصلہ آپ کی مالی حالت دیکھ کر نہیں ہوتا، اور کالج آپ کی پوری ثابت شدہ ضرورت پوری کرتا ہے۔ گرانٹ کی رقم خاندان کی آمدنی پر منحصر ہے۔"
+   },
+   "key": {
+    "en": "Undergraduate only and very competitive. Each college sets its own tests and financial aid forms.",
+    "ur": "صرف انڈرگریجویٹ کے لیے، اور مقابلہ بہت سخت ہے۔ ہر کالج کے ٹیسٹ اور مالی امداد کے فارم الگ ہیں۔"
+   },
+   "links": [
+    [
+     "Harvard",
+     "https://college.harvard.edu/financial-aid/how-aid-works"
+    ],
+    [
+     "MIT",
+     "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/making-mit-affordable/"
+    ],
+    [
+     "Yale",
+     "https://admissions.yale.edu/international"
+    ],
+    [
+     "Princeton",
+     "https://admission.princeton.edu/apply/international-students"
+    ],
+    [
+     "Dartmouth",
+     "https://financialaid.dartmouth.edu/apply-aid/international-students"
+    ],
+    [
+     "Amherst",
+     "https://www.amherst.edu/admission/apply/international"
+    ]
+   ]
+  },
+  {
+   "region": "uk",
+   "name": "Chevening Scholarship",
+   "where": {
+    "en": "UK",
+    "ur": "برطانیہ"
+   },
+   "levels": {
+    "en": "One-year master's",
+    "ur": "ایک سالہ ماسٹرز"
+   },
+   "covers": {
+    "en": "Tuition, a monthly stipend and return airfare.",
+    "ur": "ٹیوشن، ماہانہ وظیفہ اور آنے جانے کا ٹکٹ۔"
+   },
+   "key": {
+    "en": "At least two years of work experience (2,800 hours) after your degree, and you must return to Pakistan for at least two years afterwards.",
+    "ur": "ڈگری کے بعد کم از کم دو سال (2,800 گھنٹے) کام کا تجربہ، اور بعد میں کم از کم دو سال کے لیے پاکستان واپس آنا لازمی ہے۔"
+   },
+   "links": [
+    [
+     "Eligibility",
+     "https://www.chevening.org/resource-hub/guidance/eligibility/"
+    ]
+   ]
+  },
+  {
+   "region": "uk",
+   "name": "Commonwealth Master's Scholarships",
+   "where": {
+    "en": "UK",
+    "ur": "برطانیہ"
+   },
+   "levels": {
+    "en": "Master's",
+    "ur": "ماسٹرز"
+   },
+   "covers": {
+    "en": "Tuition, return airfare and a monthly stipend of £1,712 (£2,000 in London).",
+    "ur": "ٹیوشن، آنے جانے کا ٹکٹ اور £1,712 ماہانہ وظیفہ (لندن میں £2,000)۔"
+   },
+   "key": {
+    "en": "Pakistan is eligible. Apply through the national nominating agency; direct applications are not accepted. The 2027/28 round closed on 20 October 2026.",
+    "ur": "پاکستان اہل ہے۔ قومی نامزدگی ادارے کے ذریعے اپلائی کریں؛ براہ راست درخواست قبول نہیں ہوتی۔ 2027/28 کا راؤنڈ 20 اکتوبر 2026 کو بند ہوا۔"
+   },
+   "links": [
+    [
+     "CSC UK",
+     "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/"
+    ]
+   ]
+  },
+  {
+   "region": "uk",
+   "name": "Rhodes Scholarship for Pakistan (University of Oxford)",
+   "where": {
+    "en": "UK",
+    "ur": "برطانیہ"
+   },
+   "levels": {
+    "en": "Postgraduate study at Oxford",
+    "ur": "آکسفورڈ میں پوسٹ گریجویٹ تعلیم"
+   },
+   "covers": {
+    "en": "Oxford fees and a living stipend.",
+    "ur": "آکسفورڈ کی فیس اور رہائشی وظیفہ۔"
+   },
+   "key": {
+    "en": "Pakistan has its own Rhodes constituency. Age and other rules are on the official Pakistan page.",
+    "ur": "پاکستان کے لیے الگ رہوڈز سیٹیں ہیں۔ عمر اور دیگر شرائط سرکاری صفحے پر دیکھیں۔"
+   },
+   "links": [
+    [
+     "Rhodes Pakistan",
+     "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/pakistan/"
+    ]
+   ]
+  },
+  {
+   "region": "uk",
+   "name": "Gates Cambridge Scholarship",
+   "where": {
+    "en": "UK",
+    "ur": "برطانیہ"
+   },
+   "levels": {
+    "en": "Master's, PhD",
+    "ur": "ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "The full cost of study at the University of Cambridge.",
+    "ur": "کیمبرج یونیورسٹی میں تعلیم کا پورا خرچ۔"
+   },
+   "key": {
+    "en": "For non-UK citizens. You apply through the Cambridge postgraduate application by the funding deadline.",
+    "ur": "غیر برطانوی شہریوں کے لیے۔ کیمبرج کی پوسٹ گریجویٹ درخواست کے ذریعے فنڈنگ کی آخری تاریخ تک اپلائی کریں۔"
+   },
+   "links": [
+    [
+     "Eligibility",
+     "https://www.gatescambridge.org/apply/eligibility/"
+    ]
+   ]
+  },
+  {
+   "region": "uk",
+   "name": "Clarendon Scholarship (University of Oxford)",
+   "where": {
+    "en": "UK",
+    "ur": "برطانیہ"
+   },
+   "levels": {
+    "en": "Master's, PhD",
+    "ur": "ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "Course fees and a living grant.",
+    "ur": "کورس کی فیس اور رہائشی گرانٹ۔"
+   },
+   "key": {
+    "en": "No separate form: you are considered when you apply to an eligible Oxford graduate course by the January funding deadline.",
+    "ur": "الگ فارم نہیں: آکسفورڈ کے اہل گریجویٹ کورس میں جنوری کی آخری تاریخ تک اپلائی کرنے پر خود بخود غور ہوتا ہے۔"
+   },
+   "links": [
+    [
+     "Clarendon Fund",
+     "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon"
+    ]
+   ]
+  },
+  {
+   "region": "europe",
+   "name": "Erasmus Mundus Joint Masters",
+   "where": {
+    "en": "European Union",
+    "ur": "یورپی یونین"
+   },
+   "levels": {
+    "en": "Master's",
+    "ur": "ماسٹرز"
+   },
+   "covers": {
+    "en": "A scholarship of €1,400 a month for up to 24 months.",
+    "ur": "24 ماہ تک €1,400 ماہانہ اسکالرشپ۔"
+   },
+   "key": {
+    "en": "You study in at least two countries. Apply to each joint master's programme directly through the Erasmus Mundus catalogue.",
+    "ur": "کم از کم دو ممالک میں پڑھائی ہوتی ہے۔ ہر جوائنٹ ماسٹرز پروگرام میں ایراسمس منڈس کیٹلاگ کے ذریعے براہ راست اپلائی کریں۔"
+   },
+   "links": [
+    [
+     "Catalogue",
+     "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en"
+    ]
+   ]
+  },
+  {
+   "region": "europe",
+   "name": "DAAD Scholarships",
+   "where": {
+    "en": "Germany",
+    "ur": "جرمنی"
+   },
+   "levels": {
+    "en": "Master's, PhD",
+    "ur": "ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "Monthly stipend, health insurance and travel allowance; details depend on the programme.",
+    "ur": "ماہانہ وظیفہ، ہیلتھ انشورنس اور سفری الاؤنس؛ تفصیل پروگرام پر منحصر ہے۔"
+   },
+   "key": {
+    "en": "DAAD Pakistan lists the programmes open to Pakistani applicants, such as EPOS development-related master's courses, which usually need work experience.",
+    "ur": "DAAD پاکستان کی ویب سائٹ پر پاکستانی طلبہ کے لیے پروگرام درج ہیں، جیسے EPOS ماسٹرز کورسز، جن کے لیے عموماً کام کا تجربہ درکار ہے۔"
+   },
+   "links": [
+    [
+     "DAAD Pakistan",
+     "https://www.daad.pk/en/find-funding/daad-scholarship-programmes-for-pakistan/"
+    ]
+   ]
+  },
+  {
+   "region": "europe",
+   "name": "Stipendium Hungaricum",
+   "where": {
+    "en": "Hungary",
+    "ur": "ہنگری"
+   },
+   "levels": {
+    "en": "Bachelor's, Master's, PhD",
+    "ur": "بیچلرز، ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "No tuition fees, a monthly stipend (about €110 for bachelor's and master's), a dormitory place or a housing contribution, and medical insurance.",
+    "ur": "ٹیوشن فیس معاف، ماہانہ وظیفہ (بیچلرز اور ماسٹرز کے لیے تقریباً €110)، ہاسٹل یا رہائشی امداد، اور میڈیکل انشورنس۔"
+   },
+   "key": {
+    "en": "Pakistan is a partner country and applicants must be nominated by the responsible Pakistani authority. Airfare is not covered and the stipend covers only part of living costs.",
+    "ur": "پاکستان شراکت دار ملک ہے اور متعلقہ پاکستانی ادارے کی نامزدگی ضروری ہے۔ ہوائی ٹکٹ شامل نہیں اور وظیفہ رہائشی اخراجات کا صرف کچھ حصہ پورا کرتا ہے۔"
+   },
+   "links": [
+    [
+     "Official site",
+     "https://stipendiumhungaricum.hu/"
+    ]
+   ]
+  },
+  {
+   "region": "europe",
+   "name": "Türkiye Bursları (Türkiye Scholarships)",
+   "where": {
+    "en": "Turkey",
+    "ur": "ترکی"
+   },
+   "levels": {
+    "en": "Bachelor's, Master's, PhD",
+    "ur": "بیچلرز، ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "Government scholarship with tuition and a monthly stipend; the full list of benefits is on the official site.",
+    "ur": "سرکاری اسکالرشپ جس میں ٹیوشن اور ماہانہ وظیفہ شامل ہے؛ تمام سہولیات کی فہرست سرکاری ویب سائٹ پر ہے۔"
+   },
+   "key": {
+    "en": "Includes a one-year Turkish language course before the degree.",
+    "ur": "ڈگری سے پہلے ایک سال کا ترکی زبان کا کورس شامل ہے۔"
+   },
+   "links": [
+    [
+     "Official site",
+     "https://www.turkiyeburslari.gov.tr/"
+    ]
+   ]
+  },
+  {
+   "region": "europe",
+   "name": "Swedish Institute Scholarships for Global Professionals",
+   "where": {
+    "en": "Sweden",
+    "ur": "سویڈن"
+   },
+   "levels": {
+    "en": "Master's only",
+    "ur": "صرف ماسٹرز"
+   },
+   "covers": {
+    "en": "Tuition and living costs for a master's in Sweden.",
+    "ur": "سویڈن میں ماسٹرز کی ٹیوشن اور رہائشی اخراجات۔"
+   },
+   "key": {
+    "en": "Requires work and leadership experience. Check the eligible-country list for the current round.",
+    "ur": "کام اور قیادت کا تجربہ ضروری ہے۔ موجودہ راؤنڈ کے اہل ممالک کی فہرست ضرور دیکھیں۔"
+   },
+   "links": [
+    [
+     "Swedish Institute",
+     "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/"
+    ]
+   ]
+  },
+  {
+   "region": "europe",
+   "name": "France Excellence Eiffel Scholarship",
+   "where": {
+    "en": "France",
+    "ur": "فرانس"
+   },
+   "levels": {
+    "en": "Master's, PhD",
+    "ur": "ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "A monthly allowance and other benefits set by the programme.",
+    "ur": "ماہانہ الاؤنس اور پروگرام کی دیگر سہولیات۔"
+   },
+   "key": {
+    "en": "You do not apply yourself: the French university nominates you after you apply to its course.",
+    "ur": "آپ خود اپلائی نہیں کرتے: فرانسیسی یونیورسٹی آپ کی درخواست کے بعد آپ کو نامزد کرتی ہے۔"
+   },
+   "links": [
+    [
+     "Campus France",
+     "https://www.campusfrance.org/en/the-france-excellence-eiffel-scholarship-program"
+    ]
+   ]
+  },
+  {
+   "region": "europe",
+   "name": "Open Doors: Russian Scholarship Project",
+   "where": {
+    "en": "Russia",
+    "ur": "روس"
+   },
+   "levels": {
+    "en": "Bachelor's, Master's, PhD",
+    "ur": "بیچلرز، ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "Free tuition. Students on Russian-taught programmes may also get a government grant with a stipend and housing.",
+    "ur": "ٹیوشن مفت۔ روسی زبان کے پروگراموں کے طلبہ کو وظیفے اور رہائش والی سرکاری گرانٹ بھی مل سکتی ہے۔"
+   },
+   "key": {
+    "en": "Selection is by an online international competition (olympiad).",
+    "ur": "انتخاب ایک آن لائن بین الاقوامی مقابلے (اولمپیاڈ) کے ذریعے ہوتا ہے۔"
+   },
+   "links": [
+    [
+     "Programme page (NUST MISIS)",
+     "https://en.misis.ru/applicants/scholarships/opendoors/"
+    ]
+   ]
+  },
+  {
+   "region": "canada-australia",
+   "name": "Lester B. Pearson International Scholarship (University of Toronto)",
+   "where": {
+    "en": "Canada",
+    "ur": "کینیڈا"
+   },
+   "levels": {
+    "en": "Bachelor's",
+    "ur": "بیچلرز"
+   },
+   "covers": {
+    "en": "Tuition, books, incidental fees and residence for four years.",
+    "ur": "چار سال کی ٹیوشن، کتابیں، دیگر فیس اور رہائش۔"
+   },
+   "key": {
+    "en": "Your school must nominate you.",
+    "ur": "آپ کے اسکول یا کالج کی نامزدگی ضروری ہے۔"
+   },
+   "links": [
+    [
+     "U of T",
+     "https://future.utoronto.ca/pearson-scholarships"
+    ]
+   ]
+  },
+  {
+   "region": "canada-australia",
+   "name": "Australia Awards Pakistan",
+   "where": {
+    "en": "Australia",
+    "ur": "آسٹریلیا"
+   },
+   "levels": {
+    "en": "Master's",
+    "ur": "ماسٹرز"
+   },
+   "covers": {
+    "en": "Full tuition, return airfare, an establishment allowance, a contribution to living costs and health cover.",
+    "ur": "پوری ٹیوشن، آنے جانے کا ٹکٹ، ابتدائی الاؤنس، رہائشی اخراجات میں حصہ اور ہیلتھ کور۔"
+   },
+   "key": {
+    "en": "You must return to Pakistan for at least two years. Applications for the 2027 intake ran from 1 February to 30 April 2026.",
+    "ur": "کم از کم دو سال کے لیے پاکستان واپس آنا لازمی ہے۔ 2027 انٹیک کی درخواستیں یکم فروری سے 30 اپریل 2026 تک تھیں۔"
+   },
+   "links": [
+    [
+     "Australia Awards Pakistan",
+     "https://australiaawardspakistan.org/"
+    ]
+   ]
+  },
+  {
+   "region": "asia",
+   "name": "MEXT Japanese Government Scholarship",
+   "where": {
+    "en": "Japan",
+    "ur": "جاپان"
+   },
+   "levels": {
+    "en": "Bachelor's, Master's, PhD",
+    "ur": "بیچلرز، ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "Tuition, a monthly stipend and airfare.",
+    "ur": "ٹیوشن، ماہانہ وظیفہ اور ہوائی ٹکٹ۔"
+   },
+   "key": {
+    "en": "Apply through the Embassy of Japan in Pakistan or through a Japanese university's recommendation.",
+    "ur": "پاکستان میں جاپانی سفارت خانے یا جاپانی یونیورسٹی کی سفارش کے ذریعے اپلائی کریں۔"
+   },
+   "links": [
+    [
+     "Embassy of Japan",
+     "https://www.pk.emb-japan.go.jp/itpr_en/MEXT_Research_Scholarship.html"
+    ]
+   ]
+  },
+  {
+   "region": "asia",
+   "name": "Global Korea Scholarship (GKS)",
+   "where": {
+    "en": "South Korea",
+    "ur": "جنوبی کوریا"
+   },
+   "levels": {
+    "en": "Bachelor's, Master's, PhD",
+    "ur": "بیچلرز، ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "Tuition, a monthly stipend, airfare and a Korean language year.",
+    "ur": "ٹیوشن، ماہانہ وظیفہ، ہوائی ٹکٹ اور ایک سال کورین زبان۔"
+   },
+   "key": {
+    "en": "Apply through the Korean embassy track or a university track.",
+    "ur": "کوریا کے سفارت خانے یا یونیورسٹی کے ذریعے اپلائی کریں۔"
+   },
+   "links": [
+    [
+     "Study in Korea",
+     "https://www.studyinkorea.go.kr/ko/plan/scholarship.do"
+    ]
+   ]
+  },
+  {
+   "region": "asia",
+   "name": "Chinese Government Scholarship (CSC)",
+   "where": {
+    "en": "China",
+    "ur": "چین"
+   },
+   "levels": {
+    "en": "Bachelor's, Master's, PhD",
+    "ur": "بیچلرز، ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "A full award covers tuition, accommodation, a monthly stipend and medical insurance.",
+    "ur": "مکمل اسکالرشپ میں ٹیوشن، رہائش، ماہانہ وظیفہ اور میڈیکل انشورنس شامل ہیں۔"
+   },
+   "key": {
+    "en": "Several routes: the bilateral programme through the embassy, or a Chinese university programme.",
+    "ur": "کئی راستے ہیں: سفارت خانے کے ذریعے دو طرفہ پروگرام، یا چینی یونیورسٹی کا پروگرام۔"
+   },
+   "links": [
+    [
+     "Campus China",
+     "https://www.campuschina.org/content/details27_100758.html"
+    ]
+   ]
+  },
+  {
+   "region": "asia",
+   "name": "CAS-ANSO Scholarship",
+   "where": {
+    "en": "China",
+    "ur": "چین"
+   },
+   "levels": {
+    "en": "Master's, PhD",
+    "ur": "ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "Tuition, a monthly stipend and insurance for science and technology degrees.",
+    "ur": "سائنس اور ٹیکنالوجی کی ڈگری کے لیے ٹیوشن، ماہانہ وظیفہ اور انشورنس۔"
+   },
+   "key": {
+    "en": "For study at the University of Chinese Academy of Sciences and partner institutes.",
+    "ur": "چائنیز اکیڈمی آف سائنسز کی یونیورسٹی اور اس کے اداروں میں تعلیم کے لیے۔"
+   },
+   "links": [
+    [
+     "ANSO",
+     "https://www.anso.org.cn/programmes/talent/scholarship/202510/t20251015_786021.html"
+    ]
+   ]
+  },
+  {
+   "region": "asia",
+   "name": "Schwarzman Scholars (Tsinghua University)",
+   "where": {
+    "en": "China",
+    "ur": "چین"
+   },
+   "levels": {
+    "en": "One-year master's in Global Affairs",
+    "ur": "گلوبل افیئرز میں ایک سالہ ماسٹرز"
+   },
+   "covers": {
+    "en": "Fully funded one-year programme in Beijing.",
+    "ur": "بیجنگ میں ایک سالہ مکمل فنڈڈ پروگرام۔"
+   },
+   "key": {
+    "en": "Focused on leadership; check age and degree rules on the official site.",
+    "ur": "قیادت پر مرکوز؛ عمر اور ڈگری کی شرائط سرکاری ویب سائٹ پر دیکھیں۔"
+   },
+   "links": [
+    [
+     "Schwarzman Scholars",
+     "https://www.schwarzmanscholars.org/prospective-students/"
+    ]
+   ]
+  },
+  {
+   "region": "asia",
+   "name": "Hong Kong PhD Fellowship Scheme",
+   "where": {
+    "en": "Hong Kong",
+    "ur": "ہانگ کانگ"
+   },
+   "levels": {
+    "en": "PhD",
+    "ur": "پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "A monthly stipend of HK$28,700 and HK$14,400 a year for conference and research travel (2027/28).",
+    "ur": "HK$28,700 ماہانہ وظیفہ اور کانفرنس اور تحقیقی سفر کے لیے HK$14,400 سالانہ (2027/28)۔"
+   },
+   "key": {
+    "en": "Apply through the HKPFS portal and to a PhD programme at a Hong Kong university.",
+    "ur": "HKPFS پورٹل اور ہانگ کانگ کی کسی یونیورسٹی کے پی ایچ ڈی پروگرام، دونوں میں اپلائی کریں۔"
+   },
+   "links": [
+    [
+     "HKPFS",
+     "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+    ]
+   ]
+  },
+  {
+   "region": "middle-east",
+   "name": "Hamad Bin Khalifa University (HBKU) scholarships",
+   "where": {
+    "en": "Qatar",
+    "ur": "قطر"
+   },
+   "levels": {
+    "en": "Master's, PhD",
+    "ur": "ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "Scholarships for many graduate programmes; terms differ by programme.",
+    "ur": "کئی گریجویٹ پروگراموں کے لیے اسکالرشپس؛ شرائط پروگرام کے مطابق مختلف ہیں۔"
+   },
+   "key": {
+    "en": "Check the scholarship guidelines for your chosen programme.",
+    "ur": "اپنے منتخب پروگرام کی اسکالرشپ گائیڈ لائنز دیکھیں۔"
+   },
+   "links": [
+    [
+     "HBKU",
+     "https://www.hbku.edu.qa/en/scholarship"
+    ]
+   ]
+  },
+  {
+   "region": "middle-east",
+   "name": "KAUST Fellowship",
+   "where": {
+    "en": "Saudi Arabia",
+    "ur": "سعودی عرب"
+   },
+   "levels": {
+    "en": "Master's, PhD",
+    "ur": "ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "Tuition, housing, health insurance and relocation support.",
+    "ur": "ٹیوشن، رہائش، ہیلتھ انشورنس اور منتقلی میں مدد۔"
+   },
+   "key": {
+    "en": "Science and engineering degrees. Students with outside sponsorship may not be eligible.",
+    "ur": "سائنس اور انجینئرنگ کی ڈگریاں۔ بیرونی اسپانسرشپ والے طلبہ اہل نہیں بھی ہو سکتے۔"
+   },
+   "links": [
+    [
+     "KAUST",
+     "https://admissions.kaust.edu.sa/study/ms-phd-degree"
+    ]
+   ]
+  },
+  {
+   "region": "middle-east",
+   "name": "MBZUAI scholarship",
+   "where": {
+    "en": "UAE",
+    "ur": "متحدہ عرب امارات"
+   },
+   "levels": {
+    "en": "Master's, PhD in artificial intelligence",
+    "ur": "مصنوعی ذہانت میں ماسٹرز، پی ایچ ڈی"
+   },
+   "covers": {
+    "en": "Admitted graduate students are offered a scholarship package. Confirm the current stipend and benefits on the official site.",
+    "ur": "داخلہ لینے والے گریجویٹ طلبہ کو اسکالرشپ پیکج دیا جاتا ہے۔ موجودہ وظیفہ اور سہولیات سرکاری ویب سائٹ پر تصدیق کریں۔"
+   },
+   "key": {
+    "en": "Strong background in computer science, mathematics or engineering.",
+    "ur": "کمپیوٹر سائنس، ریاضی یا انجینئرنگ میں مضبوط پس منظر۔"
+   },
+   "links": [
+    [
+     "MBZUAI",
+     "https://mbzuai.ac.ae/"
+    ]
+   ]
+  },
+  {
+   "region": "global",
+   "name": "IsDB Merit Scholarship Program for High Technology",
+   "where": {
+    "en": "Universities in many countries",
+    "ur": "کئی ممالک کی یونیورسٹیاں"
+   },
+   "levels": {
+    "en": "PhD, postdoctoral research",
+    "ur": "پی ایچ ڈی، پوسٹ ڈاکٹورل ریسرچ"
+   },
+   "covers": {
+    "en": "Tuition, a monthly stipend, medical insurance and a return ticket.",
+    "ur": "ٹیوشن، ماہانہ وظیفہ، میڈیکل انشورنس اور آنے جانے کا ٹکٹ۔"
+   },
+   "key": {
+    "en": "For citizens of IsDB member countries, including Pakistan, in high-technology fields. IsDB's bachelor's and master's programmes are only for least developed member countries.",
+    "ur": "پاکستان سمیت IsDB رکن ممالک کے شہریوں کے لیے، ہائی ٹیکنالوجی شعبوں میں۔ IsDB کے بیچلرز اور ماسٹرز پروگرام صرف کم ترقی یافتہ رکن ممالک کے لیے ہیں۔"
+   },
+   "links": [
+    [
+     "IsDB",
+     "https://www.isdb.org/scholarships/scholarship-programs"
+    ]
+   ]
+  },
+  {
+   "region": "global",
+   "name": "Joint Japan/World Bank Graduate Scholarship Program",
+   "where": {
+    "en": "Partner universities in several countries",
+    "ur": "کئی ممالک کی شراکت دار یونیورسٹیاں"
+   },
+   "levels": {
+    "en": "Master's in development-related fields",
+    "ur": "ترقی سے متعلق شعبوں میں ماسٹرز"
+   },
+   "covers": {
+    "en": "Tuition, living costs and travel for the master's programme.",
+    "ur": "ماسٹرز پروگرام کی ٹیوشن، رہائشی اخراجات اور سفر۔"
+   },
+   "key": {
+    "en": "Pakistan is on the eligible-country list for 2027. Work experience in development is required.",
+    "ur": "پاکستان 2027 کے اہل ممالک کی فہرست میں شامل ہے۔ ترقیاتی شعبے میں کام کا تجربہ ضروری ہے۔"
+   },
+   "links": [
+    [
+     "World Bank",
+     "https://www.worldbank.org/en/programs/scholarships/jj-wbgsp"
+    ]
+   ]
+  },
+  {
+   "region": "global",
+   "name": "Aga Khan Foundation International Scholarship Programme",
+   "where": {
+    "en": "Universities abroad (not UK or Russia)",
+    "ur": "بیرون ملک یونیورسٹیاں (برطانیہ اور روس کے علاوہ)"
+   },
+   "levels": {
+    "en": "Master's (PhD considered)",
+    "ur": "ماسٹرز (پی ایچ ڈی پر بھی غور)"
+   },
+   "covers": {
+    "en": "Half grant, half loan: 50% of the award is repaid after graduation.",
+    "ur": "آدھی گرانٹ، آدھا قرض: رقم کا 50% تعلیم کے بعد واپس کرنا ہوتا ہے۔"
+   },
+   "key": {
+    "en": "Pakistan is an eligible country. This is not a full free scholarship.",
+    "ur": "پاکستان اہل ملک ہے۔ یہ مکمل مفت اسکالرشپ نہیں۔"
+   },
+   "links": [
+    [
+     "AKDN",
+     "https://the.akdn/en/what-we-do/developing-human-capacity/education/international-scholarships"
+    ]
+   ]
+  }
+ ]
+}
